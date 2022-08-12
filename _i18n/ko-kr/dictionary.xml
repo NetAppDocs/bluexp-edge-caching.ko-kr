@@ -127,7 +127,6 @@
   <block id="97734fa413fa7ffd4abe37881fb6eb11" category="list-text">글로벌 파일 캐시 관리 서버</block>
   <block id="2808786adaa0fe45c3d69c07d1075e58" category="list-text">글로벌 파일 캐시 코어</block>
   <block id="85942e5503c1c00d276d3a32787e60ba" category="list-text">글로벌 파일 캐시 에지(원격 위치에 배포)</block>
-  <block id="fc8176d8f355dbfc4247953d6bf4d346" category="paragraph">글로벌 파일 캐시 코어 인스턴스는 원하는 백엔드 스토리지 플랫폼(예: Cloud Volumes ONTAP, Cloud Volumes Service, 및 Azure NetApp Files)를 기반으로 구조화되지 않은 데이터를 퍼블릭 클라우드의 하나 또는 여러 스토리지 플랫폼에 있는 단일 데이터 세트로 중앙 집중화하고 통합할 수 있는 글로벌 파일 캐시 패브릭을 생성합니다.</block>
   <block id="813fe3f0ec18c33865dff38f15acf6e8" category="inline-image-macro">원격 사무소 및 클라우드의 중앙 서버에 소프트웨어가 설치된 글로벌 파일 캐시 배포의 세부 정보를 보여 주는 다이어그램</block>
   <block id="5187ea0e239dfeb5ab25be21adb6c5f7" category="paragraph"><block ref="5187ea0e239dfeb5ab25be21adb6c5f7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e55dde8ab8d8ac9594c265cd439c94bf" category="section-title">지원되는 스토리지 플랫폼</block>
@@ -138,7 +137,6 @@
   <block id="bdcb25a0b74cb8c3c6dc4deb7e7dc876" category="list-text">AWS의 Cloud Volumes ONTAP</block>
   <block id="0f654146c1b65006561ea8e31d5516dc" category="paragraph">이 구성을 사용하면 Cloud Manager 내에서 글로벌 파일 캐시 관리 서버 및 글로벌 파일 캐시 코어를 비롯한 전체 글로벌 파일 캐시 서버 측 배포를 배포하고 관리할 수 있습니다.</block>
   <block id="a4bae3b774c4cc05ca00a01a97ff00ca" category="section-title">수동 구축 옵션</block>
-  <block id="2eb40debe07bb6d7b909dce2c34426b1" category="paragraph">글로벌 파일 캐시 구성은 공용 클라우드 스토리지 인프라에 설치된 ONTAP 시스템용 Cloud Volumes ONTAP, Cloud Volumes Service, Azure NetApp Files 및 Amazon FSx에서도 지원됩니다. 사내 솔루션은 NetApp AFF 및 FAS 플랫폼에서도 사용할 수 있습니다. 이러한 설치에서는 Cloud Manager를 사용하지 않고 글로벌 파일 캐시 서버 측 구성 요소를 수동으로 구성 및 배포해야 합니다.</block>
   <block id="18fdbdb3de2540e1f631602b7bc2010f" category="section-title">글로벌 파일 캐시의 작동 방식</block>
   <block id="8564f172539c6a5101d48785899b17a0" category="paragraph">글로벌 파일 캐시는 전 세계 원격 사무소에 활성 데이터 세트를 캐싱하는 소프트웨어 패브릭을 생성합니다. 따라서 비즈니스 사용자는 글로벌 규모로 투명한 데이터 액세스와 최적의 성능을 보장할 수 있습니다.</block>
   <block id="c124c2afbd0b581682d787d402d2b2cf" category="inline-image-macro">Edge 및 Core의 글로벌 파일 캐시 구성 요소를 보여 주는 다이어그램</block>
@@ -158,7 +156,6 @@
   <block id="ab055fb1c85968bb4f5a4bc4ea101b6f" category="list-text">글로벌 네임스페이스 사용을 위한 DFS 네임스페이스(권장).</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
   <block id="fe5dbd0fc2a2bd12fa5c7f5d34edc9b3" category="paragraph">글로벌 파일 캐시를 사용하는 비용은 선택한 설치 유형에 따라 다릅니다.</block>
-  <block id="1af35f09e9d5c7c17f00c52e436d8840" category="list-text">설치를 모두 수행하려면 클라우드에 하나 이상의 볼륨(Cloud Volumes ONTAP, Cloud Volumes Service 또는 Azure NetApp Files)을 구축해야 합니다. 따라서 선택한 클라우드 공급자의 비용이 부과됩니다.</block>
   <block id="e5624fb8b348be8b0b94ecdc79a3e52a" category="list-text">또한 모든 설치에서는 클라우드에 둘 이상의 VM(가상 머신)을 구축해야 합니다. 따라서 선택한 클라우드 공급자의 비용이 부과됩니다.</block>
   <block id="4fd5c85d8db73f12727e2cf94e421f13" category="list-text">글로벌 파일 캐시 관리 서버:</block>
   <block id="771dcff1843f23a97fc2a57e936d4a9f" category="paragraph">Azure에서는 127GB의 프리미엄 SSD가 장착된 D2S_V3 또는 동급(vCPU 2개/8GB RAM) VM에서 실행됩니다</block>
@@ -166,7 +163,6 @@
   <block id="a93c3bd09e076f0b8fd65dde3e64a3a5" category="list-text">글로벌 파일 캐시 코어:</block>
   <block id="817000ba632406cdb4b5a4da3a5c5221" category="paragraph">Azure에서는 D4s_V3 또는 동급(4개의 vCPU/16GB RAM) VM에서 127GB의 프리미엄 SSD를 실행합니다</block>
   <block id="6869983628ce136a6778d9ced07d3b4b" category="paragraph">AWS의 경우 M4.xLarge 또는 동급(vCPU 4개/16GB RAM) 인스턴스에서 127GB의 범용 SSD로 실행됩니다</block>
-  <block id="ef0c50754592fa0cbd6118045a98f2b2" category="list-text">Azure 또는 AWS(Cloud Manager를 통해 완전히 지원되는 구성)에서 Cloud Volumes ONTAP와 함께 설치할 경우, 사이트당 연간 3,000달러(글로벌 파일 캐시 에지 인스턴스당)의 요금이 부과됩니다.</block>
   <block id="d2893970aa4c57a02af5ca132a872653" category="inline-link">절감 가능성을 계산해 보십시오</block>
   <block id="379066f65266388704788bf175a05aa9" category="list-text">수동 배포 옵션을 사용하여 설치한 경우 가격은 다릅니다. 높은 수준의 비용 추정치를 보려면 를 참조하십시오<block ref="72836bf520e34a0460d69e57e5e3610d" category="inline-link-rx"></block> 또는 글로벌 파일 캐시 솔루션 엔지니어에게 문의하여 엔터프라이즈 구축에 가장 적합한 옵션을 논의하십시오.</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">라이센싱</block>
@@ -175,9 +171,7 @@
   <block id="3fbdffd6b695a9bc6ac6bcd1e40fd200" category="paragraph">Edge 라이선스를 추가로 구입하거나 구독을 갱신하면 지원/운영 부서에서 사이트 수 또는 구독 종료일과 같은 라이센스 세부 정보를 업데이트합니다. LMS가 구독 서비스를 쿼리하면 LMS 인스턴스에서 라이센스 세부 정보가 자동으로 업데이트되며, GFC Core 및 Edge 인스턴스에 적용됩니다.</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">제한 사항</block>
   <block id="077a85a83497688c4768eb7e293d344f" category="list-text">Cloud Manager에서 지원되는 글로벌 파일 캐시 버전을 사용하려면 중앙 스토리지로 사용되는 백엔드 스토리지 플랫폼이 Azure 또는 AWS에 Cloud Volumes ONTAP 단일 노드 또는 HA 쌍을 구축한 작업 환경이어야 합니다.</block>
-  <block id="99f7abe9affc2a21c16a77c9bb170233" category="paragraph">현재 다른 스토리지 플랫폼 및 기타 클라우드 공급자는 Cloud Manager를 사용하여 지원되지 않지만, 기존 구축 절차를 사용하여 구축할 수 있습니다.</block>
   <block id="01eb0b4b5071a2cfc0876bc37b144a78" category="inline-link-macro">글로벌 파일 캐시 개요 및 온보딩</block>
-  <block id="3b6e014ea92c423b54ec451d5fea8f9d" category="paragraph">예를 들어, Microsoft Azure, Google Cloud 또는 AWS에서 Cloud Volumes ONTAP 또는 Cloud Volumes Service를 사용하는 글로벌 파일 캐시 같은 다른 구성은 기존 절차를 사용하여 계속 지원됩니다. 을 참조하십시오 <block ref="fa63b406bdb9a9e3c27b49aa6f287806" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="8dad639df001ffd300f26b14bb31b017" category="summary">원격 사무소에 Global File Cache Edge 소프트웨어를 설치하기 전에 알아야 할 여러 가지 요구 사항이 있습니다.</block>
   <block id="880c5f720679786a7ae73fdda6982c7f" category="doc">글로벌 파일 캐시 에지 인스턴스를 배포하기 전에</block>
   <block id="7a285bcce3684231f2e0a4bb8ac77616" category="section-title">필요한 리소스를 다운로드합니다</block>
@@ -301,21 +295,10 @@
   <block id="05afb31a8c6a9f33471f04fc566255e1" category="summary">글로벌 파일 캐시의 새로운 기능 알아보기</block>
   <block id="6d712ec6825e52d97c46202643237199" category="doc">글로벌 파일 캐시의 새로운 기능</block>
   <block id="df62d5ca9c29346bfeb41f9581ecdf5b" category="section-title">2021년 12월 17일(버전 1.2.0)</block>
-  <block id="cd25d0dea9ddd72c58145908f9602867" category="section-title">OpenSSL 모듈이 버전 1.1.1L로 업그레이드되었습니다.</block>
   <block id="9d15f44f2f441c9fbcdc28d40b323389" category="paragraph">이 버전은 최신 버전이며 보다 안전합니다. 이 모듈은 GFC Edge 및 GFC Core 간의 보안 통신에 사용됩니다.</block>
-  <block id="c49811e0cecf194341b2ae059236dc2a" category="section-title">로깅 인프라가 향상되었습니다.</block>
   <block id="4d18c7d8762e789debac221e79dece82" category="section-title">2021년 6월 9일(버전 1.1.0)</block>
-  <block id="77e6f4e52a856772d2e09ae19855212a" category="section-title">"Edge Synchronization" 기능이 추가되었습니다.</block>
   <block id="850383dab52cb38649682d2f7d66f04f" category="paragraph">이 기능은 원격 사무실에 있는 여러 개의 모서리를 동기화하여 항상 데이터를 캐시하거나 따뜻하게 유지합니다. 한 쪽 가장자리에서 파일을 플러시/가져오면 Edge Sync에 참여하는 모든 모서리의 동일한 파일이 업데이트 및 캐시됩니다. 의 8.4절을 참조하십시오<block ref="0f1e08336ba0ac25d056248c22c33aaf" category="inline-link-rx"></block> 를 참조하십시오.</block>
-  <block id="8703dd42c4c647846ef556f4d8459d59" category="section-title">OpenSSL 모듈이 버전 1.1.1k로 업그레이드되었습니다.</block>
-  <block id="513502857f15915e7acef1b7916eda1b" category="section-title">라이센스 등록 페이지가 업데이트되었습니다.</block>
   <block id="9993afe041a131f763bfa71520f8d27d" category="paragraph">이제 GFC 라이센스 등록 페이지에 NetApp 가입을 통해 활성화할 경우 라이센스 수가 표시됩니다.</block>
-  <block id="5be3d95052c37ddc7c5e08fede5b7beb" category="section-title">2021년 3월 21일(버전 1.0.3)</block>
-  <block id="d701539c3bff162de55bec2ac786dea9" category="section-title">Windows Defender에서 GFC 프로세스를 자동으로 제외하도록 소프트웨어 설치 프로그램이 업데이트됩니다.</block>
-  <block id="2c7e576e2b46004ee7c7f2138e6b71e2" category="paragraph">이제 글로벌 파일 캐시 소프트웨어 설치 관리자가 Windows Defender 소프트웨어 온디맨드 검사에서 모든 GFC 프로세스를 제외합니다.</block>
-  <block id="718c867d7cc0d5ae654df61aed5134dd" category="section-title">새 정책 구성 탭이 구성 콘솔에 추가되었습니다.</block>
-  <block id="85630a0f5573b7e43d043882435503c0" category="paragraph">이 구성 탭을 사용하여 GFC Core에서 사전 설치 작업을 추가할 수 있습니다.</block>
-  <block id="23f584e2a92da05ee5a990cefc20a926" category="section-title">성능 및 안정성을 향상시키면서 메모리를 적게 사용하도록 소프트웨어를 개선했습니다.</block>
   <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">NetApp은 다양한 방법으로 Cloud Manager를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
   <block id="922a8d78e53c1dc3158a6ee5d95c210f" category="summary">사용 중인 환경이 모든 요구 사항을 충족하는지 확인한 후에는 각 원격 사무소에 Global File Cache Edge 소프트웨어를 설치합니다.</block>
@@ -461,13 +444,6 @@
   <block id="f207ae57dc9dfe83885fb108696cb88c" category="list-text">이제 구성 UI에 사전 채우기 편집 페이지에 Edge 호스트 이름이 올바르게 표시됩니다.</block>
   <block id="9437dcfd300c52c159a6d4703daa54ad" category="list-text">라이센스 등록 중 NetApp 라이센스 가입 서버의 json 응답을 구문 분석하는 데 문제가 해결되었습니다.</block>
   <block id="e8cdf46b30eda1b6da8eed70347d25ac" category="list-text">모든 파일의 파일 전송 상태를 기록하도록 사전 채우기(TappN) 로그가 향상되었습니다.</block>
-  <block id="491d6073a5e0c94c93deb36c81be5dbe" category="section-title">2021년 4월 7일(버전 1.0.4)</block>
-  <block id="8745f104024449a4797839f221e192a2" category="list-text">QoS 문제는 QoS 매개 변수가 한계를 초과한 사용자만 적용하는 대신 _ALL_USERS에 적용되는 경우 해결되었습니다.</block>
-  <block id="0eb37d2733eb2ea3eb40f8c24e8c6400" category="list-text">이제 NSS 자격 증명이 라이선스 시스템에 적용되기 전에 유효성이 검사됩니다.</block>
-  <block id="b41a6700f4ecdc68672c9c11626a93f4" category="list-text">GFC 소프트웨어와 특정 안티바이러스 소프트웨어 간의 경쟁 조건이 해결되었습니다.</block>
-  <block id="c1b67e4a4c76817df9aca841e83485fe" category="list-text">임대 삭제 작업 중에 잠금 계층 구조를 위반하면 더 이상 충돌이 발생하지 않습니다.</block>
-  <block id="3f4758f7775b468f31a333f97ab2c2d3" category="list-text">NetApp 라이센스 등록 및 GFC 구독 기반 등록은 클라우드 기반 LMS(License Management Server)에서만 허용됩니다. 사내 LMS는 레거시 라이선스를 사용해야 합니다.</block>
-  <block id="2644e4a83d0eedbd704d3e114114e275" category="list-text">이제 구성 UI는 LMC(License Manager Client Service)가 구성 중에 LMS의 IP 주소 대신 호스트 이름을 사용할 때 사전 채우기 작업을 추가합니다.</block>
   <block id="e5c0b1995108f32cef1dcfc39528d164" category="summary">NetApp의 지능형 글로벌 파일 캐시를 사용하여 분산된 인력을 위한 실시간 글로벌 파일 공유를 지원합니다.</block>
   <block id="59d1b154ff5b7aa340f3bb85aa0d59f7" category="doc">글로벌 파일 캐시 설명서</block>
   <block id="fe8d9a8dc9b5c669ccbe68b53409dd26" category="summary">글로벌 파일 캐시를 통해 공유 파일에 액세스하는 모범 사례를 사용자에게 교육해야 합니다.</block>
@@ -598,4 +574,38 @@
   <block id="f12e4f9c6c0ea52ff0c85be8308ff143" category="list-text">업그레이드 시 올바른 버전의 Microsoft 재배포 가능 파일이 올바르게 설치되지 않아 Tum이 시작되지 않습니다. GFC 설치 프로그램이 올바른 버전 재배포 가능 버전을 설치하도록 수정되었습니다.</block>
   <block id="e4e361b13d8ce3c010df78be535b3aeb" category="list-text">이제 GFC License Manager Service(LMS)가 구성 정보를 덮어쓰지 않고 업데이트합니다.</block>
   <block id="08b34be098f59c81e94653cf34a7c9ae" category="list-text">이제 구성 UI는 업그레이드 프로세스 중에 올바른 System.net.http dll에 바인딩됩니다.</block>
+  <block id="2587d926ced67aed88e0f563b987461b" category="admonition">Windows Server 2016에서 글로벌 파일 캐시를 배포할 때는 .NET Framework 4.8을 사용해야 합니다.</block>
+  <block id="6cf141680c0334de379f689cbeaa3b2d" category="paragraph">글로벌 파일 캐시 코어 인스턴스는 원하는 백엔드 스토리지 플랫폼(예: Cloud Volumes ONTAP, Cloud Volumes Service, 및 Azure NetApp Files)를 기반으로 구조화되지 않은 데이터를 퍼블릭 클라우드의 하나 또는 여러 스토리지 플랫폼에 있는 단일 데이터 세트로 중앙 집중화하고 통합할 수 있는 글로벌 파일 캐시 "패브릭"을 생성합니다.</block>
+  <block id="fc1d446f2d6669bec4ad1659ec4d3e1f" category="paragraph">글로벌 파일 캐시 구성은 공용 클라우드 스토리지 인프라에 설치된 ONTAP 시스템용 Cloud Volumes ONTAP, Cloud Volumes Service, Azure NetApp Files 및 Amazon FSx에서도 지원됩니다. 사내 솔루션은 NetApp AFF 및 FAS 플랫폼에서도 사용할 수 있습니다. 이러한 설치에서는 Cloud Manager를 사용하지 않고 글로벌 파일 캐시 서버 측 구성 요소를 수동으로 구성 및 배포해야 합니다.</block>
+  <block id="35ca268e4e28a68df6a6a7a036db06fa" category="list-text">설치를 모두 수행하려면 클라우드에 하나 이상의 볼륨(예: Cloud Volumes ONTAP, Cloud Volumes Service 또는 Azure NetApp Files)을 구축해야 합니다. 따라서 선택한 클라우드 공급자의 비용이 부과됩니다.</block>
+  <block id="bab3e5cc0aa04608e9b8b4265196697d" category="list-text">Azure 또는 AWS에서 Cloud Volumes ONTAP(Cloud Manager를 통해 완전히 구축되는 지원되는 구성)와 함께 설치되는 두 가지 가격 옵션은 다음과 같습니다.</block>
+  <block id="291bd74fa12d16e84f830819cbdad5c5" category="list-text">Azure 또는 AWS의 Cloud Volumes ONTAP 시스템에서 매년 각 글로벌 파일 캐시 에지 인스턴스에 대해 3,000달러를 지불할 수 있습니다.</block>
+  <block id="ec9614a46239aa59499c4a94e919963a" category="inline-link">자세히 알아보기</block>
+  <block id="623692f0d22bbb5a97cac1afe932d1ba" category="list-text">또는 Azure의 Cloud Volumes ONTAP 시스템의 경우 Cloud Volumes ONTAP 에지 캐시 패키지를 선택할 수 있습니다. 이 용량 기반 라이센스를 사용하면 용량이 3TiB일 경우 단일 Global File Cache Edge 인스턴스를 구축할 수 있습니다.<block ref="35ff2d66b85e74dad13c74d82001d0b0" category="inline-link-rx"></block>.</block>
+  <block id="ff0beb597406ae3edf94ed38baf30c6b" category="paragraph">현재 다른 스토리지 플랫폼 및 기타 클라우드 공급자는 Cloud Manager를 사용하여 지원되지 않지만, 기존 구축 절차를 사용하여 구축할 수 있습니다. Google Cloud, Azure NetApp Files 또는 ONTAP 시스템용 Amazon FSx에서 Cloud Volumes ONTAP 또는 Cloud Volumes Service를 사용하는 글로벌 파일 캐시 같은 다른 구성은 레거시 절차를 사용하여 지원됩니다. 을 참조하십시오 <block ref="fa63b406bdb9a9e3c27b49aa6f287806" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="a207f0479f1471fc5336b474cf75c28a" category="section-title">2022년 7월 25일(버전 2.0)</block>
+  <block id="8fce252333669c3cf55b3ff49aa55f09" category="list-text">Optimus는 사전 설치 작업 추가 구성에 대한 날짜/시간 매개 변수에 경계 제한을 추가하여 기능이 향상되었습니다.</block>
+  <block id="fc8535e7a72afd618bd1f73c8a0e81a1" category="list-text">이제 Optimus PSM에 시스템 사전 요청 세부 정보에 올바른 CPU 세부 정보가 표시됩니다.</block>
+  <block id="4ab2e2d92c22b62e2daa6261704b2d7f" category="list-text">코디네이터 세부 정보를 입력하고 새로 고침 버튼을 클릭하는 사이에 Edge Sync 구성 중 UI에서 예외가 해결되었습니다.</block>
+  <block id="4d6386a8d846fb134f2cb55a31f16e13" category="list-text">엣지에서 Edge Sync 기능을 활성화/비활성화하도록 Optimus UI를 개선했습니다.</block>
+  <block id="9f59b2e065c17b264179bc2a32cb9720" category="list-text">Zuora License Aggregator용 License Server Manager의 날짜 범위 문제를 해결했습니다.</block>
+  <block id="1c4027933d3e02d7db8558ca13691cb6" category="list-text">Lease Count 정보를 표시하도록 Optimus PSM을 수정했습니다.</block>
+  <block id="4fed480928967df6ad6ade9613b54583" category="list-text">업그레이드 중 구성 업데이터에 대한 라이센스 관리 서버의 논리를 수정했습니다.</block>
+  <block id="0cdaa1584e91bdecaff25609aa4f9058" category="paragraph">이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>.</block>
+  <block id="40ede24da7e93db6d61cd94c084008e7" category="section-title">Azure 마켓플레이스를 통해 글로벌 파일 캐시에 대한 새로운 용량 기반 라이센스 모델을 제공합니다</block>
+  <block id="70dc5565ba7814d08bd68476e5fb76ff" category="paragraph">새로운 "Edge Cache" 라이센스는 "CVO Professional" 라이센스와 동일한 기능을 제공하지만 Global File Cache도 지원합니다. Azure에서 새 Cloud Volumes ONTAP 시스템을 구축할 때 이 옵션이 표시됩니다. Cloud Volumes ONTAP 시스템에서 3TiB의 프로비저닝된 각 용량에 대해 하나의 글로벌 파일 캐시 에지 시스템을 구축할 수 있습니다. 최소 30TiB를 프로비저닝해야 합니다. GFC License Manager Service는 용량 기반 라이센스를 제공하도록 개선되었습니다.</block>
+  <block id="6a749e3d1bafd02cdf9a303ba6375e66" category="inline-link">Edge Cache 라이센스 패키지에 대해 자세히 알아보십시오.</block>
+  <block id="0d8fd49fcb5c25122324fcb59637aff8" category="paragraph"><block ref="0d8fd49fcb5c25122324fcb59637aff8" category="inline-link-rx"></block></block>
+  <block id="b7b58b4424e766ec66e0ab4ea9c812b8" category="section-title">이제 글로벌 파일 캐시가 Cloud Insights와 통합되었습니다</block>
+  <block id="acb729f8fd6ddd0e3a9a1a39397d6274" category="paragraph">NetApp CI(Cloud Insights)를 사용하면 인프라 및 애플리케이션을 완벽하게 파악할 수 있습니다. 이제 글로벌 파일 캐시가 CI와 통합되어 모든 에지 및 코어를 완벽하게 파악할 수 있으며 인스턴스에서 실행 중인 프로세스를 모니터링할 수 있습니다. CI 대시보드에서 전체 개요를 제공하기 위해 다양한 글로벌 파일 캐시 메트릭이 CI로 푸시됩니다.</block>
+  <block id="902eaec7802b7e6292febf1b6526a6b5" category="inline-link">Cloud Insights에 대해 자세히 알아보십시오.</block>
+  <block id="6d7b1d6577d8e6bfc5f78e821377a7d4" category="paragraph"><block ref="6d7b1d6577d8e6bfc5f78e821377a7d4" category="inline-link-rx"></block></block>
+  <block id="1f56bc157b53331171e2209738abd411" category="section-title">License Management Server는 매우 제한적인 환경에서 작동하도록 향상되었습니다</block>
+  <block id="706163f56e3d19088d2a54cd0451269e" category="paragraph">라이센스 구성 중에 LMS(License Management Server)에서 NetApp/Zuora로부터 라이센스 세부 정보를 수집하기 위해 인터넷에 액세스할 수 있어야 합니다. 구성이 성공적으로 완료되면 LMS는 제한된 환경에도 불구하고 오프라인 모드에서 계속 작업하고 라이선스 기능을 제공할 수 있습니다.</block>
+  <block id="1b66d26240c6a01df03ec7dc4a6d1a2b" category="section-title">Optimus의 Edge Sync UI는 코디네이터 Edge에 연결된 클라이언트 목록을 표시하도록 향상되었습니다</block>
+  <block id="24c153e30c311602185df383bdc152fd" category="section-title">OpenSSL 모듈이 버전 1.1.1L로 업그레이드되었습니다</block>
+  <block id="e3c8f19755f12539be7c74e7dc14b3fe" category="section-title">로깅 인프라가 향상되었습니다</block>
+  <block id="a32799b1f053cab992e96504f5e2a852" category="section-title">"Edge Synchronization" 기능이 추가되었습니다</block>
+  <block id="d64bdda8a160976125ee5ff8cdfbe0d3" category="section-title">OpenSSL 모듈이 버전 1.1.1k로 업그레이드되었습니다</block>
+  <block id="3d21100b5eafca8a568ec636ec4eeba5" category="section-title">라이센스 등록 페이지가 업데이트되었습니다</block>
 </blocks>

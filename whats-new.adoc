@@ -18,6 +18,38 @@ summary: 글로벌 파일 캐시의 새로운 기능 알아보기
 
 
 
+== 2022년 7월 25일(버전 2.0)
+
+이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["해결된 문제"].
+
+
+
+=== Azure 마켓플레이스를 통해 글로벌 파일 캐시에 대한 새로운 용량 기반 라이센스 모델을 제공합니다
+
+새로운 "Edge Cache" 라이센스는 "CVO Professional" 라이센스와 동일한 기능을 제공하지만 Global File Cache도 지원합니다. Azure에서 새 Cloud Volumes ONTAP 시스템을 구축할 때 이 옵션이 표시됩니다. Cloud Volumes ONTAP 시스템에서 3TiB의 프로비저닝된 각 용량에 대해 하나의 글로벌 파일 캐시 에지 시스템을 구축할 수 있습니다. 최소 30TiB를 프로비저닝해야 합니다. GFC License Manager Service는 용량 기반 라이센스를 제공하도록 개선되었습니다.
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["Edge Cache 라이센스 패키지에 대해 자세히 알아보십시오."]
+
+
+
+=== 이제 글로벌 파일 캐시가 Cloud Insights와 통합되었습니다
+
+NetApp CI(Cloud Insights)를 사용하면 인프라 및 애플리케이션을 완벽하게 파악할 수 있습니다. 이제 글로벌 파일 캐시가 CI와 통합되어 모든 에지 및 코어를 완벽하게 파악할 수 있으며 인스턴스에서 실행 중인 프로세스를 모니터링할 수 있습니다. CI 대시보드에서 전체 개요를 제공하기 위해 다양한 글로벌 파일 캐시 메트릭이 CI로 푸시됩니다.
+
+https://cloud.netapp.com/cloud-insights["Cloud Insights에 대해 자세히 알아보십시오."]
+
+
+
+=== License Management Server는 매우 제한적인 환경에서 작동하도록 향상되었습니다
+
+라이센스 구성 중에 LMS(License Management Server)에서 NetApp/Zuora로부터 라이센스 세부 정보를 수집하기 위해 인터넷에 액세스할 수 있어야 합니다. 구성이 성공적으로 완료되면 LMS는 제한된 환경에도 불구하고 오프라인 모드에서 계속 작업하고 라이선스 기능을 제공할 수 있습니다.
+
+
+
+=== Optimus의 Edge Sync UI는 코디네이터 Edge에 연결된 클라이언트 목록을 표시하도록 향상되었습니다
+
+
+
 == 2022년 6월 23일(버전 1.3.1)
 
 버전 1.1.1용 Global File Cache Edge 소프트웨어는 에서 구할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["이 페이지"]. 이 릴리스는 에 설명된 문제를 해결합니다 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["해결된 문제"].
@@ -46,13 +78,13 @@ summary: 글로벌 파일 캐시의 새로운 기능 알아보기
 
 
 
-=== OpenSSL 모듈이 버전 1.1.1L로 업그레이드되었습니다.
+=== OpenSSL 모듈이 버전 1.1.1L로 업그레이드되었습니다
 
 이 버전은 최신 버전이며 보다 안전합니다. 이 모듈은 GFC Edge 및 GFC Core 간의 보안 통신에 사용됩니다.
 
 
 
-=== 로깅 인프라가 향상되었습니다.
+=== 로깅 인프라가 향상되었습니다
 
 
 
@@ -60,38 +92,18 @@ summary: 글로벌 파일 캐시의 새로운 기능 알아보기
 
 
 
-=== "Edge Synchronization" 기능이 추가되었습니다.
+=== "Edge Synchronization" 기능이 추가되었습니다
 
 이 기능은 원격 사무실에 있는 여러 개의 모서리를 동기화하여 항상 데이터를 캐시하거나 따뜻하게 유지합니다. 한 쪽 가장자리에서 파일을 플러시/가져오면 Edge Sync에 참여하는 모든 모서리의 동일한 파일이 업데이트 및 캐시됩니다. 의 8.4절을 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^] 를 참조하십시오.
 
 
 
-=== OpenSSL 모듈이 버전 1.1.1k로 업그레이드되었습니다.
+=== OpenSSL 모듈이 버전 1.1.1k로 업그레이드되었습니다
 
 이 버전은 최신 버전이며 보다 안전합니다. 이 모듈은 GFC Edge 및 GFC Core 간의 보안 통신에 사용됩니다.
 
 
 
-=== 라이센스 등록 페이지가 업데이트되었습니다.
+=== 라이센스 등록 페이지가 업데이트되었습니다
 
 이제 GFC 라이센스 등록 페이지에 NetApp 가입을 통해 활성화할 경우 라이센스 수가 표시됩니다.
-
-
-
-== 2021년 3월 21일(버전 1.0.3)
-
-
-
-=== Windows Defender에서 GFC 프로세스를 자동으로 제외하도록 소프트웨어 설치 프로그램이 업데이트됩니다.
-
-이제 글로벌 파일 캐시 소프트웨어 설치 관리자가 Windows Defender 소프트웨어 온디맨드 검사에서 모든 GFC 프로세스를 제외합니다.
-
-
-
-=== 새 정책 구성 탭이 구성 콘솔에 추가되었습니다.
-
-이 구성 탭을 사용하여 GFC Core에서 사전 설치 작업을 추가할 수 있습니다.
-
-
-
-=== 성능 및 안정성을 향상시키면서 메모리를 적게 사용하도록 소프트웨어를 개선했습니다.
