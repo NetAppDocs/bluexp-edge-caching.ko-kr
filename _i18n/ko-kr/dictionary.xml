@@ -188,7 +188,6 @@
   <block id="6cfcd1fac0b2e806d26cc363f98afe52" category="inline-link">NetApp GFC SCOM 관리 패키지(.ZIP)</block>
   <block id="94ab5cbee962c68b827980048c10c188" category="paragraph"><block ref="94ab5cbee962c68b827980048c10c188" category="inline-link-rx"></block></block>
   <block id="e2d416ed29232c19a683a619f4500452" category="list-text">글로벌 파일 캐시 문서:</block>
-  <block id="5ce7f81a8ae145f3b72b93e3696353d9" category="inline-link">NetApp 글로벌 파일 캐시 사용자 가이드(.pdf)</block>
   <block id="d30bfe96d7c62ab706482cb5c2b4a1ec" category="section-title">Global File Cache Edge 설계 및 구축</block>
   <block id="5698363b5f7247a6f653aa572ae1cb51" category="paragraph">요구 사항에 따라 지사의 동시 사용자 세션을 기반으로 하나 이상의 Global File Cache Edge 인스턴스를 구축해야 할 수도 있습니다. Edge 인스턴스는 지사 내의 최종 사용자에게 가상 파일 공유를 제공하며, 연결된 Global File Cache Core 인스턴스에서 투명하게 확장됩니다. 글로벌 파일 캐시 에지에는 지점 내에 캐시된 파일이 포함된 Ds:\' NTFS 볼륨이 포함되어야 합니다.</block>
   <block id="f545daefd1b990207b6063d1a0d100bb" category="inline-link-macro">사이징 지침</block>
@@ -486,10 +485,6 @@
   <block id="c312a13dafd8799651830cedd659bf52" category="admonition">Global File Cache Edge의 경우 을 이해하는 것이 중요합니다 <block ref="e948e8be7ddbb6b86ab680f17f3dc3fb" category="inline-link-macro-rx"></block>. 이렇게 하면 글로벌 파일 캐시 구축을 위한 올바른 설계를 만드는 데 도움이 됩니다. 또한 확장, 리소스 가용성 및 이중화 측면에서 환경에 적합한 것을 결정해야 합니다.</block>
   <block id="189b29195f2b3701055f4c94a0c1ffad" category="paragraph">Global File Cache Edge를 사용하려면 최적의 기능을 위해 다음과 같은 하드웨어 및 소프트웨어 리소스가 필요합니다. 전체 사이징 지침에 대한 자세한 내용은 을 참조하십시오 <block ref="e948e8be7ddbb6b86ab680f17f3dc3fb" category="inline-link-macro-rx"></block>.</block>
   <block id="03120f4ae41820e46fabced95a93dbb5" category="paragraph">데이터 세트가 증가해도 그에 따라 확장할 수 있는 기능과 함께 애플리케이션의 전체 데이터 세트를 수용할 수 있을 만큼 볼륨을 크게 설정하는 것이 좋습니다. 작업 환경에 Aggregate가 여러 개 있는 경우 를 참조하십시오<block ref="acc2071beb330a8d456d30e0940aedbc" category="inline-link-rx"></block> 새 볼륨에 사용할 수 있는 공간이 가장 많은 애그리게이트를 확인합니다.</block>
-  <block id="aeaeee19a7c393222e407a525cf01991" category="section-title">NSS 계정을 추가합니다</block>
-  <block id="de2241fea60d98698faaa196ff73ee80" category="paragraph">지원 대시보드를 이용하면 모든 NetApp Support 사이트 계정을 단일 위치에서 추가 및 관리할 수 있습니다.</block>
-  <block id="5be2593b5948f30a15179a32daa73ee2" category="inline-link">1인 등록</block>
-  <block id="14b05cf61f1aba58d38b393e69b69538" category="list-text">아직 NetApp Support 사이트 계정이 없는 경우<block ref="0a8e82436ea73fe635862cfba3acf101" category="inline-link-rx"></block>.</block>
   <block id="0046efb3377274ff3215d4b30269809e" category="list-text">Cloud Manager 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">도움말 메뉴의 스크린샷으로, 여기에서 지원은 첫 번째 옵션입니다</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
@@ -497,12 +492,6 @@
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">메시지가 표시되면 * 계속 * 을 클릭하여 Microsoft 로그인 페이지로 리디렉션됩니다.</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.</block>
-  <block id="f5fb4199485234c409525f430b737010" category="paragraph">이 작업을 수행하면 Cloud Manager에서 NSS 계정을 사용할 수 있습니다.</block>
-  <block id="b4c6a2f33e7b2a38495546b8d5cd8e84" category="paragraph">참고 계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님).</block>
-  <block id="fc65ebd4739f2f8ca46062a8280faea9" category="section-title">계정을 등록하여 지원을 받을 수 있습니다</block>
-  <block id="3e080914efe0d0ca025439fbb68d437f" category="paragraph">지원 등록은 지원 대시보드의 Cloud Manager에서 가능합니다.</block>
-  <block id="fb07bf6b7698dbe934b8b2164d915484" category="list-text">Resources * 탭에서 * Register for Support * 를 클릭합니다.</block>
-  <block id="392fb0270d0d84dbc3fdf8c67da1e5ad" category="list-text">등록할 NSS 자격 증명을 선택한 다음 * 등록 * 을 클릭합니다.</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
   <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
@@ -530,12 +519,8 @@
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto:ng-cloudmanager-feedback@netapp.com [피드백 이메일]</block>
   <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">저희는 귀하의 의견을 소중하게 생각합니다. 클라우드 관리자 개선에 도움이 되는 피드백을 제출해 주십시오.</block>
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp 지원</block>
-  <block id="c91b5a63849b8d2db01014ed33192735" category="paragraph">위의 자체 지원 옵션 외에도 NetApp 지원 엔지니어와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.</block>
   <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">Cloud Manager에서 * 도움말 &gt; 지원 * 을 클릭합니다.</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">기술 지원 아래에서 사용 가능한 옵션 중 하나를 선택합니다.</block>
-  <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">NetApp 기술 지원을 위한 전화 번호를 찾으려면 * 문의하다</block>
-  <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">문제 열기 * 를 클릭하고 옵션 중 하나를 선택한 다음 * 보내기 * 를 클릭합니다.</block>
-  <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">NetApp 담당자가 귀하의 케이스를 검토하고 곧 다시 귀하에 연락을 드릴 것입니다.</block>
   <block id="58560a40a2e236cad4c2d149ea65d296" category="paragraph">의 13장을 참조하십시오<block ref="e0fe107ca8a95a3de0afb55f5223c6ad" category="inline-link-rx"></block> 추가 자료를 참조하십시오.</block>
   <block id="25cd9b4ac7b3c20c21ee2a72afe32aa0" category="section-title">2022년 5월 19일(버전 1.3.0)</block>
   <block id="ef54ea7bd608d08bb74526be3bf7a9b6" category="list-text">Edge Sync 기능에 대한 구성 UI 페이지가 업데이트됩니다.</block>
@@ -561,7 +546,6 @@
 <block ref="8e4798a9d84286ce2af64cff0824baca" category="inline-link-rx"></block></block>
   <block id="40e4043ab4e9038318e0841ef06244c0" category="paragraph"><block ref="a53645675256480c99fed4a542cb3aca" category="inline-link-rx"></block>
 <block ref="4c2b578017747f1ec201cbd7ab6ca56c" category="inline-link-rx"></block></block>
-  <block id="5621e0035a66f3c4e8f0c7d5fff8a27f" category="paragraph"><block ref="5621e0035a66f3c4e8f0c7d5fff8a27f" category="inline-link-rx"></block></block>
   <block id="e2ed07bb6933c98e532659727830bc52" category="inline-link-macro">다음 단계를 수행합니다</block>
   <block id="4249aa75e9ea96b2d0d6b440b4f4b8f4" category="paragraph"><block ref="099296b5b160f80a9ee09ffb08be17ae" category="inline-link-macro-rx"></block> Global File Cache Edge 소프트웨어를 업그레이드합니다.</block>
   <block id="db8e575f29e7264d9dbb628ab57766be" category="paragraph">자세한 내용은 를 참조하십시오<block ref="e0fe107ca8a95a3de0afb55f5223c6ad" category="inline-link-rx"></block>.</block>
@@ -570,7 +554,6 @@
   <block id="22c3479f6dd133b2d2d79cc8b481240f" category="section-title">2022년 6월 23일(버전 1.3.1)</block>
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">해결된 문제</block>
   <block id="2ffbf992fae9becab7e787491b2cdf41" category="paragraph">버전 1.1.1용 Global File Cache Edge 소프트웨어는 에서 구할 수 있습니다<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>. 이 릴리스는 에 설명된 문제를 해결합니다<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>.</block>
-  <block id="897b3098cd8a06c0ff8041457079a260" category="paragraph"><block ref="897b3098cd8a06c0ff8041457079a260" category="inline-link-rx"></block></block>
   <block id="f12e4f9c6c0ea52ff0c85be8308ff143" category="list-text">업그레이드 시 올바른 버전의 Microsoft 재배포 가능 파일이 올바르게 설치되지 않아 Tum이 시작되지 않습니다. GFC 설치 프로그램이 올바른 버전 재배포 가능 버전을 설치하도록 수정되었습니다.</block>
   <block id="e4e361b13d8ce3c010df78be535b3aeb" category="list-text">이제 GFC License Manager Service(LMS)가 구성 정보를 덮어쓰지 않고 업데이트합니다.</block>
   <block id="08b34be098f59c81e94653cf34a7c9ae" category="list-text">이제 구성 UI는 업그레이드 프로세스 중에 올바른 System.net.http dll에 바인딩됩니다.</block>
@@ -608,4 +591,86 @@
   <block id="a32799b1f053cab992e96504f5e2a852" category="section-title">"Edge Synchronization" 기능이 추가되었습니다</block>
   <block id="d64bdda8a160976125ee5ff8cdfbe0d3" category="section-title">OpenSSL 모듈이 버전 1.1.1k로 업그레이드되었습니다</block>
   <block id="3d21100b5eafca8a568ec636ec4eeba5" category="section-title">라이센스 등록 페이지가 업데이트되었습니다</block>
+  <block id="d1a9582568e79d0f7df77bf8db0c78c2" category="paragraph">NetApp 기술 지원으로 지원 케이스를 생성하기 전에 NetApp Support 사이트(NSS) 계정을 Cloud Manager에 추가한 다음 지원을 등록해야 합니다.</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">지원 등록 개요</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">지원 권한을 활성화하려면 두 가지 형태의 등록이 있습니다.</block>
+  <block id="e84e72c56ec69ee05b16bee368f2f4cb" category="list-text">Cloud Manager 계정 ID 지원 구독 등록(Cloud Manager의 지원 리소스 페이지에 있는 20자리 960xxxxxxxxx 일련 번호)</block>
+  <block id="86d34aa6dedf863c0a4ff5e293c1ec79" category="paragraph">이 ID는 Cloud Manager 내의 모든 서비스에 대한 단일 지원 구독 ID로 사용됩니다. 각 Cloud Manager 계정 레벨 지원 구독을 등록해야 합니다.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">클라우드 공급자 마켓플레이스의 구독과 연결된 Cloud Volumes ONTAP 일련 번호 등록(20자리 909201xxxxxxxx 일련 번호)</block>
+  <block id="dbea8abd63832b9ce98fbfac8dbb8c15" category="paragraph">이러한 일련 번호를 일반적으로 _PAYGO 일련 번호_라고 하며 Cloud Volumes ONTAP 구축 시 Cloud Manager에서 생성됩니다.</block>
+  <block id="a9e835b028baaab9d917fafc714e25a5" category="paragraph">두 유형의 제품 번호를 등록하면 지원 티켓 열기, 자동 케이스 생성 및 Active IQ 등의 기능을 사용할 수 있습니다.</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">등록 방법은 신규 고객인지, 기존 고객인지 또는 파트너인지에 따라 다릅니다.</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">기존 고객 또는 파트너</block>
+  <block id="60791d56f45a3f9f1287510b65d323df" category="paragraph">기존 NetApp 고객 또는 파트너는 NSS(NetApp Support 사이트) SSO 계정을 사용하여 위에서 이러한 등록을 수행할 수 있습니다. 지원 대시보드에서 Cloud Manager는 NSS 계정을 추가할 수 있는 * NSS 관리 * 페이지를 제공합니다. NSS 계정을 추가하면 Cloud Manager에서 자동으로 이러한 일련 번호를 등록합니다.</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">NSS 계정을 추가하는 방법에 대해 알아봅니다</block>
+  <block id="32e82838df6d3ab4de32d996ebbe98cd" category="paragraph"><block ref="27c44e31a17502f2e9a25a83f2f37696" category="inline-xref-macro-rx"></block>.</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">NetApp이 처음입니다</block>
+  <block id="bcce750f51c727121c6fa1fb7d2c91f8" category="paragraph">NetApp이 처음인 파트너는 NetApp의 지원 등록 사이트에서 Cloud Manager 계정 ID 일련 번호를 한 번 등록해야 합니다. 이 등록을 완료하고 새 NSS 계정을 만들면 Cloud Manager에서 이 계정을 사용하여 앞으로 자동 등록할 수 있습니다.</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">NetApp에 등록하는 방법을 알아보십시오</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>.</block>
+  <block id="f6c4c1e9625a13b1b4d06a8f53f2ccfd" category="section-title">NSS 계정을 Cloud Manager에 추가합니다</block>
+  <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">지원 대시보드를 통해 NetApp Support 사이트 계정을 추가하고 관리하여 Cloud Manager와 함께 사용할 수 있습니다.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">고객 수준 계정이 있는 경우 하나 이상의 NSS 계정을 추가할 수 있습니다.</block>
+  <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
+  <block id="0bfa39d13bc65474a81520ace129413d" category="paragraph">이러한 작업을 통해 Cloud Manager는 NSS 계정을 사용하여 라이선스 다운로드, 소프트웨어 업그레이드 확인 및 향후 지원 등록과 같은 작업을 수행할 수 있습니다.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하십시오.</block>
+  <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님).</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">세 개의 가로 점으로 구성된 아이콘</block>
+  <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">로그인에 성공하면 NetApp은 NSS 사용자 이름을 저장합니다. 이 ID는 이메일에 매핑되는 시스템에서 생성된 ID입니다. NSS 관리 * 페이지의 에서 이메일을 표시할 수 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
+  <block id="505da61efe6bebebbaf092da18f64613" category="list-text">로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 에 * 자격 증명 업데이트 * 옵션이 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴. 이 옵션을 사용하면 다시 로그인하라는 메시지가 표시됩니다.</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">NetApp에 등록</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">NetApp 지원에 등록하는 방법은 NetApp Support 사이트(NSS) 계정이 이미 있는지 여부에 따라 다릅니다.</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSS 계정이 있는 기존 고객</block>
+  <block id="d4b6092976537c153c496a428098980c" category="paragraph">NSS 계정을 가진 NetApp 고객은 Cloud Manager를 통해 지원을 위해 등록하기만 하면 됩니다.</block>
+  <block id="c9d4df035d54072bb393bd27f6769cc7" category="list-text">아직 추가하지 않은 경우 NSS 계정을 Cloud Manager에 추가합니다.</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">Resources * 페이지에서 * Register for Support * 를 클릭합니다.</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">계정 일련 번호 및 지원 등록 옵션을 보여 주는 스크린샷</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">기존 고객이지만 NSS 계정은 없습니다</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">기존 사용권 및 제품 번호를 가지고 있지만 _NO_NSS 계정을 가지고 있는 기존 NetApp 고객은 NSS 계정을 만들어야 합니다.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support 사이트 사용자 등록 양식</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">를 완료하여 NetApp Support 사이트 계정을 생성합니다<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">적절한 사용자 레벨(일반적으로 * NetApp 고객/최종 사용자 *)을 선택해야 합니다.</block>
+  <block id="d6cb31c22f8f843a781cccec33157281" category="list-text">일련 번호 필드에 위에서 사용된 Cloud Manager 계정 일련 번호(960xxxx)를 복사합니다. 이렇게 하면 계정 처리 속도가 빨라집니다.</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp이 처음이었습니다</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">NetApp의 새로운 브랜드이고 NSS 계정이 없는 경우 아래의 각 단계를 수행하십시오.</block>
+  <block id="59dd2a274c2c6a3cc5b3dce08109019d" category="list-text">지원 등록 페이지에서 Cloud Manager 계정 ID 일련 번호를 찾습니다.</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp의 지원 등록 사이트</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">로 이동합니다<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 를 선택하고 * 등록된 NetApp 고객이 아닙니다 * 를 선택합니다.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">필수 필드(빨간색 별표가 있는 필드)를 입력합니다.</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">[제품 라인] * 필드에서 * Cloud Manager * 를 선택한 다음 해당 청구 공급자를 선택합니다.</block>
+  <block id="1192dec4cc2b923397748a651cef178f" category="list-text">위의 2단계에서 Cloud Manager 계정의 일련 번호를 복사하고 보안 검색을 완료한 다음 NetApp의 글로벌 데이터 개인 정보 보호 정책을 읽는지 확인합니다.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">이 보안 트랜잭션을 완료하기 위해 제공된 사서함으로 즉시 이메일이 전송됩니다. 몇 분 내에 확인 이메일이 도착하지 않으면 스팸 폴더를 확인해야 합니다.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">이메일 내에서 작업을 확인합니다.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">확인 시 NetApp에 요청이 제출되고 NetApp Support 사이트 계정을 만들 것을 권장합니다.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">이 과정에서 NetApp이 연락을 드릴 것입니다. 신규 사용자를 위한 일회성 온보딩 연습입니다.</block>
+  <block id="cc7175a084ebd6e004cb2c751c162569" category="paragraph">NetApp Support 사이트 계정이 있으면 Cloud Manager로 이동하여 향후 등록을 위해 이 NSS 계정을 추가할 수 있습니다.</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">위의 자체 지원 옵션 외에도 NetApp 지원 전문가와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">지원 등록 방법을 알아보십시오</block>
+  <block id="09651e14b46d7e8697d32de90d0deacb" category="paragraph">케이스 생성 * 기능을 사용하려면 먼저 Cloud Manager 계정 ID 일련 번호(예: 960xxxx) NetApp 포함 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>.</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">전화로 통화하려면 * 전화 * 를 클릭하십시오. 전화를 걸 수 있는 전화 번호가 나열된 netapp.com 페이지로 연결됩니다.</block>
+  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">케이스 생성 * 을 클릭하여 NetApp 지원 전문가와 함께 티켓을 엽니다.</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp Support 사이트 계정 *: 지원 케이스를 여는 사람과 관련된 해당 NSS 계정을 선택합니다. 이 담당자는 아래에 제공된 추가 이메일 외에 NetApp에 연락할 수 있는 기본 담당자가 됩니다.</block>
+  <block id="ec65cc87efda54741062da1fce99ff76" category="paragraph">NSS 계정이 표시되지 않으면 Cloud Manager의 지원 섹션 내의 * NSS 관리 * 탭으로 이동하여 해당 계정을 추가할 수 있습니다.</block>
+  <block id="b3144caf7d928b7954447c757b3ed77b" category="list-text">* 서비스 *: 문제와 관련된 서비스를 선택합니다. 예를 들어, Cloud Manager가 서비스 내의 워크플로우 또는 기능과 관련된 기술 지원 문제를 해결할 수 있는 경우에 해당합니다.</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">* 작업 환경 *: 스토리지에 적용 가능한 경우 * Cloud Volumes ONTAP * 또는 * On-Premise * 를 선택한 다음 관련 작업 환경을 선택합니다.</block>
+  <block id="1e38219c106fb9d07d173c027b8911c7" category="paragraph">작업 환경 목록은 서비스의 상단 배너에서 선택한 Cloud Manager 계정, 작업 공간 및 커넥터의 범위 내에 있습니다.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">* 케이스 우선 순위 *: 케이스의 우선 순위를 선택합니다. 우선 순위는 낮음, 중간, 높음 또는 긴급입니다.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">이러한 우선 순위에 대한 자세한 내용을 보려면 필드 이름 옆에 있는 정보 아이콘 위로 마우스를 가져갑니다.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">* 문제 설명 * : 해당 오류 메시지 또는 수행한 문제 해결 단계를 포함하여 문제에 대한 자세한 설명을 제공합니다.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">* 추가 이메일 주소 *: 다른 사람에게 이 문제를 알고자 할 경우 추가 이메일 주소를 입력하십시오.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">NetApp Support로 케이스를 생성할 수 있는 케이스 생성 양식 스크린샷</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">지원 케이스 번호와 함께 팝업이 나타납니다. NetApp 지원 전문가가 귀사의 사례를 검토하고 곧 다시 연결해 드릴 것입니다.</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">지원 케이스 내역을 보려면 * 설정 &gt; 일정 * 을 클릭하고 "지원 케이스 생성"이라는 이름의 작업을 찾습니다. 오른쪽 끝에 있는 버튼을 사용하여 작업을 확장하여 세부 정보를 볼 수 있습니다.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">케이스를 생성하려고 할 때 다음과 같은 오류 메시지가 나타날 수 있습니다.</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"선택한 서비스에 대해 케이스를 생성할 권한이 없습니다."</block>
+  <block id="148f13242c3e296dc276821cdc574921" category="paragraph">이 오류는 NSS 계정과 연결된 레코드 회사가 Cloud Manager 계정 일련 번호( 960xxxx) 또는 작동 환경 일련 번호 케이스 생성 * 양식 상단의 NSS 계정 목록을 확인하여 올바른 일치 항목을 찾거나 다음 옵션 중 하나를 사용하여 지원을 요청할 수 있습니다.</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">제품 내 채팅을 사용합니다</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">에서 비기술 케이스를 제출하십시오<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="ad0c7a22fde49fbb11b817c08acbd362" category="paragraph"><block ref="ad0c7a22fde49fbb11b817c08acbd362" category="inline-link-rx"></block></block>
+  <block id="ee961885b3719613338a90636622509f" category="inline-link">NetApp 글로벌 파일 캐시 사용자 가이드(.DOCX)</block>
+  <block id="64d873bef4d1293fe23ea2696b867c85" category="paragraph"><block ref="64d873bef4d1293fe23ea2696b867c85" category="inline-link-rx"></block></block>
+  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">모든 Cloud Manager 설명서</block>
 </blocks>
