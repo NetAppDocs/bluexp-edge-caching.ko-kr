@@ -296,7 +296,6 @@
   <block id="df62d5ca9c29346bfeb41f9581ecdf5b" category="section-title">2021년 12월 17일(버전 1.2.0)</block>
   <block id="9d15f44f2f441c9fbcdc28d40b323389" category="paragraph">이 버전은 최신 버전이며 보다 안전합니다. 이 모듈은 GFC Edge 및 GFC Core 간의 보안 통신에 사용됩니다.</block>
   <block id="4d18c7d8762e789debac221e79dece82" category="section-title">2021년 6월 9일(버전 1.1.0)</block>
-  <block id="850383dab52cb38649682d2f7d66f04f" category="paragraph">이 기능은 원격 사무실에 있는 여러 개의 모서리를 동기화하여 항상 데이터를 캐시하거나 따뜻하게 유지합니다. 한 쪽 가장자리에서 파일을 플러시/가져오면 Edge Sync에 참여하는 모든 모서리의 동일한 파일이 업데이트 및 캐시됩니다. 의 8.4절을 참조하십시오<block ref="0f1e08336ba0ac25d056248c22c33aaf" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="9993afe041a131f763bfa71520f8d27d" category="paragraph">이제 GFC 라이센스 등록 페이지에 NetApp 가입을 통해 활성화할 경우 라이센스 수가 표시됩니다.</block>
   <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">NetApp은 다양한 방법으로 Cloud Manager를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
@@ -521,7 +520,6 @@
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp 지원</block>
   <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">Cloud Manager에서 * 도움말 &gt; 지원 * 을 클릭합니다.</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">기술 지원 아래에서 사용 가능한 옵션 중 하나를 선택합니다.</block>
-  <block id="58560a40a2e236cad4c2d149ea65d296" category="paragraph">의 13장을 참조하십시오<block ref="e0fe107ca8a95a3de0afb55f5223c6ad" category="inline-link-rx"></block> 추가 자료를 참조하십시오.</block>
   <block id="25cd9b4ac7b3c20c21ee2a72afe32aa0" category="section-title">2022년 5월 19일(버전 1.3.0)</block>
   <block id="ef54ea7bd608d08bb74526be3bf7a9b6" category="list-text">Edge Sync 기능에 대한 구성 UI 페이지가 업데이트됩니다.</block>
   <block id="e30c0599dc23f8e20e7e385b763cb321" category="list-text">PowerShell cmdlet을 통해 여러 모서리의 사전 채우기 작업을 동시에 추가할 때 문제가 해결되었습니다.</block>
@@ -538,18 +536,8 @@
   <block id="2e0922ffb3ae1ae6ac16997e734d5154" category="paragraph">이 "메타데이터 에지 동기화" 기능은 Edge 동기화 기능을 핵심 프레임워크로 사용합니다. 메타데이터 정보만 구독한 모든 엣지에 업데이트되며 파일/폴더는 Edge 머신에 생성됩니다.</block>
   <block id="2273c570a2dcacbb1c4bb77abccca54b" category="section-title">License Manager 서비스 개선 사항</block>
   <block id="03036f549995f5d3240d1c89c4f2f496" category="paragraph">글로벌 파일 캐시 LMS(License Management Server) 서비스가 프록시 설정을 자동으로 검색하도록 향상되었습니다. 이를 통해 원활한 구성이 가능합니다.</block>
-  <block id="8596d7819fbc536d873f9c10275b172b" category="list-text"><block ref="8596d7819fbc536d873f9c10275b172b" category="inline-link-rx"></block></block>
-  <block id="50e21fbeaef96e9c5b880df1c4b9f7ec" category="paragraph">Global File Cache Edge 고급 구성에 대한 자세한 내용은 를 참조하십시오<block ref="e0fe107ca8a95a3de0afb55f5223c6ad" category="inline-link-rx"></block>.</block>
-  <block id="824d9ff5b9f880482138717e4cd1fbd1" category="paragraph">를 참조하십시오<block ref="e0fe107ca8a95a3de0afb55f5223c6ad" category="inline-link-rx"></block> 를 참조하십시오.</block>
-  <block id="81805391f402f98802b5d8c2d17333c1" category="paragraph">를 참조하십시오<block ref="e0fe107ca8a95a3de0afb55f5223c6ad" category="inline-link-rx"></block> 라이센스에 대한 자세한 내용은 를 참조하십시오.</block>
-  <block id="35c3f100dac7ee6eb477eab2e356ae84" category="paragraph"><block ref="f5576b6632dde85ccf0d016507692a9d" category="inline-link-rx"></block>
-<block ref="8e4798a9d84286ce2af64cff0824baca" category="inline-link-rx"></block></block>
-  <block id="40e4043ab4e9038318e0841ef06244c0" category="paragraph"><block ref="a53645675256480c99fed4a542cb3aca" category="inline-link-rx"></block>
-<block ref="4c2b578017747f1ec201cbd7ab6ca56c" category="inline-link-rx"></block></block>
   <block id="e2ed07bb6933c98e532659727830bc52" category="inline-link-macro">다음 단계를 수행합니다</block>
   <block id="4249aa75e9ea96b2d0d6b440b4f4b8f4" category="paragraph"><block ref="099296b5b160f80a9ee09ffb08be17ae" category="inline-link-macro-rx"></block> Global File Cache Edge 소프트웨어를 업그레이드합니다.</block>
-  <block id="db8e575f29e7264d9dbb628ab57766be" category="paragraph">자세한 내용은 를 참조하십시오<block ref="e0fe107ca8a95a3de0afb55f5223c6ad" category="inline-link-rx"></block>.</block>
-  <block id="d9e1cd17d9a7ca15a50e2aaeed2f47c9" category="paragraph">Global File Cache는 Global File Cache 지원 인스턴스(Core 또는 Edge)에 모니터링 또는 바이러스 백신 솔루션의 설치 또는 응용 프로그램을 권장하지 않습니다. 솔루션을 선택 또는 정책에 따라 설치할 경우 다음과 같은 Best Practice 및 권장 사항이 적용되어야 합니다. 일반적인 바이러스 백신 제품군에 대해서는 의 부록 A를 참조하십시오<block ref="e0fe107ca8a95a3de0afb55f5223c6ad" category="inline-link-rx"></block>.</block>
   <block id="f3abc78aa44d210b1f7b92cda50a64cb" category="paragraph">글로벌 파일 캐시 코어 인스턴스당 최대 10개의 에지 인스턴스를 권장하며, 글로벌 파일 캐시 코어 인스턴스당 최대 20개의 엣지 인스턴스를 권장합니다. 이는 가장 일반적인 워크로드의 유형과 평균 파일 크기에 따라 상당한 차이가 있습니다. 일반적인 작업 부하가 더 많은 경우 Core당 Edge 인스턴스를 더 추가할 수 있지만 이러한 경우에는 계정 담당자에게 문의하여 파일 세트의 유형과 크기에 따라 Edge 및 Core 인스턴스의 수를 올바르게 사이징하는 방법을 결정해야 합니다.</block>
   <block id="22c3479f6dd133b2d2d79cc8b481240f" category="section-title">2022년 6월 23일(버전 1.3.1)</block>
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">해결된 문제</block>
@@ -670,7 +658,21 @@
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">제품 내 채팅을 사용합니다</block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">에서 비기술 케이스를 제출하십시오<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
   <block id="ad0c7a22fde49fbb11b817c08acbd362" category="paragraph"><block ref="ad0c7a22fde49fbb11b817c08acbd362" category="inline-link-rx"></block></block>
-  <block id="ee961885b3719613338a90636622509f" category="inline-link">NetApp 글로벌 파일 캐시 사용자 가이드(.DOCX)</block>
-  <block id="64d873bef4d1293fe23ea2696b867c85" category="paragraph"><block ref="64d873bef4d1293fe23ea2696b867c85" category="inline-link-rx"></block></block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">모든 Cloud Manager 설명서</block>
+  <block id="2331299ea4e1274ea1e795e9061e6f4f" category="paragraph">의 13장을 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> 추가 자료를 참조하십시오.</block>
+  <block id="c12a9331c62a66dbe42e75f038a71f7a" category="list-text"><block ref="c12a9331c62a66dbe42e75f038a71f7a" category="inline-link-rx"></block></block>
+  <block id="5e69691f5d475a3b65c0155011543ee9" category="paragraph"><block ref="f5576b6632dde85ccf0d016507692a9d" category="inline-link-rx"></block>
+<block ref="b01859cc1fbd73f5b9a9154d79ae85fc" category="inline-link-rx"></block></block>
+  <block id="20e4d382da5a62bf07e7f79eb29f3a71" category="paragraph"><block ref="a53645675256480c99fed4a542cb3aca" category="inline-link-rx"></block>
+<block ref="7185d928ff4f453b95f1143740ffdcd5" category="inline-link-rx"></block></block>
+  <block id="5ce7f81a8ae145f3b72b93e3696353d9" category="inline-link">NetApp 글로벌 파일 캐시 사용자 가이드(.pdf)</block>
+  <block id="1d1bfd34476102ea6ec7ced86c8e9040" category="paragraph"><block ref="1d1bfd34476102ea6ec7ced86c8e9040" category="inline-link-rx"></block></block>
+  <block id="bb032dd5c38245e2d3146751c045fe34" category="paragraph">자세한 내용은 를 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block>.</block>
+  <block id="f4ca9e5eaa8b2077803ade72c09e106c" category="paragraph">Global File Cache는 Global File Cache 지원 인스턴스(Core 또는 Edge)에 모니터링 또는 바이러스 백신 솔루션의 설치 또는 응용 프로그램을 권장하지 않습니다. 솔루션을 선택 또는 정책에 따라 설치할 경우 다음과 같은 Best Practice 및 권장 사항이 적용되어야 합니다. 일반적인 바이러스 백신 제품군에 대해서는 의 부록 A를 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block>.</block>
+  <block id="d18c299cf227d8244308e2e8541aec05" category="paragraph">를 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> 를 참조하십시오.</block>
+  <block id="954619d0b68860fec456402bc9591346" category="paragraph">를 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> 라이센스에 대한 자세한 내용은 를 참조하십시오.</block>
+  <block id="2844ded52a9c24e06bfbc7cdb852373a" category="paragraph">Global File Cache Edge 고급 구성에 대한 자세한 내용은 를 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block>.</block>
+  <block id="d88ec9141ca0f799220b70e6188c8c33" category="section-title">2022년 10월 24일(버전 2.1)</block>
+  <block id="2c0e477b1c3ddc51c48bebdcb7131054" category="paragraph">버전 2.1용 Global File Cache Edge 소프트웨어는 에서 구할 수 있습니다<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>.</block>
+  <block id="cb11eec86efef95fd396ace517f403b2" category="paragraph">이 기능은 원격 사무실에 있는 여러 개의 모서리를 동기화하여 항상 데이터를 캐시하거나 따뜻하게 유지합니다. 한 쪽 가장자리에서 파일을 플러시/가져오면 Edge Sync에 참여하는 모든 모서리의 동일한 파일이 업데이트 및 캐시됩니다. 의 8.4절을 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> 를 참조하십시오.</block>
 </blocks>

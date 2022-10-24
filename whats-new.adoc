@@ -18,6 +18,12 @@ summary: 글로벌 파일 캐시의 새로운 기능 알아보기
 
 
 
+== 2022년 10월 24일(버전 2.1)
+
+버전 2.1용 Global File Cache Edge 소프트웨어는 에서 구할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["이 페이지"].
+
+
+
 == 2022년 7월 25일(버전 2.0)
 
 이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["해결된 문제"].
@@ -94,7 +100,7 @@ https://cloud.netapp.com/cloud-insights["Cloud Insights에 대해 자세히 알�
 
 === "Edge Synchronization" 기능이 추가되었습니다
 
-이 기능은 원격 사무실에 있는 여러 개의 모서리를 동기화하여 항상 데이터를 캐시하거나 따뜻하게 유지합니다. 한 쪽 가장자리에서 파일을 플러시/가져오면 Edge Sync에 참여하는 모든 모서리의 동일한 파일이 업데이트 및 캐시됩니다. 의 8.4절을 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^] 를 참조하십시오.
+이 기능은 원격 사무실에 있는 여러 개의 모서리를 동기화하여 항상 데이터를 캐시하거나 따뜻하게 유지합니다. 한 쪽 가장자리에서 파일을 플러시/가져오면 Edge Sync에 참여하는 모든 모서리의 동일한 파일이 업데이트 및 캐시됩니다. 의 8.4절을 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^] 를 참조하십시오.
 
 
 
