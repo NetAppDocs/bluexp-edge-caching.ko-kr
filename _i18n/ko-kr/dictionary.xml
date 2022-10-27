@@ -158,7 +158,6 @@
   <block id="fe5dbd0fc2a2bd12fa5c7f5d34edc9b3" category="paragraph">글로벌 파일 캐시를 사용하는 비용은 선택한 설치 유형에 따라 다릅니다.</block>
   <block id="e5624fb8b348be8b0b94ecdc79a3e52a" category="list-text">또한 모든 설치에서는 클라우드에 둘 이상의 VM(가상 머신)을 구축해야 합니다. 따라서 선택한 클라우드 공급자의 비용이 부과됩니다.</block>
   <block id="4fd5c85d8db73f12727e2cf94e421f13" category="list-text">글로벌 파일 캐시 관리 서버:</block>
-  <block id="771dcff1843f23a97fc2a57e936d4a9f" category="paragraph">Azure에서는 127GB의 프리미엄 SSD가 장착된 D2S_V3 또는 동급(vCPU 2개/8GB RAM) VM에서 실행됩니다</block>
   <block id="c6b798b0bebd4b2ec1cf891e6cd66c67" category="paragraph">AWS에서는 127GB의 범용 SSD를 사용하는 m4의 대규모 인스턴스 또는 이에 상응하는 인스턴스(vCPU 2개/8GB RAM)에서 실행됩니다</block>
   <block id="a93c3bd09e076f0b8fd65dde3e64a3a5" category="list-text">글로벌 파일 캐시 코어:</block>
   <block id="817000ba632406cdb4b5a4da3a5c5221" category="paragraph">Azure에서는 D4s_V3 또는 동급(4개의 vCPU/16GB RAM) VM에서 127GB의 프리미엄 SSD를 실행합니다</block>
@@ -184,9 +183,6 @@
   <block id="135435a8d8eb3533e52dfec2d082e667" category="inline-link">NetApp GFC(Microsoft Hyper-V)를 포함한 Windows Server 2019. VHDX</block>
   <block id="4bf707356ffc6bfcdc7eaddeb5d9ca6b" category="list-text">글로벌 파일 캐시 에지 소프트웨어:</block>
   <block id="faf7d644098124d7a6915b6cc59a0988" category="inline-link">NetApp GFC 소프트웨어 설치 패키지(.EXE)</block>
-  <block id="c02f6931ac1cb0d6f6c43728f2c59458" category="list-text">글로벌 파일 캐시 SCOM(Microsoft Systems Center Operations Manager) 패키지:</block>
-  <block id="6cfcd1fac0b2e806d26cc363f98afe52" category="inline-link">NetApp GFC SCOM 관리 패키지(.ZIP)</block>
-  <block id="94ab5cbee962c68b827980048c10c188" category="paragraph"><block ref="94ab5cbee962c68b827980048c10c188" category="inline-link-rx"></block></block>
   <block id="e2d416ed29232c19a683a619f4500452" category="list-text">글로벌 파일 캐시 문서:</block>
   <block id="d30bfe96d7c62ab706482cb5c2b4a1ec" category="section-title">Global File Cache Edge 설계 및 구축</block>
   <block id="5698363b5f7247a6f653aa572ae1cb51" category="paragraph">요구 사항에 따라 지사의 동시 사용자 세션을 기반으로 하나 이상의 Global File Cache Edge 인스턴스를 구축해야 할 수도 있습니다. Edge 인스턴스는 지사 내의 최종 사용자에게 가상 파일 공유를 제공하며, 연결된 Global File Cache Core 인스턴스에서 투명하게 확장됩니다. 글로벌 파일 캐시 에지에는 지점 내에 캐시된 파일이 포함된 Ds:\' NTFS 볼륨이 포함되어야 합니다.</block>
@@ -252,7 +248,6 @@
   <block id="662c746bbad04699605c42230359dc78" category="list-text">글로벌 파일 캐시 인스턴스는 TCP 포트 443(HTTPS)에서 글로벌 파일 캐시 관리 서버와 통신해야 합니다.</block>
   <block id="21b9f51fc75798b971847bd516553644" category="list-text">네트워크 최적화 솔루션/장치는 글로벌 파일 캐시 특정 포트를 통과하도록 구성해야 합니다.</block>
   <block id="047ff8e79c7124b6aed2f30a879e9d2b" category="section-title">바이러스 백신 모범 사례</block>
-  <block id="6f2fd7a86f8cef2a60f22f813d46b917" category="paragraph">이 섹션에서는 전역 파일 캐시를 실행하는 Windows Server 인스턴스에서 바이러스 백신 소프트웨어를 실행할 때의 요구 사항을 이해하는 데 도움이 됩니다. Global File Cache는 Cylance, McAfee, Symantec, Sophos, Trend Micro, Kaspersky와 Windows Defender는 글로벌 파일 캐시와 함께 사용됩니다.</block>
   <block id="7fe70d8482fea172d2f27e34dd091935" category="admonition">Edge 어플라이언스에 바이러스 백신을 추가하면 사용자 성능에 10 ~ 20%의 영향을 줄 수 있습니다.</block>
   <block id="77e4365f0d8727fe3c465fb04f26ce93" category="section-title">제외 항목을 구성합니다</block>
   <block id="7e97ed382f6a1568b4024c1aafe5994c" category="paragraph">바이러스 백신 소프트웨어 또는 기타 타사 인덱싱 또는 스캔 유틸리티는 Edge 인스턴스의 D:\를 스캔해서는 안 됩니다. 이러한 Edge 서버 드라이브 D:\를 스캔하면 전체 캐시 네임스페이스에 대한 많은 파일 열기 요청이 발생합니다. 이로 인해 WAN을 통해 데이터 센터에서 최적화되는 모든 파일 서버로 파일이 가져오게 됩니다. Edge 인스턴스에 WAN 연결 플러딩과 불필요한 로드가 발생하여 성능이 저하됩니다.</block>
@@ -295,8 +290,6 @@
   <block id="6d712ec6825e52d97c46202643237199" category="doc">글로벌 파일 캐시의 새로운 기능</block>
   <block id="df62d5ca9c29346bfeb41f9581ecdf5b" category="section-title">2021년 12월 17일(버전 1.2.0)</block>
   <block id="9d15f44f2f441c9fbcdc28d40b323389" category="paragraph">이 버전은 최신 버전이며 보다 안전합니다. 이 모듈은 GFC Edge 및 GFC Core 간의 보안 통신에 사용됩니다.</block>
-  <block id="4d18c7d8762e789debac221e79dece82" category="section-title">2021년 6월 9일(버전 1.1.0)</block>
-  <block id="9993afe041a131f763bfa71520f8d27d" category="paragraph">이제 GFC 라이센스 등록 페이지에 NetApp 가입을 통해 활성화할 경우 라이센스 수가 표시됩니다.</block>
   <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">NetApp은 다양한 방법으로 Cloud Manager를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
   <block id="922a8d78e53c1dc3158a6ee5d95c210f" category="summary">사용 중인 환경이 모든 요구 사항을 충족하는지 확인한 후에는 각 원격 사무소에 Global File Cache Edge 소프트웨어를 설치합니다.</block>
@@ -380,8 +373,6 @@
   <block id="21b98a9bfa32dac32af60fe74c7fc07c" category="section-title">코어 인스턴스당 에지 인스턴스 수입니다</block>
   <block id="2df25ab39ccf7d8a937806af504ab29c" category="admonition">여러 Global File Cache Edge 및 Core 인스턴스를 동시에 활용하여 요구 사항에 따라 인프라를 확장할 수 있습니다.</block>
   <block id="9aad1322fc19ca5e66c23b65ad4ae5fe" category="section-title">Edge 인스턴스당 동시 사용자 수입니다</block>
-  <block id="30ae6413ab8cb3af21bb3ef666c57dbe" category="paragraph">Global File Cache Edge는 캐싱 알고리즘 및 파일 레벨 차이 측면에서 많은 작업을 처리합니다. 단일 Global File Cache Edge 인스턴스는 전용 물리적 Edge 인스턴스당 최대 400명의 사용자와 최대 200명의 전용 가상 구축 사용자를 지원할 수 있습니다. 이는 가장 일반적인 워크로드의 유형과 평균 파일 크기에 따라 상당한 차이가 있습니다. 대규모 공동 작업 파일 유형의 경우 물리적 또는 가상 배포에 따라 Global File Cache Edge 하위 경계당 최대 사용자의 50%를 지정합니다. 평균 파일 크기가 1MB 미만인 보다 일반적인 Office 항목의 경우 물리적 또는 가상 배포에 따라 전역 파일 캐시 에지 상한 경계당 100% 사용자를 안내합니다.</block>
-  <block id="52fd284844f67b8a08a9e803590ccd4c" category="admonition">Global File Cache Edge는 가상 또는 물리적 인스턴스에서 실행 중인지 여부를 감지하여 로컬 가상 파일 공유에 대한 SMB 접속 수를 최대 200개 또는 400개의 동시 접속으로 제한합니다.</block>
   <block id="9677e276eaf903d4a0b5da856ceb3bdc" category="section-title">Core 인스턴스당 동시 사용자 수입니다</block>
   <block id="8de20cb9eef18978ba168ebc839695b7" category="paragraph">Global File Cache Core 인스턴스는 확장성이 매우 뛰어나며 권장되는 동시 사용자 수는 Core당 3,000명입니다. 이는 가장 일반적인 워크로드의 유형과 평균 파일 크기에 따라 상당한 차이가 있습니다.</block>
   <block id="b878b843693a16500d3da98423bf22b6" category="paragraph">이 섹션에 설명된 사전 요구 사항은 클라우드에 설치된 구성 요소, 즉 글로벌 파일 캐시 관리 서버 및 글로벌 파일 캐시 Core에 대한 것입니다.</block>
@@ -393,10 +384,6 @@
   <block id="794cb058ebafe2e7b0df56dea2e389d4" category="list-text">생성할 볼륨의 이름 및 크기, 볼륨을 생성할 애그리게이트의 이름 및 공유 이름</block>
   <block id="5a546cf8c7438d3947e0f034bfe5f5af" category="inline-link">기존 애그리게이트 관리</block>
   <block id="a47494fbd5157213a61c49892644da68" category="paragraph">이 글로벌 파일 캐시 관리 서버는 클라우드 공급자 구독 서비스에 연결하고 다음 URL에 액세스하려면 HTTPS(TCP 포트 443)를 통한 외부 액세스가 필요합니다.</block>
-  <block id="224c646ebc1a3e88e1cdb258481bcfd0" category="inline-link"><block ref="224c646ebc1a3e88e1cdb258481bcfd0" category="inline-link-rx"></block></block>
-  <block id="f12ef780b481a5c2973143651b98129e" category="list-text"><block ref="f12ef780b481a5c2973143651b98129e" category="inline-link-rx"></block></block>
-  <block id="d86ce3b95ad0f00efb5ef5d097d103df" category="inline-link"><block ref="d86ce3b95ad0f00efb5ef5d097d103df" category="inline-link-rx"></block></block>
-  <block id="87fbbc712e9b519806558e6330b1d157" category="list-text"><block ref="87fbbc712e9b519806558e6330b1d157" category="inline-link-rx"></block></block>
   <block id="e1b81ed17087b40845c09ad31044d74c" category="paragraph">이 포트는 글로벌 파일 캐시 소프트웨어가 제대로 작동하려면 모든 WAN 최적화 장치 또는 방화벽 제한 정책에서 제외되어야 합니다.</block>
   <block id="3976f666cc09b4e1bed026524e9aa1e0" category="paragraph">또한 글로벌 파일 캐시 관리 서버는 인스턴스에 대해 고유한(지리적) NetBIOS 이름을 필요로 합니다(예: GFC-MS1).</block>
   <block id="87dd764d6a7a2734e0def11b1ebbacef" category="admonition">하나의 관리 서버가 서로 다른 작업 환경에 배포된 여러 개의 글로벌 파일 캐시 코어 인스턴스를 지원할 수 있습니다. Cloud Manager에서 구축할 경우, 각 작업 환경에 고유한 개별 백엔드 스토리지가 있으며 동일한 데이터가 포함되지 않습니다.</block>
@@ -416,7 +403,6 @@
   <block id="51a2657902a94cb28cb094cca2f5d9ea" category="section-title">라이센스 관리 서버</block>
   <block id="a667680dd0efe4957987b134614b1fef" category="list-text">글로벌 파일 캐시 라이선스 관리 서버(LMS)는 Microsoft Windows Server 2016 Standard 또는 Datacenter Edition 또는 Windows Server 2019 Standard 또는 Datacenter 버전에서 구성해야 합니다. 가능하면 데이터 센터 또는 클라우드의 글로벌 파일 캐시 코어 인스턴스에서 구성해야 합니다.</block>
   <block id="a9556fa226a4c90b2c33f740d860b4ba" category="list-text">별도의 Global File Cache LMS 인스턴스가 필요한 경우 최신 Global File Cache 소프트웨어 설치 패키지를 원래 버전의 Microsoft Windows Server 인스턴스에 설치해야 합니다.</block>
-  <block id="e9951050c20c1ac5ae3d064f680e267d" category="list-text">LMS 인스턴스는 HTTPS(TCP 포트 443)를 사용하여 가입 서비스(Azure 서비스/공용 인터넷)에 연결할 수 있어야 합니다.</block>
   <block id="e3032cd499830d29c8b4c7009b1cd6b7" category="list-text">Core 및 Edge 인스턴스는 HTTPS(TCP 포트 443)를 사용하여 LMS 인스턴스에 연결해야 합니다.</block>
   <block id="f36d42acab571ec85ce6cc8247ef2ba9" category="section-title">네트워킹(외부 액세스)</block>
   <block id="20a8d60a21a9b562a48c146d4ec52a58" category="paragraph">글로벌 파일 캐시 LMS를 사용하려면 다음 URL에 대한 HTTPS(TCP 포트 443)를 통한 외부 액세스가 필요합니다.</block>
@@ -439,9 +425,6 @@
   <block id="f74032e7a801122d16bdf48f04518b8a" category="list-text">정책 구성을 사용하여 로컬로 실행되는 LMS(License Management Server) 서비스의 하드 종속성을 제거했습니다.</block>
   <block id="1835c27cfc517067592779b50d13190c" category="list-text">Windows Server 2016/2019의 SMB 서버 서비스에서 충돌을 피하기 위해 GFC 커널 드라이버가 향상되었습니다.</block>
   <block id="5876df88731069c35bfd4f3ea17e7db0" category="list-text">LMS 서비스에서 예외를 수정했습니다.</block>
-  <block id="f207ae57dc9dfe83885fb108696cb88c" category="list-text">이제 구성 UI에 사전 채우기 편집 페이지에 Edge 호스트 이름이 올바르게 표시됩니다.</block>
-  <block id="9437dcfd300c52c159a6d4703daa54ad" category="list-text">라이센스 등록 중 NetApp 라이센스 가입 서버의 json 응답을 구문 분석하는 데 문제가 해결되었습니다.</block>
-  <block id="e8cdf46b30eda1b6da8eed70347d25ac" category="list-text">모든 파일의 파일 전송 상태를 기록하도록 사전 채우기(TappN) 로그가 향상되었습니다.</block>
   <block id="e5c0b1995108f32cef1dcfc39528d164" category="summary">NetApp의 지능형 글로벌 파일 캐시를 사용하여 분산된 인력을 위한 실시간 글로벌 파일 공유를 지원합니다.</block>
   <block id="59d1b154ff5b7aa340f3bb85aa0d59f7" category="doc">글로벌 파일 캐시 설명서</block>
   <block id="fe8d9a8dc9b5c669ccbe68b53409dd26" category="summary">글로벌 파일 캐시를 통해 공유 파일에 액세스하는 모범 사례를 사용자에게 교육해야 합니다.</block>
@@ -545,7 +528,6 @@
   <block id="f12e4f9c6c0ea52ff0c85be8308ff143" category="list-text">업그레이드 시 올바른 버전의 Microsoft 재배포 가능 파일이 올바르게 설치되지 않아 Tum이 시작되지 않습니다. GFC 설치 프로그램이 올바른 버전 재배포 가능 버전을 설치하도록 수정되었습니다.</block>
   <block id="e4e361b13d8ce3c010df78be535b3aeb" category="list-text">이제 GFC License Manager Service(LMS)가 구성 정보를 덮어쓰지 않고 업데이트합니다.</block>
   <block id="08b34be098f59c81e94653cf34a7c9ae" category="list-text">이제 구성 UI는 업그레이드 프로세스 중에 올바른 System.net.http dll에 바인딩됩니다.</block>
-  <block id="2587d926ced67aed88e0f563b987461b" category="admonition">Windows Server 2016에서 글로벌 파일 캐시를 배포할 때는 .NET Framework 4.8을 사용해야 합니다.</block>
   <block id="6cf141680c0334de379f689cbeaa3b2d" category="paragraph">글로벌 파일 캐시 코어 인스턴스는 원하는 백엔드 스토리지 플랫폼(예: Cloud Volumes ONTAP, Cloud Volumes Service, 및 Azure NetApp Files)를 기반으로 구조화되지 않은 데이터를 퍼블릭 클라우드의 하나 또는 여러 스토리지 플랫폼에 있는 단일 데이터 세트로 중앙 집중화하고 통합할 수 있는 글로벌 파일 캐시 "패브릭"을 생성합니다.</block>
   <block id="fc1d446f2d6669bec4ad1659ec4d3e1f" category="paragraph">글로벌 파일 캐시 구성은 공용 클라우드 스토리지 인프라에 설치된 ONTAP 시스템용 Cloud Volumes ONTAP, Cloud Volumes Service, Azure NetApp Files 및 Amazon FSx에서도 지원됩니다. 사내 솔루션은 NetApp AFF 및 FAS 플랫폼에서도 사용할 수 있습니다. 이러한 설치에서는 Cloud Manager를 사용하지 않고 글로벌 파일 캐시 서버 측 구성 요소를 수동으로 구성 및 배포해야 합니다.</block>
   <block id="35ca268e4e28a68df6a6a7a036db06fa" category="list-text">설치를 모두 수행하려면 클라우드에 하나 이상의 볼륨(예: Cloud Volumes ONTAP, Cloud Volumes Service 또는 Azure NetApp Files)을 구축해야 합니다. 따라서 선택한 클라우드 공급자의 비용이 부과됩니다.</block>
@@ -562,13 +544,11 @@
   <block id="9f59b2e065c17b264179bc2a32cb9720" category="list-text">Zuora License Aggregator용 License Server Manager의 날짜 범위 문제를 해결했습니다.</block>
   <block id="1c4027933d3e02d7db8558ca13691cb6" category="list-text">Lease Count 정보를 표시하도록 Optimus PSM을 수정했습니다.</block>
   <block id="4fed480928967df6ad6ade9613b54583" category="list-text">업그레이드 중 구성 업데이터에 대한 라이센스 관리 서버의 논리를 수정했습니다.</block>
-  <block id="0cdaa1584e91bdecaff25609aa4f9058" category="paragraph">이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>.</block>
   <block id="40ede24da7e93db6d61cd94c084008e7" category="section-title">Azure 마켓플레이스를 통해 글로벌 파일 캐시에 대한 새로운 용량 기반 라이센스 모델을 제공합니다</block>
   <block id="70dc5565ba7814d08bd68476e5fb76ff" category="paragraph">새로운 "Edge Cache" 라이센스는 "CVO Professional" 라이센스와 동일한 기능을 제공하지만 Global File Cache도 지원합니다. Azure에서 새 Cloud Volumes ONTAP 시스템을 구축할 때 이 옵션이 표시됩니다. Cloud Volumes ONTAP 시스템에서 3TiB의 프로비저닝된 각 용량에 대해 하나의 글로벌 파일 캐시 에지 시스템을 구축할 수 있습니다. 최소 30TiB를 프로비저닝해야 합니다. GFC License Manager Service는 용량 기반 라이센스를 제공하도록 개선되었습니다.</block>
   <block id="6a749e3d1bafd02cdf9a303ba6375e66" category="inline-link">Edge Cache 라이센스 패키지에 대해 자세히 알아보십시오.</block>
   <block id="0d8fd49fcb5c25122324fcb59637aff8" category="paragraph"><block ref="0d8fd49fcb5c25122324fcb59637aff8" category="inline-link-rx"></block></block>
   <block id="b7b58b4424e766ec66e0ab4ea9c812b8" category="section-title">이제 글로벌 파일 캐시가 Cloud Insights와 통합되었습니다</block>
-  <block id="acb729f8fd6ddd0e3a9a1a39397d6274" category="paragraph">NetApp CI(Cloud Insights)를 사용하면 인프라 및 애플리케이션을 완벽하게 파악할 수 있습니다. 이제 글로벌 파일 캐시가 CI와 통합되어 모든 에지 및 코어를 완벽하게 파악할 수 있으며 인스턴스에서 실행 중인 프로세스를 모니터링할 수 있습니다. CI 대시보드에서 전체 개요를 제공하기 위해 다양한 글로벌 파일 캐시 메트릭이 CI로 푸시됩니다.</block>
   <block id="902eaec7802b7e6292febf1b6526a6b5" category="inline-link">Cloud Insights에 대해 자세히 알아보십시오.</block>
   <block id="6d7b1d6577d8e6bfc5f78e821377a7d4" category="paragraph"><block ref="6d7b1d6577d8e6bfc5f78e821377a7d4" category="inline-link-rx"></block></block>
   <block id="1f56bc157b53331171e2209738abd411" category="section-title">License Management Server는 매우 제한적인 환경에서 작동하도록 향상되었습니다</block>
@@ -576,9 +556,6 @@
   <block id="1b66d26240c6a01df03ec7dc4a6d1a2b" category="section-title">Optimus의 Edge Sync UI는 코디네이터 Edge에 연결된 클라이언트 목록을 표시하도록 향상되었습니다</block>
   <block id="24c153e30c311602185df383bdc152fd" category="section-title">OpenSSL 모듈이 버전 1.1.1L로 업그레이드되었습니다</block>
   <block id="e3c8f19755f12539be7c74e7dc14b3fe" category="section-title">로깅 인프라가 향상되었습니다</block>
-  <block id="a32799b1f053cab992e96504f5e2a852" category="section-title">"Edge Synchronization" 기능이 추가되었습니다</block>
-  <block id="d64bdda8a160976125ee5ff8cdfbe0d3" category="section-title">OpenSSL 모듈이 버전 1.1.1k로 업그레이드되었습니다</block>
-  <block id="3d21100b5eafca8a568ec636ec4eeba5" category="section-title">라이센스 등록 페이지가 업데이트되었습니다</block>
   <block id="d1a9582568e79d0f7df77bf8db0c78c2" category="paragraph">NetApp 기술 지원으로 지원 케이스를 생성하기 전에 NetApp Support 사이트(NSS) 계정을 Cloud Manager에 추가한 다음 지원을 등록해야 합니다.</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">지원 등록 개요</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">지원 권한을 활성화하려면 두 가지 형태의 등록이 있습니다.</block>
@@ -673,6 +650,28 @@
   <block id="954619d0b68860fec456402bc9591346" category="paragraph">를 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> 라이센스에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="2844ded52a9c24e06bfbc7cdb852373a" category="paragraph">Global File Cache Edge 고급 구성에 대한 자세한 내용은 를 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block>.</block>
   <block id="d88ec9141ca0f799220b70e6188c8c33" category="section-title">2022년 10월 24일(버전 2.1)</block>
-  <block id="2c0e477b1c3ddc51c48bebdcb7131054" category="paragraph">버전 2.1용 Global File Cache Edge 소프트웨어는 에서 구할 수 있습니다<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>.</block>
-  <block id="cb11eec86efef95fd396ace517f403b2" category="paragraph">이 기능은 원격 사무실에 있는 여러 개의 모서리를 동기화하여 항상 데이터를 캐시하거나 따뜻하게 유지합니다. 한 쪽 가장자리에서 파일을 플러시/가져오면 Edge Sync에 참여하는 모든 모서리의 동일한 파일이 업데이트 및 캐시됩니다. 의 8.4절을 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> 를 참조하십시오.</block>
+  <block id="0250bb801ae5ce790da0302493de52ea" category="list-text">라이센스 구성 중에 GFC 구독 번호에 대한 추가 검증이 수행됩니다.</block>
+  <block id="45b34709f42790c0abe51e6c74090803" category="list-text">GFC는 Zuora 기반 라이센스의 특정 기간 동안 라이센스를 확장할 수 있도록 지원을 추가했습니다. GFC 지원에 문의하십시오.</block>
+  <block id="26f1c97ddaa03ab258b1513bea6e2ba9" category="list-text">충돌 후 minidump를 작성하기 전에 15초의 지연 시간을 추가했습니다. 또한 minidump를 모니터링하는 타이머를 추가하고 60초 내에 덤프가 완료되지 않을 경우 프로세스를 강제로 종료합니다. 이러한 사소한 개선 사항은 더 나은 분석을 위해 도움이 될 것입니다.</block>
+  <block id="77a0de2d98ff3c93909af59839a1125e" category="list-text">Cloud Insights에 대한 개별 파일 전송 정보 전파를 제거했지만 Cloud Insights에 파일 전송 요약 정보 전파가 추가되었습니다. 이로 인해 CI에 대한 엄청난 부하가 줄어듭니다.</block>
+  <block id="873a5f90b56d4ccae30ae3bb39cc58fb" category="list-text">Cloud Insights로 데이터 및 메타데이터 수집 수정 그러면 데이터 시각화 CI가 활성화됩니다.</block>
+  <block id="ef4cb0e259adaefa47416a87fabc3c35" category="list-text">"CI에 인스턴스 등록" 버튼을 클릭하는 동안 Optimus 구성 UI가 응답하지 않도록 수정했습니다.</block>
+  <block id="806b6ec151c368ef2f2399efcb865ab5" category="list-text">초기 구성 중에 Tservice 모니터가 수동으로 남아 있는 문제를 해결했습니다.</block>
+  <block id="2ef92b78d697de97a16de7ae1849aeb8" category="list-text">GFC CI Agent 클라이언트 서비스의 사소한 버그를 수정했습니다.</block>
+  <block id="2a2ba06a5d72a7a43d2202f6a8a6296f" category="admonition">Windows Server 2016에서 전역 파일 캐시를 배포할 때는 .NET Framework 4.8 및 Windows Web View2 프레임워크를 사용해야 합니다.</block>
+  <block id="6455f1f0c6620c2d02084eaf5b65e986" category="paragraph">이 섹션에서는 전역 파일 캐시를 실행하는 Windows Server 인스턴스에서 바이러스 백신 소프트웨어를 실행할 때의 요구 사항을 이해하는 데 도움이 됩니다. Global File Cache는 Cylance, McAfee, Symantec, Sophos, Trend Micro, Kaspersky, 크라우드 스트라이크, Cisco AMP, Tannium 및 Windows Defender는 글로벌 파일 캐시와 함께 사용됩니다. 바이러스 백신 소프트웨어는 NetApp의 인증을 받아야 하며 적절한 제외 목록이 구성되어 있는 경우에만 지원됩니다. 의 부록 A를 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
+  <block id="8460b630b603901ff605873a4c5d90e2" category="list-text">'C:\Program Files\TalonFAST\Bin\GfcCIAgentService.exe'</block>
+  <block id="bca1fbce4a3bdcddfdb1aa5bb1b5f6da" category="paragraph">Azure에서는 127GB의 표준 SSD가 장착된 D2S_V3 또는 동급(vCPU 2개/8GB RAM) VM에서 실행됩니다</block>
+  <block id="19df80e08f82de8a5a9df23c1e7c6b96" category="paragraph">이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>.</block>
+  <block id="51d465a61bb0f252b570a31acdf628be" category="section-title">이제 글로벌 파일 캐시를 원하는 수의 라이센스로 사용할 수 있습니다</block>
+  <block id="c4579941f945f9c013bc5d2b34483751" category="paragraph">이전에 최소 10개의 라이센스 또는 30TB의 스토리지가 제거되었습니다. 3TB의 스토리지당 하나의 글로벌 파일 캐시 라이센스가 발급됩니다.</block>
+  <block id="a05df94e25a3fdf3c6809915be7db21b" category="section-title">오프라인 License Management Server 사용에 대한 지원이 추가되었습니다</block>
+  <block id="9952545455211dde3dd54a36ff1e0fd9" category="paragraph">오프라인 또는 다크 사이트 LMS(License Management Server)는 LMS가 라이선스 소스를 통한 라이선스 검증을 위한 인터넷 연결이 없는 경우에 가장 유용합니다. 초기 구성 중에 인터넷 연결 및 라이센스 소스 연결이 필요합니다. 구성한 후에는 LMS 인스턴스가 어두워질 수 있습니다. 모든 엣지/코어는 라이센스의 지속적인 검증을 위해 LMS와 연결되어 있어야 합니다.</block>
+  <block id="7954886e5818e91e397e0ca331d15d48" category="section-title">클라우드 라이센스를 구성하기 위한 Optimus PSM이 개선되었습니다</block>
+  <block id="3bf86cee85be3992be11d6813b4f6b14" category="section-title">Optimus UI(Edge Configuration)의 Edge Sync 기능이 향상되어 연결된 모든 클라이언트가 표시됩니다</block>
+  <block id="51bf740c4d4976d09a651540625df6fd" category="paragraph">NetApp CI(Cloud Insights)를 사용하면 인프라 및 애플리케이션을 완벽하게 파악할 수 있습니다. 이제 글로벌 파일 캐시가 CI와 통합되어 모든 에지 및 코어를 완벽하게 파악할 수 있으며 인스턴스에서 실행 중인 프로세스를 모니터링할 수 있습니다. CI 대시보드에서 전체 개요를 제공하기 위해 다양한 글로벌 파일 캐시 메트릭이 CI로 푸시됩니다. 의 11장을 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
+  <block id="9cbdd46155d21eeb894d82c0612ab801" category="paragraph">Global File Cache Edge는 캐싱 알고리즘 및 파일 레벨 차이 측면에서 많은 작업을 처리합니다. 단일 Global File Cache Edge 인스턴스는 전용 물리적 Edge 인스턴스당 최대 500명의 사용자와 최대 300명의 전용 가상 구축 사용자를 지원할 수 있습니다. 이는 가장 일반적인 워크로드의 유형과 평균 파일 크기에 따라 상당한 차이가 있습니다. 대규모 공동 작업 파일 유형의 경우 물리적 또는 가상 배포에 따라 Global File Cache Edge 하위 경계당 최대 사용자의 50%를 지정합니다. 평균 파일 크기가 1MB 미만인 보다 일반적인 Office 항목의 경우 물리적 또는 가상 배포에 따라 전역 파일 캐시 에지 상한 경계당 100% 사용자를 안내합니다.</block>
+  <block id="ef240c0052e8156425d8b39cfeb2d632" category="admonition">Global File Cache Edge는 가상 또는 물리적 인스턴스에서 실행 중인지 여부를 감지하여 로컬 가상 파일 공유에 대한 SMB 접속 수를 최대 300개 또는 500개의 동시 접속으로 제한합니다.</block>
+  <block id="23fc360c2573b4c9bee90db0e02de4cd" category="list-text">https://rest.zuora.com/v1/subscriptions/ 으로 문의하십시오</block>
+  <block id="aa2be03e10176973cbb1d2299c98996b" category="list-text">LMS 인스턴스는 HTTPS(TCP 포트 443)를 사용하여 가입 서비스(공용 인터넷)에 연결할 수 있어야 합니다.</block>
 </blocks>

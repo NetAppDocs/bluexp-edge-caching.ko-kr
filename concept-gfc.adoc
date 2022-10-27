@@ -123,7 +123,7 @@ image:diagram_gfc_image3.png["Edge 및 Core의 글로벌 파일 캐시 구성 �
 +
 ** 글로벌 파일 캐시 관리 서버:
 +
-Azure에서는 127GB의 프리미엄 SSD가 장착된 D2S_V3 또는 동급(vCPU 2개/8GB RAM) VM에서 실행됩니다
+Azure에서는 127GB의 표준 SSD가 장착된 D2S_V3 또는 동급(vCPU 2개/8GB RAM) VM에서 실행됩니다
 
 +
 AWS에서는 127GB의 범용 SSD를 사용하는 m4의 대규모 인스턴스 또는 이에 상응하는 인스턴스(vCPU 2개/8GB RAM)에서 실행됩니다

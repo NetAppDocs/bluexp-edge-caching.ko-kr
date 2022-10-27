@@ -36,10 +36,6 @@ https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_1_0_31IMAGE.zip["NetApp GFC(Mic
 +
 https://repo.cloudsync.netapp.com/gfc/GFC-2-1-0-31-Release.exe["NetApp GFC 소프트웨어 설치 패키지(.EXE)"^]
 
-* 글로벌 파일 캐시 SCOM(Microsoft Systems Center Operations Manager) 패키지:
-+
-https://repo.cloudsync.netapp.com/gfc/SCOM-151.zip["NetApp GFC SCOM 관리 패키지(.ZIP)"]
-
 * 글로벌 파일 캐시 문서:
 +
 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드(.pdf)"^]
@@ -49,7 +45,7 @@ https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Gui
 link:task-deploy-gfc-edge-instances.html#update-global-file-cache-edge-software["다음 단계를 수행합니다"] Global File Cache Edge 소프트웨어를 업그레이드합니다.
 
 
-NOTE: Windows Server 2016에서 글로벌 파일 캐시를 배포할 때는 .NET Framework 4.8을 사용해야 합니다.
+NOTE: Windows Server 2016에서 전역 파일 캐시를 배포할 때는 .NET Framework 4.8 및 Windows Web View2 프레임워크를 사용해야 합니다.
 
 
 
@@ -204,7 +200,7 @@ Global File Cache는 Global File Cache 지원 인스턴스(Core 또는 Edge)에 
 
 === 바이러스 백신 모범 사례
 
-이 섹션에서는 전역 파일 캐시를 실행하는 Windows Server 인스턴스에서 바이러스 백신 소프트웨어를 실행할 때의 요구 사항을 이해하는 데 도움이 됩니다. Global File Cache는 Cylance, McAfee, Symantec, Sophos, Trend Micro, Kaspersky와 Windows Defender는 글로벌 파일 캐시와 함께 사용됩니다.
+이 섹션에서는 전역 파일 캐시를 실행하는 Windows Server 인스턴스에서 바이러스 백신 소프트웨어를 실행할 때의 요구 사항을 이해하는 데 도움이 됩니다. Global File Cache는 Cylance, McAfee, Symantec, Sophos, Trend Micro, Kaspersky, 크라우드 스트라이크, Cisco AMP, Tannium 및 Windows Defender는 글로벌 파일 캐시와 함께 사용됩니다. 바이러스 백신 소프트웨어는 NetApp의 인증을 받아야 하며 적절한 제외 목록이 구성되어 있는 경우에만 지원됩니다. 의 부록 A를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^]
 
 
 NOTE: Edge 어플라이언스에 바이러스 백신을 추가하면 사용자 성능에 10 ~ 20%의 영향을 줄 수 있습니다.
@@ -228,6 +224,7 @@ D:\ 드라이브 외에 일반적으로 다음과 같은 글로벌 파일 캐시
 * 'C:\Program Files\TalonFAST\Bin\tapp.exe'
 * 'C:\Program Files\TalonFAST\Bin\TappN.exe'
 * 'C:\Program Files\TalonFAST\Bin\FTLSummaryGenerator.exe'
+* 'C:\Program Files\TalonFAST\Bin\GfcCIAgentService.exe'
 * 'C:\Program Files\TalonFAST\Bin\RFASTSetupWizard.exe'
 * 'C:\Program Files\TalonFAST\Bin\TService.exe'
 * 'C:\Program Files\TalonFAST\Bin\tum.exe'
