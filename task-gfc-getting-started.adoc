@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-gfc-getting-started.html 
 keywords: global file cache, core, management server 
-summary: Cloud Manager를 사용하여 작업 환경에 글로벌 파일 캐시 관리 서버 및 글로벌 파일 캐시 코어 소프트웨어를 배포합니다. 
+summary: BlueXP를 사용하여 작업 환경에 글로벌 파일 캐시 관리 서버 및 글로벌 파일 캐시 코어 소프트웨어를 배포합니다. 
 ---
 = 시작하기
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: Cloud Manager를 사용하여 작업 환경에 글로벌 파일 캐시 
 
 
 [role="lead"]
-Cloud Manager를 사용하여 작업 환경에 글로벌 파일 캐시 관리 서버 및 글로벌 파일 캐시 코어 소프트웨어를 배포합니다.
+BlueXP를 사용하여 작업 환경에 글로벌 파일 캐시 관리 서버 및 글로벌 파일 캐시 코어 소프트웨어를 배포합니다.
 
 
 
-== Cloud Manager를 사용하여 글로벌 파일 캐시를 설정합니다
+== BlueXP를 사용하여 글로벌 파일 캐시를 활성화합니다
 
-이 구성에서는 Cloud Manager를 사용하여 Cloud Volumes ONTAP 시스템을 생성한 동일한 작업 환경에 글로벌 파일 캐시 관리 서버 및 글로벌 파일 캐시 코어를 배포합니다.
+이 구성에서는 BlueXP를 사용하여 Cloud Volumes ONTAP 시스템을 생성한 동일한 작업 환경에 글로벌 파일 캐시 관리 서버 및 글로벌 파일 캐시 코어를 배포합니다.
 
 보기 link:https://www.youtube.com/watch?v=TGIQVssr43A["이 비디오"^] 단계를 처음부터 끝까지 봅니다.
 
@@ -43,7 +43,7 @@ Cloud Volumes ONTAP 인스턴스와 동일한 작업 환경에 글로벌 파일 
 글로벌 파일 캐시 코어 인스턴스에서 글로벌 파일 캐시 라이선스 관리 서버(LMS) 서비스를 구성합니다. NSS 자격 증명 또는 NetApp에서 제공하는 고객 ID 및 구독 번호가 있어야 구독을 활성화할 수 있습니다.
 
 [role="quick-margin-para"]
-을 참조하십시오 link:task-deploy-gfc-edge-instances.html["Global File Cache Edge 인스턴스 구축"^] 각 원격 위치에 Global File Cache Edge 인스턴스를 구축합니다. Cloud Manager를 사용하면 이 단계를 수행할 수 없습니다.
+을 참조하십시오 link:task-deploy-gfc-edge-instances.html["Global File Cache Edge 인스턴스 구축"^] 각 원격 위치에 Global File Cache Edge 인스턴스를 구축합니다. 이 단계는 BlueXP를 사용하여 수행하지 않습니다.
 
 
 
