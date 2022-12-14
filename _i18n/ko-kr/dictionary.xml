@@ -540,9 +540,7 @@
   <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">NetApp이 처음입니다</block>
   <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">NetApp에 등록하는 방법을 알아보십시오</block>
   <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>.</block>
-  <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">지원 대시보드를 통해 NetApp Support 사이트 계정을 추가하고 관리하여 Cloud Manager와 함께 사용할 수 있습니다.</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">고객 수준 계정이 있는 경우 하나 이상의 NSS 계정을 추가할 수 있습니다.</block>
-  <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하십시오.</block>
   <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님).</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">세 개의 가로 점으로 구성된 아이콘</block>
@@ -559,16 +557,13 @@
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support 사이트 사용자 등록 양식</block>
   <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">를 완료하여 NetApp Support 사이트 계정을 생성합니다<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
   <block id="d61c9f72493817776f392db42ac446a2" category="list-text">적절한 사용자 레벨(일반적으로 * NetApp 고객/최종 사용자 *)을 선택해야 합니다.</block>
-  <block id="d6cb31c22f8f843a781cccec33157281" category="list-text">일련 번호 필드에 위에서 사용된 Cloud Manager 계정 일련 번호(960xxxx)를 복사합니다. 이렇게 하면 계정 처리 속도가 빨라집니다.</block>
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp이 처음이었습니다</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">NetApp의 새로운 브랜드이고 NSS 계정이 없는 경우 아래의 각 단계를 수행하십시오.</block>
-  <block id="59dd2a274c2c6a3cc5b3dce08109019d" category="list-text">지원 등록 페이지에서 Cloud Manager 계정 ID 일련 번호를 찾습니다.</block>
   <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp의 지원 등록 사이트</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">로 이동합니다<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 를 선택하고 * 등록된 NetApp 고객이 아닙니다 * 를 선택합니다.</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">필수 필드(빨간색 별표가 있는 필드)를 입력합니다.</block>
   <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">[제품 라인] * 필드에서 * Cloud Manager * 를 선택한 다음 해당 청구 공급자를 선택합니다.</block>
-  <block id="1192dec4cc2b923397748a651cef178f" category="list-text">위의 2단계에서 Cloud Manager 계정의 일련 번호를 복사하고 보안 검색을 완료한 다음 NetApp의 글로벌 데이터 개인 정보 보호 정책을 읽는지 확인합니다.</block>
   <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">이 보안 트랜잭션을 완료하기 위해 제공된 사서함으로 즉시 이메일이 전송됩니다. 몇 분 내에 확인 이메일이 도착하지 않으면 스팸 폴더를 확인해야 합니다.</block>
   <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">이메일 내에서 작업을 확인합니다.</block>
   <block id="201080500e946070a2e4873042507c77" category="paragraph">확인 시 NetApp에 요청이 제출되고 NetApp Support 사이트 계정을 만들 것을 권장합니다.</block>
@@ -681,4 +676,23 @@
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
   <block id="e4f8a35ee8df8b5c247f6e3286e42891" category="sidebar">BlueXP 활용 사례</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
+  <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1개</block>
+  <block id="bb28d23fa130988b09464a6057aef85b" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> Cloud Volumes ONTAP 구축</block>
+  <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2개</block>
+  <block id="2e6753f235031c6a57091d8dbd9857d8" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 글로벌 파일 캐시 관리 서버를 배포합니다</block>
+  <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">세 가지</block>
+  <block id="e41a0262b073bf41b138a7304843e5cf" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 글로벌 파일 캐시 Core를 배포합니다</block>
+  <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">네</block>
+  <block id="78a1f5243df71b7c7a5b48c405de3540" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 라이센스 글로벌 파일 캐시</block>
+  <block id="e5d9de39f7ca1ba2637e5640af3ae8aa" category="inline-image-macro">다섯</block>
+  <block id="24295577aa82d2c5e8f8e219ad4e3f59" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block> 글로벌 파일 캐시 에지 인스턴스를 구축합니다</block>
+  <block id="d7fc8658f9e7754760fee0f4a1678e61" category="paragraph-title">다음 단계</block>
+  <block id="e66cf0363da426ff5fc40b5dff923ee7" category="paragraph-title">다음 단계</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">시작하기 전에</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">작업을 마친 후</block>
+  <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">지원 대시보드를 통해 NetApp Support 사이트 계정을 추가하고 관리하여 BlueXP에서 사용할 수 있습니다.</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">파트너 또는 리셀러 계정이 있는 경우 NSS 계정을 하나 이상 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">지원 등록 페이지에서 계정 ID 일련 번호를 찾습니다.</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">위의 2단계에서 계정의 일련 번호를 복사하고 보안 검색을 완료한 다음 NetApp의 글로벌 데이터 개인 정보 보호 정책을 읽는지 확인합니다.</block>
+  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">일련 번호 필드에 위에서 사용된 계정 일련 번호(960xxxx)를 복사해 주십시오. 이렇게 하면 계정 처리 속도가 빨라집니다.</block>
 </blocks>
