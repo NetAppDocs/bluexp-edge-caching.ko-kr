@@ -25,9 +25,9 @@ summary: 글로벌 파일 캐시를 통해 공유 파일에 액세스하는 모�
 * 사용자 교육 비디오link:https://www.youtube.com/watch?v=RYvhnTz4bEA["최종 사용자 교육 비디오"^]
 * 이메일 템플릿link:https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%20Onboarding%20Email.emltpl["MAC 이메일 템플릿(.emltpl)"]
 +
-link:https://docs.netapp.com/us-en/occm/media/Global_File_Cache_Onboarding_Email.msg["Windows 이메일 템플릿(.msg)"]
+link:media/Global_File_Cache_Onboarding_Email.msg["Windows 이메일 템플릿(.msg)"]
 
 * 온보딩 커뮤니케이션link:https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%20Customer%20Onboarding%20-%20Draft.docx["Word 문서(.docx)"]
 
 
-의 14장을 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^] 추가 자료를 참조하십시오.
+의 14장을 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^] 추가 자료를 참조하십시오.

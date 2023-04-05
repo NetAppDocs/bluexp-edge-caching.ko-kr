@@ -131,4 +131,4 @@ NOTE: 이 소프트웨어 패키지는 Microsoft Windows Server 2016 Standard �
 
 
 .다음 단계
-Global File Cache Edge 고급 구성에 대한 자세한 내용은 를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].
+Global File Cache Edge 고급 구성에 대한 자세한 내용은 를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].

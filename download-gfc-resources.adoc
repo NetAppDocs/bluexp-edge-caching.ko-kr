@@ -25,16 +25,16 @@ summary: 원격 사무소에 Global File Cache Edge 소프트웨어를 설치하
 * Windows Server 2016 가상 템플릿:
 +
 https://repo.cloudsync.netapp.com/gfc/2k16-2.1.zip["NetApp GFC(VMware vSphere 6.5 이상)를 포함한 Windows Server 2016.OVA"^]
-https://repo.cloudsync.netapp.com/gfc/2k16_GFC_2_1_0_31IMAGE.zip["NetApp GFC(Microsoft Hyper-V)를 포함한 Windows Server 2016, VHDX"^]
+https://repo.cloudsync.netapp.com/gfc/2k16_GFC_2_2_0_41IMAGE.zip["NetApp GFC(Microsoft Hyper-V)를 포함한 Windows Server 2016, VHDX"^]
 
 * Windows Server 2019 가상 템플릿:
 +
 https://repo.cloudsync.netapp.com/gfc/2k19-2.1.zip["NetApp GFC(VMware vSphere 6.5 이상)를 포함한 Windows Server 2019.OVA"^]
-https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_1_0_31IMAGE.zip["NetApp GFC(Microsoft Hyper-V)를 포함한 Windows Server 2019. VHDX"^]
+https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_2_0_41IMAGE.zip["NetApp GFC(Microsoft Hyper-V)를 포함한 Windows Server 2019. VHDX"^]
 
 * 글로벌 파일 캐시 에지 소프트웨어:
 +
-https://repo.cloudsync.netapp.com/gfc/GFC-2-1-0-31-Release.exe["NetApp GFC 소프트웨어 설치 패키지(.EXE)"^]
+https://repo.cloudsync.netapp.com/gfc/GFC-2-2-0-41-Release.exe["NetApp GFC 소프트웨어 설치 패키지(.EXE)"^]
 
 * Cloud Insights용 글로벌 파일 캐시 대시보드:
 +
@@ -42,7 +42,7 @@ https://repo.cloudsync.netapp.com/gfc/ci-gfc-dashboards.zip["NetApp GFC Cloud In
 
 * 글로벌 파일 캐시 문서:
 +
-https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드(.pdf)"^]
+https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드(.pdf)"^]
 
 
 
@@ -58,7 +58,7 @@ NOTE: Windows Server 2016에서 전역 파일 캐시를 배포할 때는 .NET Fr
 요구 사항에 따라 지사의 동시 사용자 세션을 기반으로 하나 이상의 Global File Cache Edge 인스턴스를 구축해야 할 수도 있습니다. Edge 인스턴스는 지사 내의 최종 사용자에게 가상 파일 공유를 제공하며, 연결된 Global File Cache Core 인스턴스에서 투명하게 확장됩니다. 글로벌 파일 캐시 에지에는 지점 내에 캐시된 파일이 포함된 Ds:\' NTFS 볼륨이 포함되어야 합니다.
 
 
-NOTE: Global File Cache Edge의 경우 을 이해하는 것이 중요합니다 link:concept-before-you-begin-to-deploy-gfc.html#sizing-guidelines["사이징 지침"]. 이렇게 하면 글로벌 파일 캐시 구축을 위한 올바른 설계를 만드는 데 도움이 됩니다. 또한 확장, 리소스 가용성 및 이중화 측면에서 환경에 적합한 것을 결정해야 합니다.
+NOTE: Global File Cache Edge의 경우 을 이해하는 것이 중요합니다 link:concept-before-you-begin-to-deploy-gfc.html#sizing-guidelines["사이징 지침"]. 이렇게 하면 글로벌 파일 캐시 구축을 위한 올바른 설계를 만드는 데 도움이 됩니다. 또한 규모, 리소스 가용성 및 이중화 측면에서 환경에 적합한 것을 결정해야 합니다.
 
 
 
@@ -149,7 +149,7 @@ VMware vSphere 6.x 이상:
 
 글로벌 파일 캐시 지능형 파일 캐시 디스크(D:\)의 디스크 지연 시간은 최대 0.5ms 미만의 평균 I/O 디스크 지연 시간과 동시 사용자당 1MiBps 처리량을 제공해야 합니다.
 
-자세한 내용은 를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].
+자세한 내용은 를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].
 
 
 
@@ -157,7 +157,7 @@ VMware vSphere 6.x 이상:
 
 * 방화벽: 글로벌 파일 캐시 에지 및 관리 서버와 코어 인스턴스 간에 TCP 포트를 허용해야 합니다.
 +
-글로벌 파일 캐시 TCP 포트: 443(HTTPS-LMS), 6618–6630.
+글로벌 파일 캐시 TCP 포트: 443(HTTPS-LMS), 6618-6630.
 
 * 네트워크 최적화 장치(예: Riverbed Steelhead)는 글로벌 파일 캐시 특정 포트(TCP 6618-6630)를 통과하도록 구성해야 합니다.
 
@@ -170,7 +170,7 @@ Global File Cache는 고객의 환경에 투명하게 통합되므로 사용자�
 
 최적의 환경과 성능을 보장하려면 글로벌 파일 캐시 사용자 가이드에 설명된 Microsoft Windows 클라이언트 요구 사항 및 모범 사례를 준수해야 합니다. 이는 모든 버전의 Microsoft Windows에 적용됩니다.
 
-자세한 내용은 를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].
+자세한 내용은 를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].
 
 
 
@@ -178,7 +178,7 @@ Global File Cache는 고객의 환경에 투명하게 통합되므로 사용자�
 
 Global File Cache는 가장 일반적인 바이러스 백신 애플리케이션 제품군이 글로벌 파일 캐시와 호환되는지 확인하기 위해 합당한 노력을 기울이지만, NetApp은 이러한 프로그램 또는 관련 업데이트, 서비스 팩 또는 수정으로 인한 비호환성 또는 성능 문제를 보증하지 않습니다.
 
-Global File Cache는 Global File Cache 지원 인스턴스(Core 또는 Edge)에 모니터링 또는 바이러스 백신 솔루션의 설치 또는 응용 프로그램을 권장하지 않습니다. 솔루션을 선택 또는 정책에 따라 설치할 경우 다음과 같은 Best Practice 및 권장 사항이 적용되어야 합니다. 일반적인 바이러스 백신 제품군에 대해서는 의 부록 A를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].
+Global File Cache는 Global File Cache 지원 인스턴스(Core 또는 Edge)에 모니터링 또는 바이러스 백신 솔루션의 설치 또는 응용 프로그램을 권장하지 않습니다. 솔루션을 선택 또는 정책에 따라 설치할 경우 다음과 같은 Best Practice 및 권장 사항이 적용되어야 합니다. 일반적인 바이러스 백신 제품군에 대해서는 의 부록 A를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].
 
 
 
@@ -204,12 +204,12 @@ Global File Cache는 Global File Cache 지원 인스턴스(Core 또는 Edge)에 
 
 === 바이러스 백신 모범 사례
 
-이 섹션에서는 전역 파일 캐시를 실행하는 Windows Server 인스턴스에서 바이러스 백신 소프트웨어를 실행할 때의 요구 사항을 이해하는 데 도움이 됩니다. Global File Cache는 Cylance, McAfee, Symantec, Sophos, Trend Micro, Kaspersky, 크라우드 스트라이크, Cisco AMP, Tannium 및 Windows Defender는 글로벌 파일 캐시와 함께 사용됩니다. 바이러스 백신 소프트웨어는 NetApp의 인증을 받아야 하며 적절한 제외 목록이 구성되어 있는 경우에만 지원됩니다. 의 부록 A를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^]
+이 섹션에서는 전역 파일 캐시를 실행하는 Windows Server 인스턴스에서 바이러스 백신 소프트웨어를 실행할 때의 요구 사항을 이해하는 데 도움이 됩니다. Global File Cache는 Cylance, McAfee, Symantec, Sophos, Trend Micro, Kaspersky, 크라우드 스트라이크, Cisco AMP, Tannium 및 Windows Defender는 글로벌 파일 캐시와 함께 사용됩니다. 바이러스 백신 소프트웨어는 NetApp의 인증을 받아야 하며 적절한 제외 목록이 구성되어 있는 경우에만 지원됩니다. 의 부록 A를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^]
 
 
-NOTE: Edge 어플라이언스에 바이러스 백신을 추가하면 사용자 성능에 10 ~ 20%의 영향을 줄 수 있습니다.
+NOTE: Edge 어플라이언스에 바이러스 백신을 추가하면 사용자 성능에 10-20%의 영향을 줄 수 있습니다.
 
-자세한 내용은 를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].
+자세한 내용은 를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].
 
 
 
@@ -259,14 +259,14 @@ D:\ 드라이브 외에 일반적으로 다음과 같은 글로벌 파일 캐시
 * 데이터베이스 서버, 메일 서버 등과 같이 일반적으로 리소스 집약적인 업무용 소프트웨어 지원되지 않습니다.
 * 고객은 글로벌 파일 캐시를 실행하는 서버에 설치될 수 있는 글로벌 파일 캐시 소프트웨어가 아닌 소프트웨어에 대해 책임을 집니다.
 +
-** 타사 소프트웨어 패키지로 인해 소프트웨어 또는 리소스가 Global File Cache와 충돌하거나 성능이 저하될 경우 Global File Cache의 지원 조직은 고객이 Global File Cache를 실행하는 서버에서 소프트웨어를 비활성화하거나 제거하도록 요구할 수 있습니다.
+** 타사 소프트웨어 패키지로 인해 소프트웨어 또는 리소스가 Global File Cache와 충돌하거나 성능이 저하되는 경우 Global File Cache의 지원 조직에서 고객이 Global File Cache를 실행 중인 서버에서 소프트웨어를 비활성화하거나 제거하도록 요청할 수 있습니다.
 ** 글로벌 파일 캐시 애플리케이션을 실행하는 서버에 추가되는 모든 소프트웨어의 설치, 통합, 지원 및 업그레이드에 대한 책임은 고객에게 있습니다.
 
 
 * 바이러스 백신 도구 및 라이센스 에이전트와 같은 시스템 관리 유틸리티/에이전트가 공존할 수 있습니다. 그러나 위에 나열된 지원되는 서비스 및 응용 프로그램을 제외하고 이러한 응용 프로그램은 글로벌 파일 캐시에서 지원되지 않으며 위와 동일한 지침을 계속 따라야 합니다.
 +
 ** 추가된 소프트웨어의 모든 설치, 통합, 지원 및 업그레이드에 대한 책임은 고객에게 있습니다.
-** 고객이 글로벌 파일 캐시(Global File Cache)와 소프트웨어 또는 리소스가 충돌하거나 성능이 저하된 것으로 의심되거나 원인이 되는 타사 소프트웨어 패키지를 설치하는 경우, 글로벌 파일 캐시의 지원 조직에서 소프트웨어를 비활성화/제거해야 할 필요가 있을 수 있습니다.
+** 고객이 글로벌 파일 캐시(Global File Cache)와 소프트웨어 또는 리소스가 충돌하거나 성능이 손상된 것으로 의심되는 타사 소프트웨어 패키지를 설치하는 경우, 글로벌 파일 캐시의 지원 조직에서 소프트웨어를 비활성화/제거해야 할 수도 있습니다.
 
 
 

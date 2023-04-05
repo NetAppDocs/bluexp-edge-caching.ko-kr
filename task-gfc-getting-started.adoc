@@ -32,7 +32,7 @@ BlueXP를 사용하여 작업 환경에 글로벌 파일 캐시 관리 서버 �
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1개"] Cloud Volumes ONTAP 구축
 [role="quick-margin-para"]
-Azure 또는 AWS에 Cloud Volumes ONTAP를 구축하고 SMB 파일 공유를 구성합니다. 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Azure에서 Cloud Volumes ONTAP 실행"^] 또는 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["AWS에서 Cloud Volumes ONTAP 실행"^].
+Cloud Volumes ONTAP 구축 및 SMB 파일 공유 구성 자세한 내용은 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Azure에서 Cloud Volumes ONTAP 실행"^], https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["AWS에서 Cloud Volumes ONTAP 실행"^], 또는 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["Google Cloud에서 Cloud Volumes ONTAP 실행"^].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["2개"] 글로벌 파일 캐시 관리 서버를 배포합니다
 [role="quick-margin-para"]
@@ -54,7 +54,7 @@ Cloud Volumes ONTAP 인스턴스와 동일한 작업 환경에 글로벌 파일 
 
 === Cloud Volumes ONTAP를 스토리지 플랫폼으로 구축
 
-현재 릴리즈에서는 글로벌 파일 캐시가 Azure 또는 AWS에 구축된 Cloud Volumes ONTAP를 지원합니다. 자세한 사전 요구 사항, 요구 사항 및 배포 지침은 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Azure에서 Cloud Volumes ONTAP 실행"^] 또는 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["AWS에서 Cloud Volumes ONTAP 실행"^].
+글로벌 파일 캐시는 Azure, AWS 및 Google Cloud에 구축된 Cloud Volumes ONTAP를 지원합니다. 자세한 사전 요구 사항, 요구 사항 및 배포 지침은 을 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Azure에서 Cloud Volumes ONTAP 실행"^], https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["AWS에서 Cloud Volumes ONTAP 실행"^], 또는 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["Google Cloud에서 Cloud Volumes ONTAP 실행"^]
 
 다음과 같은 추가 글로벌 파일 캐시 요구 사항에 유의하십시오.
 
@@ -91,7 +91,7 @@ image:screenshot_gfc_install3.png["SMB 공유를 생성할 수 없는 경우 SMB
 image:screenshot_gfc_install4.png["글로벌 파일 캐시 관리 서버 및 코어 인스턴스를 배포하기 전에 전제 조건을 보여 주는 스크린샷"]
 
 . 요구 사항이 충족되었는지 또는 이러한 요구 사항을 충족하는 정보가 있는지 확인한 후 * 계속 * 을 클릭합니다.
-. 글로벌 파일 캐시 관리 서버 VM에 액세스하는 데 사용할 관리자 자격 증명을 입력하고 * GFC 서비스 활성화 * 를 클릭합니다. Azure의 경우 사용자 이름 및 암호로 자격 증명을 입력합니다. AWS의 경우 적절한 키 쌍을 선택합니다. 원하는 경우 VM/인스턴스 이름을 변경할 수 있습니다.
+. 글로벌 파일 캐시 관리 서버 VM에 액세스하는 데 사용할 관리자 자격 증명을 입력하고 * GFC 서비스 활성화 * 를 클릭합니다. Azure 및 Google Cloud의 경우 사용자 이름 및 암호로 자격 증명을 입력합니다. AWS의 경우 적절한 키 쌍을 선택합니다. 원하는 경우 VM/인스턴스 이름을 변경할 수 있습니다.
 +
 image:screenshot_gfc_install5.png["글로벌 파일 캐시 관리 서버를 설정하는 데 필요한 구성 정보를 보여 주는 스크린샷"]
 
@@ -105,7 +105,7 @@ image:screenshot_gfc_install6.png["Global File Cache Core Active Directory 및 �
 
 
 
-. 글로벌 파일 캐시 코어 VM에 액세스하는 데 사용할 관리자 자격 증명을 입력하고 * GFC 코어 배포 * 를 클릭합니다. Azure의 경우 사용자 이름 및 암호로 자격 증명을 입력합니다. AWS의 경우 적절한 키 쌍을 선택합니다. 원하는 경우 VM/인스턴스 이름을 변경할 수 있습니다.
+. 글로벌 파일 캐시 코어 VM에 액세스하는 데 사용할 관리자 자격 증명을 입력하고 * GFC 코어 배포 * 를 클릭합니다. Azure 및 Google Cloud의 경우 사용자 이름 및 암호로 자격 증명을 입력합니다. AWS의 경우 적절한 키 쌍을 선택합니다. 원하는 경우 VM/인스턴스 이름을 변경할 수 있습니다.
 +
 image:screenshot_gfc_install7.png["글로벌 파일 캐시 코어 인스턴스를 설정하는 데 필요한 구성 정보를 보여 주는 스크린샷"]
 
@@ -182,7 +182,7 @@ image:screenshot_gfc_install6.png["Global File Cache Core Active Directory 및 �
 
 
 
-. 글로벌 파일 캐시 코어 VM에 액세스하는 데 사용할 관리자 자격 증명을 입력하고 * GFC 코어 배포 * 를 클릭합니다. Azure의 경우 사용자 이름 및 암호로 자격 증명을 입력합니다. AWS의 경우 적절한 키 쌍을 선택합니다. 원하는 경우 VM 이름을 변경할 수 있습니다.
+. 글로벌 파일 캐시 코어 VM에 액세스하는 데 사용할 관리자 자격 증명을 입력하고 * GFC 코어 배포 * 를 클릭합니다. Azure 및 Google Cloud의 경우 사용자 이름 및 암호로 자격 증명을 입력합니다. AWS의 경우 적절한 키 쌍을 선택합니다. 원하는 경우 VM 이름을 변경할 수 있습니다.
 +
 image:screenshot_gfc_install7.png["글로벌 파일 캐시 코어 인스턴스를 설정하는 데 필요한 구성 정보를 보여 주는 스크린샷"]
 

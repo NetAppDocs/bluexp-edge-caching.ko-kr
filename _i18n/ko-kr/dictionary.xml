@@ -5,13 +5,10 @@
   <block id="8826299bdde67043ef3cc9a0b306ee56" category="paragraph">다음 링크를 사용하여 글로벌 파일 캐시 및 기타 NetApp 제품에 대해 자세히 알아보십시오.</block>
   <block id="a5b9ae89457868d250c6634258da66a5" category="list-text">글로벌 파일 캐시 FAQ</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">여기</block>
-  <block id="9da15b0ec3a63afcb01d7f2726c42994" category="list-text">자주 묻는 질문과 대답 목록을 참조하십시오 <block ref="19a12809be10088b3860ea30b7a5724d" category="inline-link-macro-rx"></block></block>
   <block id="15b783a23e5291e1ffb9f638317d4bcb" category="inline-link">NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오</block>
   <block id="bc4fe2352063642d68529f2aa0ca7ca3" category="list-text">NetApp 제품 설명서</block>
   <block id="1b28ae1c9b0f1461cf0ea5fa195be216" category="list-text">NetApp 클라우드 제품에 대한 자세한 내용은 추가 설명서를 참조하십시오<block ref="0510c3621321be434699160c80a14647" category="inline-link-rx"></block></block>
-  <block id="1acb7294e54390a8c41c4c19b14f4c46" category="list-text">모든 NetApp 제품에 대한 추가 설명서를 참조하십시오<block ref="01463e984d77180cbd9edcf8c8c1f237" category="inline-link-rx"></block></block>
   <block id="e47d1e4074d2e9ecb5a92499549efe85" category="list-text">Cloud Volumes ONTAP를 사용하는 글로벌 파일 캐시 사용자에 대한 고객 지원은 다음 채널을 통해 제공됩니다.</block>
-  <block id="fd3e064f15a5332c54fff40bd465efef" category="list-text">문제 해결 안내, 사례 관리, 기술 자료, 다운로드, 도구, 그리고 더 많은 것을 <block ref="47f87a52a4a366c07eaa3494febfbcd2" category="inline-link-macro-rx"></block></block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
   <block id="2d586fed9d23ea26489008f327e1394f" category="list-text">에서 NetApp Support에 로그인합니다<block ref="4ae7ca7e30d53354eb9b40e218393b2c" category="inline-link-rx"></block> NSS 자격 증명을 사용합니다</block>
   <block id="bd409d83b208b51683f34be90cb2a669" category="list-text">P1 문제에 대한 즉각적인 지원은 +1 856.481.3990 (옵션 2)으로 문의하십시오.</block>
@@ -23,13 +20,11 @@
   <block id="990f23665d21283cae7ae6a6366d2e03" category="paragraph">다음 단계를 따라 빠르게 시작하거나 나머지 섹션으로 스크롤하여 자세한 내용을 확인하십시오.</block>
   <block id="7ca1af679f0ba86814f2ad58a578cb7c" category="inline-link">Azure에서 Cloud Volumes ONTAP 실행</block>
   <block id="6602afb860a6cca23c3b75bf601365eb" category="inline-link">AWS에서 Cloud Volumes ONTAP 실행</block>
-  <block id="37f4de68e5e319c54c0137e56b4d261d" category="paragraph">Azure 또는 AWS에 Cloud Volumes ONTAP를 구축하고 SMB 파일 공유를 구성합니다. 자세한 내용은 을 참조하십시오<block ref="e515c0e95325e358a799acebafdf6235" category="inline-link-rx"></block> 또는<block ref="497bfdbba9caf2f6a6f7d799eda40dc3" category="inline-link-rx"></block>.</block>
   <block id="0877004cfc484438f5a264dde3bb7914" category="paragraph">Cloud Volumes ONTAP 인스턴스와 동일한 작업 환경에 글로벌 파일 캐시 관리 서버의 인스턴스를 배포합니다.</block>
   <block id="0e7c4b1d0864abab13fd8a086a179f5b" category="paragraph">Cloud Volumes ONTAP 인스턴스와 동일한 작업 환경에 글로벌 파일 캐시 코어의 인스턴스 또는 여러 인스턴스를 배포하여 Active Directory 도메인에 연결합니다.</block>
   <block id="de06dbc0084bf6af6184289f308be0a6" category="paragraph">글로벌 파일 캐시 코어 인스턴스에서 글로벌 파일 캐시 라이선스 관리 서버(LMS) 서비스를 구성합니다. NSS 자격 증명 또는 NetApp에서 제공하는 고객 ID 및 구독 번호가 있어야 구독을 활성화할 수 있습니다.</block>
   <block id="175d4a7fba1f2c02d227a7916d20ff9d" category="inline-link-macro">Global File Cache Edge 인스턴스 구축</block>
   <block id="7be40d2cd621549d68e8fff4ffead179" category="section-title">Cloud Volumes ONTAP를 스토리지 플랫폼으로 구축</block>
-  <block id="679690d1daf36392f2889211bd47240c" category="paragraph">현재 릴리즈에서는 글로벌 파일 캐시가 Azure 또는 AWS에 구축된 Cloud Volumes ONTAP를 지원합니다. 자세한 사전 요구 사항, 요구 사항 및 배포 지침은 을 참조하십시오<block ref="e515c0e95325e358a799acebafdf6235" category="inline-link-rx"></block> 또는<block ref="497bfdbba9caf2f6a6f7d799eda40dc3" category="inline-link-rx"></block>.</block>
   <block id="670790b206f952300b65bfcba3f18571" category="paragraph">다음과 같은 추가 글로벌 파일 캐시 요구 사항에 유의하십시오.</block>
   <block id="d0b9898fe413c415608114643e2b6efc" category="list-text">Cloud Volumes ONTAP 인스턴스에서 SMB 파일 공유를 구성해야 합니다.</block>
   <block id="86614028aa6f6a8ad4a9981386bd50bc" category="paragraph">인스턴스에 SMB 파일 공유가 설정되어 있지 않으면 글로벌 파일 캐시 구성 요소를 설치하는 동안 SMB 공유를 구성하라는 메시지가 표시됩니다.</block>
@@ -53,7 +48,6 @@
   <block id="fa10fd38af8edc4beee6be041e3cf6f9" category="inline-image-macro">글로벌 파일 캐시 관리 서버 및 코어 인스턴스를 배포하기 전에 전제 조건을 보여 주는 스크린샷</block>
   <block id="adddcebfda336f16948cb1c5be4bb5c2" category="paragraph"><block ref="adddcebfda336f16948cb1c5be4bb5c2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b7058a71800a15389821662470e7ae9b" category="list-text">요구 사항이 충족되었는지 또는 이러한 요구 사항을 충족하는 정보가 있는지 확인한 후 * 계속 * 을 클릭합니다.</block>
-  <block id="002774556a6a12817ad3839127d64fbc" category="list-text">글로벌 파일 캐시 관리 서버 VM에 액세스하는 데 사용할 관리자 자격 증명을 입력하고 * GFC 서비스 활성화 * 를 클릭합니다. Azure의 경우 사용자 이름 및 암호로 자격 증명을 입력합니다. AWS의 경우 적절한 키 쌍을 선택합니다. 원하는 경우 VM/인스턴스 이름을 변경할 수 있습니다.</block>
   <block id="8032f6f6b67e256816351d404b3f1e9c" category="inline-image-macro">글로벌 파일 캐시 관리 서버를 설정하는 데 필요한 구성 정보를 보여 주는 스크린샷</block>
   <block id="4b03fed08ad52898d40ce5e286858a6e" category="paragraph"><block ref="4b03fed08ad52898d40ce5e286858a6e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d8c5dd4a84baf4a84163425c3af2f194" category="list-text">글로벌 파일 캐시 관리 서비스가 성공적으로 배포되면 * 계속 * 을 클릭합니다.</block>
@@ -62,7 +56,6 @@
   <block id="c996fbb43976c45057849f97d91482c5" category="list-text">서비스 계정은 도메인 사용자이며 Cloud Volumes ONTAP 인스턴스의 BUILTIN\Backup Operators 그룹에 속합니다.</block>
   <block id="3d114fb7f76c45d222b5fa52c8755f9b" category="inline-image-macro">Global File Cache Core Active Directory 및 서비스 계정을 설정하는 데 필요한 구성 정보를 보여 주는 스크린샷</block>
   <block id="972ba37c9a6a437e2992461ee66b8619" category="paragraph"><block ref="972ba37c9a6a437e2992461ee66b8619" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e255f58a7ecc569b1a7762aad76b77cc" category="list-text">글로벌 파일 캐시 코어 VM에 액세스하는 데 사용할 관리자 자격 증명을 입력하고 * GFC 코어 배포 * 를 클릭합니다. Azure의 경우 사용자 이름 및 암호로 자격 증명을 입력합니다. AWS의 경우 적절한 키 쌍을 선택합니다. 원하는 경우 VM/인스턴스 이름을 변경할 수 있습니다.</block>
   <block id="05e7c33418df8d04d47d09bd377977c0" category="inline-image-macro">글로벌 파일 캐시 코어 인스턴스를 설정하는 데 필요한 구성 정보를 보여 주는 스크린샷</block>
   <block id="f12f59635f226ed3eb4e33879fb13977" category="paragraph"><block ref="f12f59635f226ed3eb4e33879fb13977" category="inline-image-macro-rx" type="image"></block></block>
   <block id="384294792758071d499d5318d1aa08d0" category="list-text">글로벌 파일 캐시 코어를 성공적으로 배포한 후 * 대시보드로 이동 * 을 클릭합니다.</block>
@@ -102,7 +95,6 @@
   <block id="61de456010a3bab3d4ffccc75733e75b" category="paragraph"><block ref="61de456010a3bab3d4ffccc75733e75b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8d27de6a961b36da305ccdb9c92c1cef" category="list-text">Active Directory 도메인에 연결할 관리자 사용자 자격 증명 및 서비스 계정 사용자 자격 증명을 입력합니다. 그런 다음 * 계속 * 을 클릭합니다.</block>
   <block id="1601f847eea4689764f94762d42da468" category="list-text">글로벌 파일 캐시 코어 인스턴스는 Cloud Volumes ONTAP 인스턴스와 동일한 Active Directory 도메인에 있어야 합니다.</block>
-  <block id="114a9772f4e07edb3f9ad9c542fb6927" category="list-text">글로벌 파일 캐시 코어 VM에 액세스하는 데 사용할 관리자 자격 증명을 입력하고 * GFC 코어 배포 * 를 클릭합니다. Azure의 경우 사용자 이름 및 암호로 자격 증명을 입력합니다. AWS의 경우 적절한 키 쌍을 선택합니다. 원하는 경우 VM 이름을 변경할 수 있습니다.</block>
   <block id="503b83cd55eaafd02329ed7dab2d8810" category="paragraph"><block ref="503b83cd55eaafd02329ed7dab2d8810" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d4258bbf3853a6e9c45602dc946b8b71" category="paragraph">대시보드는 작업 환경의 두 번째 Core 인스턴스를 반영합니다.</block>
   <block id="b7fcbadab1aa67b4ee66fdd86238335a" category="summary">NetApp 글로벌 파일 캐시를 사용하면 분산된 파일 서버 사일로를 퍼블릭 클라우드에서 일관된 글로벌 스토리지 공간 하나로 통합할 수 있습니다. 이렇게 하면 모든 원격 위치에서 로컬처럼 사용할 수 있는 전역적으로 액세스할 수 있는 파일 시스템이 클라우드에서 생성됩니다.</block>
@@ -117,7 +109,6 @@
   <block id="5a1a220f80ef863fc3d1b825931fdee8" category="list-text">전 세계 사용자를 위한 단일 데이터 세트를 생성하고 지능형 파일 캐싱을 활용하여 글로벌 데이터 액세스, 협업 및 성능을 개선합니다</block>
   <block id="1d40d5b2144a31da39c596193a7553cd" category="list-text">자가 유지하고 자가 관리가 가능한 캐시를 활용하여 전체 데이터 복사본과 백업을 제거합니다. 활성 데이터에 로컬 파일 캐싱을 활용하여 스토리지 비용을 절감합니다</block>
   <block id="eabc5b86be92567d6584b6f9bda306bf" category="list-text">실시간 중앙 파일 잠금으로 글로벌 네임스페이스를 통해 지점 위치에서 투명하게 액세스할 수 있습니다</block>
-  <block id="4ce05bba4fc0acefbba5f691da672e1d" category="paragraph">글로벌 파일 캐시 기능 및 활용 사례에 대해 자세히 알아보십시오<block ref="419cd0b2469907a6725a985df52c9727" category="inline-link-rx"></block>.</block>
   <block id="bae5d6926bc4f006241c5e6f94750678" category="section-title">글로벌 파일 캐시 구성 요소</block>
   <block id="0f01e44182d4ad208ac99fd86195b6c6" category="paragraph">글로벌 파일 캐시는 다음 구성 요소로 구성됩니다.</block>
   <block id="97734fa413fa7ffd4abe37881fb6eb11" category="list-text">글로벌 파일 캐시 관리 서버</block>
@@ -146,7 +137,6 @@
   <block id="8846e89cb2a3b43e1079cc88ae2d9af6" category="list-text">사용자 지정 크기의 NTFS 볼륨( Ds:\')에서 지능형 파일 캐시를 호스팅합니다.</block>
   <block id="d6b1a1e3c6e678c1adb5c3d7a9edd7dc" category="list-text">네트워크 구성:</block>
   <block id="39792004bb5e86d84188594315715f83" category="list-text">MPLS(멀티프로토콜 레이블 스위칭), ExpressRoute 또는 VPN 연결</block>
-  <block id="725f54ef9480b8e1eed0e76661c31fb1" category="list-text">고객의 Active Directory 도메인 서비스와 통합</block>
   <block id="ab055fb1c85968bb4f5a4bc4ea101b6f" category="list-text">글로벌 네임스페이스 사용을 위한 DFS 네임스페이스(권장).</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
   <block id="fe5dbd0fc2a2bd12fa5c7f5d34edc9b3" category="paragraph">글로벌 파일 캐시를 사용하는 비용은 선택한 설치 유형에 따라 다릅니다.</block>
@@ -223,11 +213,9 @@
   <block id="85b5f3c25b56d8971fb15ba1b85c9098" category="paragraph">글로벌 파일 캐시 지능형 파일 캐시 디스크(D:\)의 디스크 지연 시간은 최대 0.5ms 미만의 평균 I/O 디스크 지연 시간과 동시 사용자당 1MiBps 처리량을 제공해야 합니다.</block>
   <block id="a5fa5746370b608090b994a97b49e98b" category="section-title">네트워킹</block>
   <block id="07b05d86c9937c2ed6c68c1c3c82ba9a" category="list-text">방화벽: 글로벌 파일 캐시 에지 및 관리 서버와 코어 인스턴스 간에 TCP 포트를 허용해야 합니다.</block>
-  <block id="79329656b58b4f751ab1443743fcbee0" category="paragraph">글로벌 파일 캐시 TCP 포트: 443(HTTPS-LMS), 6618–6630.</block>
   <block id="9e3e7b6b69b143adaf0ad3ceb48aae35" category="list-text">네트워크 최적화 장치(예: Riverbed Steelhead)는 글로벌 파일 캐시 특정 포트(TCP 6618-6630)를 통과하도록 구성해야 합니다.</block>
   <block id="1fbc431dee8a6b3b664020a773591201" category="section-title">클라이언트 워크스테이션 및 응용 프로그램 모범 사례</block>
   <block id="06493aee7995cc818af61c2924efce03" category="inline-link-macro">글로벌 파일 캐시 배포를 시작하기 전에</block>
-  <block id="603c481dce5ea9501582f855a272293d" category="paragraph">Global File Cache는 고객의 환경에 투명하게 통합되므로 사용자는 엔터프라이즈 애플리케이션을 실행하는 클라이언트 워크스테이션을 사용하여 중앙 집중화된 데이터에 액세스할 수 있습니다. 글로벌 파일 캐시를 사용하면 직접 드라이브 매핑 또는 DFS 네임스페이스를 통해 데이터에 액세스할 수 있습니다. 글로벌 파일 캐시 패브릭, 지능형 파일 캐싱 및 소프트웨어의 주요 측면에 대한 자세한 내용은 을 참조하십시오 <block ref="bf537e703603ffded61bf06d23640509" category="inline-link-macro-rx"></block> 섹션을 참조하십시오.</block>
   <block id="35bd173c5c09760e27239213b562c7a2" category="paragraph">최적의 환경과 성능을 보장하려면 글로벌 파일 캐시 사용자 가이드에 설명된 Microsoft Windows 클라이언트 요구 사항 및 모범 사례를 준수해야 합니다. 이는 모든 버전의 Microsoft Windows에 적용됩니다.</block>
   <block id="a0d1fd507848b71fc407746a94f31ef3" category="section-title">방화벽 및 안티바이러스 모범 사례</block>
   <block id="5effefb1057efd2748258b65d97bf200" category="paragraph">Global File Cache는 가장 일반적인 바이러스 백신 애플리케이션 제품군이 글로벌 파일 캐시와 호환되는지 확인하기 위해 합당한 노력을 기울이지만, NetApp은 이러한 프로그램 또는 관련 업데이트, 서비스 팩 또는 수정으로 인한 비호환성 또는 성능 문제를 보증하지 않습니다.</block>
@@ -241,7 +229,6 @@
   <block id="662c746bbad04699605c42230359dc78" category="list-text">글로벌 파일 캐시 인스턴스는 TCP 포트 443(HTTPS)에서 글로벌 파일 캐시 관리 서버와 통신해야 합니다.</block>
   <block id="21b9f51fc75798b971847bd516553644" category="list-text">네트워크 최적화 솔루션/장치는 글로벌 파일 캐시 특정 포트를 통과하도록 구성해야 합니다.</block>
   <block id="047ff8e79c7124b6aed2f30a879e9d2b" category="section-title">바이러스 백신 모범 사례</block>
-  <block id="7fe70d8482fea172d2f27e34dd091935" category="admonition">Edge 어플라이언스에 바이러스 백신을 추가하면 사용자 성능에 10 ~ 20%의 영향을 줄 수 있습니다.</block>
   <block id="77e4365f0d8727fe3c465fb04f26ce93" category="section-title">제외 항목을 구성합니다</block>
   <block id="7e97ed382f6a1568b4024c1aafe5994c" category="paragraph">바이러스 백신 소프트웨어 또는 기타 타사 인덱싱 또는 스캔 유틸리티는 Edge 인스턴스의 D:\를 스캔해서는 안 됩니다. 이러한 Edge 서버 드라이브 D:\를 스캔하면 전체 캐시 네임스페이스에 대한 많은 파일 열기 요청이 발생합니다. 이로 인해 WAN을 통해 데이터 센터에서 최적화되는 모든 파일 서버로 파일이 가져오게 됩니다. Edge 인스턴스에 WAN 연결 플러딩과 불필요한 로드가 발생하여 성능이 저하됩니다.</block>
   <block id="2ddd9f927c8456f98d29b59e20cc5f5b" category="paragraph">D:\ 드라이브 외에 일반적으로 다음과 같은 글로벌 파일 캐시 디렉터리 및 프로세스는 모든 바이러스 백신 응용 프로그램에서 제외되어야 합니다.</block>
@@ -274,11 +261,7 @@
   <block id="f356482904e6832d3cc99dacd15c42db" category="list-text">NetApp 지원 및 유지 관리는 글로벌 파일 캐시에만 적용됩니다.</block>
   <block id="ec7fd1c8b87a6f5d275bc4e24065e734" category="list-text">데이터베이스 서버, 메일 서버 등과 같이 일반적으로 리소스 집약적인 업무용 소프트웨어 지원되지 않습니다.</block>
   <block id="713817da2f1a5080b9306b0f5948c915" category="list-text">고객은 글로벌 파일 캐시를 실행하는 서버에 설치될 수 있는 글로벌 파일 캐시 소프트웨어가 아닌 소프트웨어에 대해 책임을 집니다.</block>
-  <block id="29ae68bca05f43a639abb409a93824fd" category="list-text">타사 소프트웨어 패키지로 인해 소프트웨어 또는 리소스가 Global File Cache와 충돌하거나 성능이 저하될 경우 Global File Cache의 지원 조직은 고객이 Global File Cache를 실행하는 서버에서 소프트웨어를 비활성화하거나 제거하도록 요구할 수 있습니다.</block>
-  <block id="fd99d9f9599b3ae81274090f0dcf4496" category="list-text">글로벌 파일 캐시 애플리케이션을 실행하는 서버에 추가되는 모든 소프트웨어의 설치, 통합, 지원 및 업그레이드에 대한 책임은 고객에게 있습니다.</block>
   <block id="f218d788a46edbfbe310bfaeacdb08a5" category="list-text">바이러스 백신 도구 및 라이센스 에이전트와 같은 시스템 관리 유틸리티/에이전트가 공존할 수 있습니다. 그러나 위에 나열된 지원되는 서비스 및 응용 프로그램을 제외하고 이러한 응용 프로그램은 글로벌 파일 캐시에서 지원되지 않으며 위와 동일한 지침을 계속 따라야 합니다.</block>
-  <block id="b877459195b00b2b29061b8a391060a2" category="list-text">추가된 소프트웨어의 모든 설치, 통합, 지원 및 업그레이드에 대한 책임은 고객에게 있습니다.</block>
-  <block id="43449f1753c58e92ee1a0135eba67515" category="list-text">고객이 글로벌 파일 캐시(Global File Cache)와 소프트웨어 또는 리소스가 충돌하거나 성능이 저하된 것으로 의심되거나 원인이 되는 타사 소프트웨어 패키지를 설치하는 경우, 글로벌 파일 캐시의 지원 조직에서 소프트웨어를 비활성화/제거해야 할 필요가 있을 수 있습니다.</block>
   <block id="05afb31a8c6a9f33471f04fc566255e1" category="summary">글로벌 파일 캐시의 새로운 기능 알아보기</block>
   <block id="6d712ec6825e52d97c46202643237199" category="doc">글로벌 파일 캐시의 새로운 기능</block>
   <block id="df62d5ca9c29346bfeb41f9581ecdf5b" category="section-title">2021년 12월 17일(버전 1.2.0)</block>
@@ -314,7 +297,6 @@
   <block id="dee8dd3dec17bcdeb7aeaa26a0da5d34" category="list-text">초기 구성 마법사가 완료된 후 다음 자격 증명을 사용하여 Windows Server 2016 또는 2019 운영 체제에 로컬로 로그인합니다.</block>
   <block id="e88d9e809b189685f2b697f0d2877e93" category="list-text">사용자 이름: * FASTAdmin *</block>
   <block id="b0510fc1d488a120fdf78923e0b172a9" category="list-text">암호: * Tal0nFAST! *</block>
-  <block id="ad17b65ba7f615ee93dab53c7e6ef1bf" category="list-text">Windows Server VM을 구성하고 조직의 Active Directory 도메인에 참가한 다음 글로벌 파일 캐시 에지 구성 섹션으로 이동합니다.</block>
   <block id="08625e4693b2132a2e5fe21d62eb42fa" category="section-title">글로벌 파일 캐시 에지 인스턴스를 구성합니다</block>
   <block id="8b4b411ffee316002bf45bd7da314311" category="paragraph">글로벌 파일 캐시 에지 인스턴스는 글로벌 파일 캐시 Core에 연결하여 지사의 사용자가 데이터 센터 파일 서버 리소스에 액세스할 수 있도록 합니다.</block>
   <block id="9ffedcb724b4feb8a504d1992a427f91" category="admonition">Edge 인스턴스는 구성을 시작하기 전에 Cloud Volumes ONTAP 배포의 일부로 라이센스가 부여되어야 합니다. 을 참조하십시오 <block ref="377fd5f39b29a70f5e638818d5a59395" category="inline-link-macro-rx"></block> 라이센스에 대한 자세한 내용은 를 참조하십시오.</block>
@@ -409,7 +391,6 @@
   <block id="f74032e7a801122d16bdf48f04518b8a" category="list-text">정책 구성을 사용하여 로컬로 실행되는 LMS(License Management Server) 서비스의 하드 종속성을 제거했습니다.</block>
   <block id="1835c27cfc517067592779b50d13190c" category="list-text">Windows Server 2016/2019의 SMB 서버 서비스에서 충돌을 피하기 위해 GFC 커널 드라이버가 향상되었습니다.</block>
   <block id="5876df88731069c35bfd4f3ea17e7db0" category="list-text">LMS 서비스에서 예외를 수정했습니다.</block>
-  <block id="e5c0b1995108f32cef1dcfc39528d164" category="summary">NetApp의 지능형 글로벌 파일 캐시를 사용하여 분산된 인력을 위한 실시간 글로벌 파일 공유를 지원합니다.</block>
   <block id="59d1b154ff5b7aa340f3bb85aa0d59f7" category="doc">글로벌 파일 캐시 설명서</block>
   <block id="fe8d9a8dc9b5c669ccbe68b53409dd26" category="summary">글로벌 파일 캐시를 통해 공유 파일에 액세스하는 모범 사례를 사용자에게 교육해야 합니다.</block>
   <block id="1953aca0238eceda58cb0a10075ecc1e" category="doc">최종 사용자 교육</block>
@@ -421,7 +402,6 @@
   <block id="059c1b7392e6a6c2ea4557fa71fe51b1" category="inline-link-macro">MAC 이메일 템플릿(.emltpl)</block>
   <block id="fb49f005426933770b6f22cd456f0e84" category="list-text">이메일 템플릿<block ref="c829b8c00e5f8eb8a2fd450f41ab6401" category="inline-link-macro-rx"></block></block>
   <block id="7a499edce06c189532c243616b7132a3" category="inline-link-macro">Windows 이메일 템플릿(.msg)</block>
-  <block id="13879d09fb35e1a9c0fd7f6435bfa323" category="paragraph"><block ref="13879d09fb35e1a9c0fd7f6435bfa323" category="inline-link-macro-rx"></block></block>
   <block id="b9c5f151d07a94019ba26f5d3579bcf9" category="inline-link-macro">Word 문서(.docx)</block>
   <block id="a314a20204b96ce855b4edecf455498b" category="list-text">온보딩 커뮤니케이션<block ref="ec13a4ed87a907c97165059568a0b0f6" category="inline-link-macro-rx"></block></block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">지원을 위해 등록하십시오</block>
@@ -436,7 +416,6 @@
   <block id="9d94c3aa32a0b32a0fa46fa0de0e1e81" category="sidebar">Global File Cache Edge 구축</block>
   <block id="f7b80a79ecfae0fe3727cb596722172e" category="sidebar">글로벌 파일 캐시를 사용합니다</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식 및 지원</block>
-  <block id="5fef629b836b60819e0c0ce49cd2b9d7" category="sidebar">새로운 기능</block>
   <block id="98121bd163ebeee7679c81cb42cf7994" category="sidebar">구성 요소 배포</block>
   <block id="948b7b04e4691581ca1041a28de513f9" category="sidebar">Cloud Volumes ONTAP를 스토리지 플랫폼으로 구축</block>
   <block id="ab6b625ee85fc0d817e5d790e3080568" category="sidebar">글로벌 파일 캐시 관리 서버 및 글로벌 파일 캐시 Core를 배포합니다</block>
@@ -445,7 +424,6 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="4c7d5d7dfde4a7bd82b54348182043d3" category="sidebar">기타 리소스</block>
-  <block id="c312a13dafd8799651830cedd659bf52" category="admonition">Global File Cache Edge의 경우 을 이해하는 것이 중요합니다 <block ref="e948e8be7ddbb6b86ab680f17f3dc3fb" category="inline-link-macro-rx"></block>. 이렇게 하면 글로벌 파일 캐시 구축을 위한 올바른 설계를 만드는 데 도움이 됩니다. 또한 확장, 리소스 가용성 및 이중화 측면에서 환경에 적합한 것을 결정해야 합니다.</block>
   <block id="189b29195f2b3701055f4c94a0c1ffad" category="paragraph">Global File Cache Edge를 사용하려면 최적의 기능을 위해 다음과 같은 하드웨어 및 소프트웨어 리소스가 필요합니다. 전체 사이징 지침에 대한 자세한 내용은 을 참조하십시오 <block ref="e948e8be7ddbb6b86ab680f17f3dc3fb" category="inline-link-macro-rx"></block>.</block>
   <block id="03120f4ae41820e46fabced95a93dbb5" category="paragraph">데이터 세트가 증가해도 그에 따라 확장할 수 있는 기능과 함께 애플리케이션의 전체 데이터 세트를 수용할 수 있을 만큼 볼륨을 크게 설정하는 것이 좋습니다. 작업 환경에 Aggregate가 여러 개 있는 경우 를 참조하십시오<block ref="acc2071beb330a8d456d30e0940aedbc" category="inline-link-rx"></block> 새 볼륨에 사용할 수 있는 공간이 가장 많은 애그리게이트를 확인합니다.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">도움말 메뉴의 스크린샷으로, 여기에서 지원은 첫 번째 옵션입니다</block>
@@ -495,15 +473,12 @@
   <block id="f3abc78aa44d210b1f7b92cda50a64cb" category="paragraph">글로벌 파일 캐시 코어 인스턴스당 최대 10개의 에지 인스턴스를 권장하며, 글로벌 파일 캐시 코어 인스턴스당 최대 20개의 엣지 인스턴스를 권장합니다. 이는 가장 일반적인 워크로드의 유형과 평균 파일 크기에 따라 상당한 차이가 있습니다. 일반적인 작업 부하가 더 많은 경우 Core당 Edge 인스턴스를 더 추가할 수 있지만 이러한 경우에는 계정 담당자에게 문의하여 파일 세트의 유형과 크기에 따라 Edge 및 Core 인스턴스의 수를 올바르게 사이징하는 방법을 결정해야 합니다.</block>
   <block id="22c3479f6dd133b2d2d79cc8b481240f" category="section-title">2022년 6월 23일(버전 1.3.1)</block>
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">해결된 문제</block>
-  <block id="2ffbf992fae9becab7e787491b2cdf41" category="paragraph">버전 1.1.1용 Global File Cache Edge 소프트웨어는 에서 구할 수 있습니다<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>. 이 릴리스는 에 설명된 문제를 해결합니다<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>.</block>
   <block id="f12e4f9c6c0ea52ff0c85be8308ff143" category="list-text">업그레이드 시 올바른 버전의 Microsoft 재배포 가능 파일이 올바르게 설치되지 않아 Tum이 시작되지 않습니다. GFC 설치 프로그램이 올바른 버전 재배포 가능 버전을 설치하도록 수정되었습니다.</block>
   <block id="e4e361b13d8ce3c010df78be535b3aeb" category="list-text">이제 GFC License Manager Service(LMS)가 구성 정보를 덮어쓰지 않고 업데이트합니다.</block>
   <block id="08b34be098f59c81e94653cf34a7c9ae" category="list-text">이제 구성 UI는 업그레이드 프로세스 중에 올바른 System.net.http dll에 바인딩됩니다.</block>
   <block id="6cf141680c0334de379f689cbeaa3b2d" category="paragraph">글로벌 파일 캐시 코어 인스턴스는 원하는 백엔드 스토리지 플랫폼(예: Cloud Volumes ONTAP, Cloud Volumes Service, 및 Azure NetApp Files)를 기반으로 구조화되지 않은 데이터를 퍼블릭 클라우드의 하나 또는 여러 스토리지 플랫폼에 있는 단일 데이터 세트로 중앙 집중화하고 통합할 수 있는 글로벌 파일 캐시 "패브릭"을 생성합니다.</block>
   <block id="35ca268e4e28a68df6a6a7a036db06fa" category="list-text">설치를 모두 수행하려면 클라우드에 하나 이상의 볼륨(예: Cloud Volumes ONTAP, Cloud Volumes Service 또는 Azure NetApp Files)을 구축해야 합니다. 따라서 선택한 클라우드 공급자의 비용이 부과됩니다.</block>
-  <block id="291bd74fa12d16e84f830819cbdad5c5" category="list-text">Azure 또는 AWS의 Cloud Volumes ONTAP 시스템에서 매년 각 글로벌 파일 캐시 에지 인스턴스에 대해 3,000달러를 지불할 수 있습니다.</block>
   <block id="ec9614a46239aa59499c4a94e919963a" category="inline-link">자세히 알아보기</block>
-  <block id="623692f0d22bbb5a97cac1afe932d1ba" category="list-text">또는 Azure의 Cloud Volumes ONTAP 시스템의 경우 Cloud Volumes ONTAP 에지 캐시 패키지를 선택할 수 있습니다. 이 용량 기반 라이센스를 사용하면 용량이 3TiB일 경우 단일 Global File Cache Edge 인스턴스를 구축할 수 있습니다.<block ref="35ff2d66b85e74dad13c74d82001d0b0" category="inline-link-rx"></block>.</block>
   <block id="a207f0479f1471fc5336b474cf75c28a" category="section-title">2022년 7월 25일(버전 2.0)</block>
   <block id="8fce252333669c3cf55b3ff49aa55f09" category="list-text">Optimus는 사전 설치 작업 추가 구성에 대한 날짜/시간 매개 변수에 경계 제한을 추가하여 기능이 향상되었습니다.</block>
   <block id="fc8535e7a72afd618bd1f73c8a0e81a1" category="list-text">이제 Optimus PSM에 시스템 사전 요청 세부 정보에 올바른 CPU 세부 정보가 표시됩니다.</block>
@@ -573,15 +548,7 @@
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"선택한 서비스에 대해 케이스를 생성할 권한이 없습니다."</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">제품 내 채팅을 사용합니다</block>
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">에서 비기술 케이스를 제출하십시오<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
-  <block id="ad0c7a22fde49fbb11b817c08acbd362" category="paragraph"><block ref="ad0c7a22fde49fbb11b817c08acbd362" category="inline-link-rx"></block></block>
-  <block id="c12a9331c62a66dbe42e75f038a71f7a" category="list-text"><block ref="c12a9331c62a66dbe42e75f038a71f7a" category="inline-link-rx"></block></block>
   <block id="5ce7f81a8ae145f3b72b93e3696353d9" category="inline-link">NetApp 글로벌 파일 캐시 사용자 가이드(.pdf)</block>
-  <block id="1d1bfd34476102ea6ec7ced86c8e9040" category="paragraph"><block ref="1d1bfd34476102ea6ec7ced86c8e9040" category="inline-link-rx"></block></block>
-  <block id="bb032dd5c38245e2d3146751c045fe34" category="paragraph">자세한 내용은 를 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block>.</block>
-  <block id="f4ca9e5eaa8b2077803ade72c09e106c" category="paragraph">Global File Cache는 Global File Cache 지원 인스턴스(Core 또는 Edge)에 모니터링 또는 바이러스 백신 솔루션의 설치 또는 응용 프로그램을 권장하지 않습니다. 솔루션을 선택 또는 정책에 따라 설치할 경우 다음과 같은 Best Practice 및 권장 사항이 적용되어야 합니다. 일반적인 바이러스 백신 제품군에 대해서는 의 부록 A를 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block>.</block>
-  <block id="d18c299cf227d8244308e2e8541aec05" category="paragraph">를 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> 를 참조하십시오.</block>
-  <block id="954619d0b68860fec456402bc9591346" category="paragraph">를 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> 라이센스에 대한 자세한 내용은 를 참조하십시오.</block>
-  <block id="2844ded52a9c24e06bfbc7cdb852373a" category="paragraph">Global File Cache Edge 고급 구성에 대한 자세한 내용은 를 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block>.</block>
   <block id="d88ec9141ca0f799220b70e6188c8c33" category="section-title">2022년 10월 24일(버전 2.1)</block>
   <block id="0250bb801ae5ce790da0302493de52ea" category="list-text">라이센스 구성 중에 GFC 구독 번호에 대한 추가 검증이 수행됩니다.</block>
   <block id="45b34709f42790c0abe51e6c74090803" category="list-text">GFC는 Zuora 기반 라이센스의 특정 기간 동안 라이센스를 확장할 수 있도록 지원을 추가했습니다. GFC 지원에 문의하십시오.</block>
@@ -591,7 +558,6 @@
   <block id="ef4cb0e259adaefa47416a87fabc3c35" category="list-text">"CI에 인스턴스 등록" 버튼을 클릭하는 동안 Optimus 구성 UI가 응답하지 않도록 수정했습니다.</block>
   <block id="806b6ec151c368ef2f2399efcb865ab5" category="list-text">초기 구성 중에 Tservice 모니터가 수동으로 남아 있는 문제를 해결했습니다.</block>
   <block id="2ef92b78d697de97a16de7ae1849aeb8" category="list-text">GFC CI Agent 클라이언트 서비스의 사소한 버그를 수정했습니다.</block>
-  <block id="6455f1f0c6620c2d02084eaf5b65e986" category="paragraph">이 섹션에서는 전역 파일 캐시를 실행하는 Windows Server 인스턴스에서 바이러스 백신 소프트웨어를 실행할 때의 요구 사항을 이해하는 데 도움이 됩니다. Global File Cache는 Cylance, McAfee, Symantec, Sophos, Trend Micro, Kaspersky, 크라우드 스트라이크, Cisco AMP, Tannium 및 Windows Defender는 글로벌 파일 캐시와 함께 사용됩니다. 바이러스 백신 소프트웨어는 NetApp의 인증을 받아야 하며 적절한 제외 목록이 구성되어 있는 경우에만 지원됩니다. 의 부록 A를 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
   <block id="8460b630b603901ff605873a4c5d90e2" category="list-text">'C:\Program Files\TalonFAST\Bin\GfcCIAgentService.exe'</block>
   <block id="bca1fbce4a3bdcddfdb1aa5bb1b5f6da" category="paragraph">Azure에서는 127GB의 표준 SSD가 장착된 D2S_V3 또는 동급(vCPU 2개/8GB RAM) VM에서 실행됩니다</block>
   <block id="19df80e08f82de8a5a9df23c1e7c6b96" category="paragraph">이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>.</block>
@@ -605,11 +571,6 @@
   <block id="ef240c0052e8156425d8b39cfeb2d632" category="admonition">Global File Cache Edge는 가상 또는 물리적 인스턴스에서 실행 중인지 여부를 감지하여 로컬 가상 파일 공유에 대한 SMB 접속 수를 최대 300개 또는 500개의 동시 접속으로 제한합니다.</block>
   <block id="23fc360c2573b4c9bee90db0e02de4cd" category="list-text">https://rest.zuora.com/v1/subscriptions/ 으로 문의하십시오</block>
   <block id="aa2be03e10176973cbb1d2299c98996b" category="list-text">LMS 인스턴스는 HTTPS(TCP 포트 443)를 사용하여 가입 서비스(공용 인터넷)에 연결할 수 있어야 합니다.</block>
-  <block id="df19cf6281f0ac141839cda71b8136bb" category="paragraph">의 14장을 참조하십시오<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> 추가 자료를 참조하십시오.</block>
-  <block id="5125c5dbc4823481461bfada1bc11efd" category="paragraph"><block ref="3a81a4f05e21aa91091722261afd5aaf" category="inline-link-rx"></block>
-<block ref="b01859cc1fbd73f5b9a9154d79ae85fc" category="inline-link-rx"></block></block>
-  <block id="68bd2d9dc8ce644fa266363eb3c8a2a4" category="paragraph"><block ref="c63479f0fbc3dbee0fb764d414be40d7" category="inline-link-rx"></block>
-<block ref="7185d928ff4f453b95f1143740ffdcd5" category="inline-link-rx"></block></block>
   <block id="a82f8775c45fb832c573ea5925281014" category="list-text">Cloud Insights용 글로벌 파일 캐시 대시보드:</block>
   <block id="79970e54ed0f206381160ddc9c16ebfb" category="inline-link">NetApp GFC Cloud Insights 대시보드(.ZIP)</block>
   <block id="161bce40034252bf3bd18e8b63136e82" category="paragraph"><block ref="161bce40034252bf3bd18e8b63136e82" category="inline-link-rx"></block></block>
@@ -652,16 +613,11 @@
   <block id="00742b8e6b70e2e6be54e786e0f0e0dc" category="paragraph">을 참조하십시오 <block ref="14014d518c33fe634be510ffd082f6e6" category="inline-link-macro-rx"></block> 각 원격 위치에 Global File Cache Edge 인스턴스를 구축합니다. 이 단계는 BlueXP를 사용하여 수행하지 않습니다.</block>
   <block id="ccb3361e0bb74752d28539cecb11c698" category="paragraph">Global File Cache는 BlueXP(이전의 Cloud Manager)를 사용하여 구축할 경우 다음과 같은 유형의 작업 환경에서 지원됩니다.</block>
   <block id="047ef27152e6e48c1cd6cdc817a1a994" category="paragraph">이 구성을 사용하면 BlueXP 내에서 글로벌 파일 캐시 관리 서버 및 글로벌 파일 캐시 코어를 비롯한 전체 글로벌 파일 캐시 서버 측 배포를 배포하고 관리할 수 있습니다.</block>
-  <block id="35d08938d7a31dc353ca3c0ba6e0b0d2" category="paragraph">글로벌 파일 캐시 구성은 공용 클라우드 스토리지 인프라에 설치된 ONTAP 시스템용 Cloud Volumes ONTAP, Cloud Volumes Service, Azure NetApp Files 및 Amazon FSx에서도 지원됩니다. 사내 솔루션은 NetApp AFF 및 FAS 플랫폼에서도 사용할 수 있습니다. 이러한 설치에서는 BlueXP를 사용하지 않고 글로벌 파일 캐시 서버 측 구성 요소를 수동으로 구성 및 배포해야 합니다.</block>
-  <block id="842ad855e63b8b164194537c32f70fd6" category="list-text">Azure 또는 AWS(BlueXP를 통해 완전히 배포된 지원되는 구성)에서 Cloud Volumes ONTAP와 함께 설치할 경우 두 가지 가격 옵션이 있습니다.</block>
-  <block id="b7884b5b0ee1db7cf277ad778e802b12" category="paragraph">BlueXP에서 지원되는 글로벌 파일 캐시 버전을 사용하려면 중앙 스토리지로 사용되는 백엔드 스토리지 플랫폼이 Azure 또는 AWS에 Cloud Volumes ONTAP 단일 노드 또는 HA 쌍을 구축한 작업 환경이어야 합니다.</block>
-  <block id="5ecf46dba941f703531873c5dfcf0440" category="paragraph">현재 다른 스토리지 플랫폼과 다른 클라우드 공급자는 BlueXP를 사용하여 지원되지 않지만 기존 구축 절차를 사용하여 구축할 수 있습니다. Google Cloud, Azure NetApp Files 또는 ONTAP 시스템용 Amazon FSx에서 Cloud Volumes ONTAP 또는 Cloud Volumes Service를 사용하는 글로벌 파일 캐시 같은 다른 구성은 레거시 절차를 사용하여 지원됩니다. 을 참조하십시오 <block ref="fa63b406bdb9a9e3c27b49aa6f287806" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP에 대한 고지 사항</block>
   <block id="e8a6d0f19a957eac14b9917a6c92899b" category="list-text"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="1021643a2bbf7e9452d2fe532d5b828c" category="admonition">하나의 관리 서버가 서로 다른 작업 환경에 배포된 여러 개의 글로벌 파일 캐시 코어 인스턴스를 지원할 수 있습니다. BlueXP에서 배포할 경우 각 작업 환경에 고유한 백엔드 스토리지가 있으며 동일한 데이터가 포함되지 않습니다.</block>
   <block id="e182461a5cdbf7556eaec25749caec6a" category="list-text">백엔드 파일 서버 기본 제공 Backup Operators 그룹의 구성원이어야 합니다(BlueXP를 통해 배포되면 자동으로 활성화됨).</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
-  <block id="e4f8a35ee8df8b5c247f6e3286e42891" category="sidebar">BlueXP 활용 사례</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1개</block>
   <block id="bb28d23fa130988b09464a6057aef85b" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> Cloud Volumes ONTAP 구축</block>
@@ -673,7 +629,6 @@
   <block id="78a1f5243df71b7c7a5b48c405de3540" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 라이센스 글로벌 파일 캐시</block>
   <block id="e5d9de39f7ca1ba2637e5640af3ae8aa" category="inline-image-macro">다섯</block>
   <block id="24295577aa82d2c5e8f8e219ad4e3f59" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block> 글로벌 파일 캐시 에지 인스턴스를 구축합니다</block>
-  <block id="d7fc8658f9e7754760fee0f4a1678e61" category="paragraph-title">다음 단계</block>
   <block id="e66cf0363da426ff5fc40b5dff923ee7" category="paragraph-title">다음 단계</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">시작하기 전에</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">작업을 마친 후</block>
@@ -739,4 +694,63 @@
   <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">이 ID는 이메일에 매핑되는 시스템 생성 ID입니다. NSS 관리 * 페이지의 에서 이메일을 표시할 수 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
   <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 에 * 자격 증명 업데이트 * 옵션이 있습니다 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">이 옵션을 사용하면 다시 로그인하라는 메시지가 표시됩니다. 이러한 계정의 토큰은 90일 후에 만료됩니다. 이를 알리는 알림이 게시됩니다.</block>
+  <block id="8d71ec4c749aef775828aa75152856f8" category="paragraph">글로벌 파일 캐시 기능 및 활용 사례에 대해 자세히 알아보십시오<block ref="22f31d74a3fd9f6832a197b37e8ed230" category="inline-link-rx"></block>.</block>
+  <block id="155ec659cc4e13b84e26ac8a60d0983e" category="list-text">Google Cloud의 Cloud Volumes ONTAP</block>
+  <block id="0e0a4d9ce06eb747831ba33d35adafc6" category="paragraph">글로벌 파일 캐시 구성은 Cloud Volumes ONTAP, Azure NetApp Files, ONTAP 시스템용 Amazon FSx 및 Google Cloud의 Cloud Volumes Service에서도 지원됩니다. 사내 솔루션은 NetApp AFF 및 FAS 플랫폼에서도 사용할 수 있습니다. 이러한 설치에서는 BlueXP를 사용하지 않고 글로벌 파일 캐시 서버 측 구성 요소를 수동으로 구성 및 배포해야 합니다.</block>
+  <block id="3dcadf3bb59f115f566e304bb89d2481" category="paragraph">를 참조하십시오<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block> 를 참조하십시오.</block>
+  <block id="e3e9432fcac5223a00dade599290aa9e" category="list-text">고객의 Active Directory 도메인 서비스와 통합</block>
+  <block id="6962e9afd3ce89facea38f30c619211e" category="list-text">Cloud Volumes ONTAP(BlueXP를 통해 완전히 배포된 지원되는 구성)와 함께 설치할 경우 두 가지 가격 옵션이 있습니다.</block>
+  <block id="acec429fba5828bd725c3a00f445a10c" category="list-text">Cloud Volumes ONTAP 시스템의 경우 글로벌 파일 캐시 에지 인스턴스당 연간 3,000달러를 지불할 수 있습니다.</block>
+  <block id="21243adf418965466287a9ba959bfba6" category="list-text">또는 Azure 및 GCP의 Cloud Volumes ONTAP 시스템의 경우 Cloud Volumes ONTAP 에지 캐시 패키지를 선택할 수 있습니다. 이 용량 기반 라이센스를 사용하면 구입한 각 3TiB의 용량에 대해 단일 Global File Cache Edge 인스턴스를 구축할 수 있습니다.<block ref="35ff2d66b85e74dad13c74d82001d0b0" category="inline-link-rx"></block>.</block>
+  <block id="c8f4638b2e8300d1221c9f5fcd2483c6" category="paragraph">를 참조하십시오<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block> 라이센스에 대한 자세한 내용은 를 참조하십시오.</block>
+  <block id="b2033362c712f89e43af564365b33df1" category="paragraph">BlueXP에서 지원되는 글로벌 파일 캐시 버전을 사용하려면 중앙 스토리지로 사용되는 백엔드 스토리지 플랫폼이 Azure, AWS 또는 Google Cloud에 Cloud Volumes ONTAP 단일 노드 또는 HA 쌍을 구축한 작업 환경이어야 합니다.</block>
+  <block id="b25d47777a73708955cbc4e4a8cf5e9f" category="paragraph">현재 BlueXP를 사용하는 다른 스토리지 플랫폼은 지원되지 않지만 기존 구축 절차를 사용하여 구축할 수 있습니다. 이러한 기타 구성(예: ONTAP 시스템용 Amazon FSx, Azure NetApp Files 또는 Google Cloud 기반 Cloud Volumes Service를 사용하는 글로벌 파일 캐시)은 레거시 절차를 사용하여 지원됩니다. 을 참조하십시오<block ref="9cbd9a7390d82046b7f64435219915f0" category="inline-link-rx"></block> 를 참조하십시오.</block>
+  <block id="b032654ffcd3f3794f5df4fbd3b80ae4" category="summary">NetApp의 지능형 글로벌 파일 캐시를 사용하여 분산된 인력을 위해 실시간 글로벌 파일 공유를 지원합니다.</block>
+  <block id="d0d546da16d9832ff46d61dc5ef26932" category="paragraph"><block ref="3a81a4f05e21aa91091722261afd5aaf" category="inline-link-rx"></block>
+<block ref="27773895991caccde32f6e33c69fec61" category="inline-link-rx"></block></block>
+  <block id="a9d760d85bb88dc8163208d766f23ca4" category="paragraph"><block ref="c63479f0fbc3dbee0fb764d414be40d7" category="inline-link-rx"></block>
+<block ref="3ec6d5c1525af8f42b563a3c3ab31adf" category="inline-link-rx"></block></block>
+  <block id="363f1ad303ff20d0b886e3a63a56597e" category="paragraph"><block ref="363f1ad303ff20d0b886e3a63a56597e" category="inline-link-rx"></block></block>
+  <block id="5151bb6c17edd826d3b324de615dcc4c" category="paragraph"><block ref="5151bb6c17edd826d3b324de615dcc4c" category="inline-link-rx"></block></block>
+  <block id="9153b7e16927ca534768c8cd36a9ef2e" category="admonition">Global File Cache Edge의 경우 을 이해하는 것이 중요합니다 <block ref="e948e8be7ddbb6b86ab680f17f3dc3fb" category="inline-link-macro-rx"></block>. 이렇게 하면 글로벌 파일 캐시 구축을 위한 올바른 설계를 만드는 데 도움이 됩니다. 또한 규모, 리소스 가용성 및 이중화 측면에서 환경에 적합한 것을 결정해야 합니다.</block>
+  <block id="7c3c8fffbe87f176330b29a1b26ca517" category="paragraph">자세한 내용은 를 참조하십시오<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block>.</block>
+  <block id="625e1f8a9bd13534d9a2ab98d82e1c32" category="paragraph">글로벌 파일 캐시 TCP 포트: 443(HTTPS-LMS), 6618-6630.</block>
+  <block id="c27d3a0b2dcee7aca905962f3b93b2e3" category="paragraph">Global File Cache는 고객의 환경에 투명하게 통합되므로 사용자는 엔터프라이즈 애플리케이션을 실행하는 클라이언트 워크스테이션을 사용하여 중앙 집중화된 데이터에 액세스할 수 있습니다. 글로벌 파일 캐시를 사용하면 직접 드라이브 매핑 또는 DFS 네임스페이스를 통해 데이터에 액세스할 수 있습니다. 글로벌 파일 캐시 패브릭, 지능형 파일 캐싱 및 소프트웨어의 주요 측면에 대한 자세한 내용은 을 참조하십시오 <block ref="bf537e703603ffded61bf06d23640509" category="inline-link-macro-rx"></block> 섹션을 참조하십시오.</block>
+  <block id="8e9641ef5de75133d4f34f86495391a3" category="paragraph">Global File Cache는 Global File Cache 지원 인스턴스(Core 또는 Edge)에 모니터링 또는 바이러스 백신 솔루션의 설치 또는 응용 프로그램을 권장하지 않습니다. 솔루션을 선택 또는 정책에 따라 설치할 경우 다음과 같은 Best Practice 및 권장 사항이 적용되어야 합니다. 일반적인 바이러스 백신 제품군에 대해서는 의 부록 A를 참조하십시오<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block>.</block>
+  <block id="70ce9b9dc2ba6a557307ced8b517fa5b" category="paragraph">이 섹션에서는 전역 파일 캐시를 실행하는 Windows Server 인스턴스에서 바이러스 백신 소프트웨어를 실행할 때의 요구 사항을 이해하는 데 도움이 됩니다. Global File Cache는 Cylance, McAfee, Symantec, Sophos, Trend Micro, Kaspersky, 크라우드 스트라이크, Cisco AMP, Tannium 및 Windows Defender는 글로벌 파일 캐시와 함께 사용됩니다. 바이러스 백신 소프트웨어는 NetApp의 인증을 받아야 하며 적절한 제외 목록이 구성되어 있는 경우에만 지원됩니다. 의 부록 A를 참조하십시오<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block></block>
+  <block id="204d44b6be54971c264dcdd956240244" category="admonition">Edge 어플라이언스에 바이러스 백신을 추가하면 사용자 성능에 10-20%의 영향을 줄 수 있습니다.</block>
+  <block id="84f46da6f3c078ca77f169febbcc5191" category="list-text">타사 소프트웨어 패키지로 인해 소프트웨어 또는 리소스가 Global File Cache와 충돌하거나 성능이 저하되는 경우 Global File Cache의 지원 조직에서 고객이 Global File Cache를 실행 중인 서버에서 소프트웨어를 비활성화하거나 제거하도록 요청할 수 있습니다.</block>
+  <block id="81ab9899a01f9267404f7197eaf46c8b" category="list-text">글로벌 파일 캐시 애플리케이션을 실행하는 서버에 추가되는 모든 소프트웨어의 설치, 통합, 지원 및 업그레이드에 대한 책임은 고객에게 있습니다.</block>
+  <block id="4a8d00e7906604240a5e2ec80e310482" category="list-text">추가된 소프트웨어의 모든 설치, 통합, 지원 및 업그레이드에 대한 책임은 고객에게 있습니다.</block>
+  <block id="f691fb7e2eb5afad71d17b081a7dc8ca" category="list-text">고객이 글로벌 파일 캐시(Global File Cache)와 소프트웨어 또는 리소스가 충돌하거나 성능이 손상된 것으로 의심되는 타사 소프트웨어 패키지를 설치하는 경우, 글로벌 파일 캐시의 지원 조직에서 소프트웨어를 비활성화/제거해야 할 수도 있습니다.</block>
+  <block id="8ecccfdcd4be3957ff4226f7ebc7a1a7" category="list-text">자주 묻는 질문과 대답 목록을 참조하십시오<block ref="fc2092b82edf81356eaedffaf3f1bee1" category="inline-link-rx"></block></block>
+  <block id="d64a82ae72c0eea94e9d0109ce9f0e05" category="inline-link">글로벌 파일 캐시 사용자 가이드</block>
+  <block id="71048020ca8f58e44ec25370f4129cbc" category="list-text"><block ref="71048020ca8f58e44ec25370f4129cbc" category="inline-link-rx"></block></block>
+  <block id="b7d4822080efa7a461a554d7acc5efc3" category="list-text">모든 NetApp 제품에 대한 추가 설명서를 참조하십시오<block ref="9a789bf5bdb0e5a09882dca7f00da4c4" category="inline-link-rx"></block></block>
+  <block id="88f09088b20b06e1a7012e3ffa65e388" category="list-text">문제 해결 안내, 사례 관리, 기술 자료, 다운로드, 도구, 그리고 더 많은 것을<block ref="eca618e94346161a35fc2403dedce81f" category="inline-link-rx"></block></block>
+  <block id="78d77960d647fd1dbafc3a595cdb709e" category="section-title">2023년 3월 27일(버전 2.2)</block>
+  <block id="037927b8d80963531135cd8721c84101" category="list-text">'마지막 수정 시간' 옵션에 대한 사전 채우기 작업 실행 시간 형식을 변환하는 문제가 해결되었습니다.</block>
+  <block id="d7cf694ceaca6a7ba7e8e7829cfa1360" category="list-text">파일 전송 구문 분석 및 Cloud Insights 서비스로 전달과 관련된 문제를 해결했습니다.</block>
+  <block id="e1125e2c139d0c8b42ed21c205cb2763" category="list-text">게시자와 연결이 끊길 경우 모든 가입자의 Edge Sync 파일이 자동으로 다시 연결됩니다.</block>
+  <block id="cd969768bab3146a8d1291d73d5027ea" category="list-text">다중 Core에 연결된 경우 엣지에서 고정 사전 채우기 작업 실행.</block>
+  <block id="9139e540ca70203e9cbafb2a9ff3fa3d" category="list-text">이제 Optimus UI는 Edge Sync 기능에 참여하는 게시자의 Connected Edge 목록을 표시합니다.</block>
+  <block id="e0feab0ee26165da9cddab198d1f1422" category="section-title">2023년 4월 5일(버전 2.2)</block>
+  <block id="b1bdb4b30cdf01fdd4fc306c24b3e449" category="section-title">Google Cloud에 구축된 Cloud Volumes ONTAP 시스템에서 글로벌 파일 캐시 지원</block>
+  <block id="a92c52030822934c670502facf8a8f31" category="paragraph">Google Cloud에서 Cloud Volumes ONTAP 시스템을 구축할 때 새로운 "Edge Cache" 라이센스가 제공됩니다. 구매한 각 3TiB의 Cloud Volumes ONTAP 시스템에도 하나의 글로벌 파일 캐시 에지 시스템을 구축할 수 있습니다.</block>
+  <block id="3a8f1f533494279acf2d044c11cf495a" category="paragraph"><block ref="3a8f1f533494279acf2d044c11cf495a" category="inline-link-rx"></block></block>
+  <block id="89960279d43d6d504afb45e5a8dff137" category="section-title">설정 마법사와 GFC 구성 UI는 NetApp 라이센스 등록을 수행할 수 있도록 향상되었습니다</block>
+  <block id="402a1502f5c39fb55ca79d59e3184a34" category="section-title">Edge Sync 기능을 구성하기 위한 Enhanced Optimus PSM</block>
+  <block id="2991218cb9240c85cc1b72c630327e36" category="paragraph">이 릴리스는 에 설명된 문제를 해결합니다<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>.</block>
+  <block id="254d5c87d5ab437395f866390ea49cd0" category="inline-link">Google Cloud에서 Cloud Volumes ONTAP 실행</block>
+  <block id="2b73cde380b325cb0d7cd3d8076023ae" category="paragraph">Cloud Volumes ONTAP 구축 및 SMB 파일 공유 구성 자세한 내용은 을 참조하십시오<block ref="e515c0e95325e358a799acebafdf6235" category="inline-link-rx"></block>,<block ref="497bfdbba9caf2f6a6f7d799eda40dc3" category="inline-link-rx"></block>, 또는<block ref="f61ed94059894a24c9302a926017e32c" category="inline-link-rx"></block>.</block>
+  <block id="c117ec42e957b5b5e832f50ceb208a6e" category="paragraph">글로벌 파일 캐시는 Azure, AWS 및 Google Cloud에 구축된 Cloud Volumes ONTAP를 지원합니다. 자세한 사전 요구 사항, 요구 사항 및 배포 지침은 을 참조하십시오<block ref="e515c0e95325e358a799acebafdf6235" category="inline-link-rx"></block>,<block ref="497bfdbba9caf2f6a6f7d799eda40dc3" category="inline-link-rx"></block>, 또는<block ref="f61ed94059894a24c9302a926017e32c" category="inline-link-rx"></block></block>
+  <block id="b0a1aae83461ed34c467ae33db3288e7" category="list-text">글로벌 파일 캐시 관리 서버 VM에 액세스하는 데 사용할 관리자 자격 증명을 입력하고 * GFC 서비스 활성화 * 를 클릭합니다. Azure 및 Google Cloud의 경우 사용자 이름 및 암호로 자격 증명을 입력합니다. AWS의 경우 적절한 키 쌍을 선택합니다. 원하는 경우 VM/인스턴스 이름을 변경할 수 있습니다.</block>
+  <block id="683e13b50b49af2ed3fbf2feda5cb66f" category="list-text">글로벌 파일 캐시 코어 VM에 액세스하는 데 사용할 관리자 자격 증명을 입력하고 * GFC 코어 배포 * 를 클릭합니다. Azure 및 Google Cloud의 경우 사용자 이름 및 암호로 자격 증명을 입력합니다. AWS의 경우 적절한 키 쌍을 선택합니다. 원하는 경우 VM/인스턴스 이름을 변경할 수 있습니다.</block>
+  <block id="ad205d172ad60dc4ec975caf2a5555e6" category="list-text">글로벌 파일 캐시 코어 VM에 액세스하는 데 사용할 관리자 자격 증명을 입력하고 * GFC 코어 배포 * 를 클릭합니다. Azure 및 Google Cloud의 경우 사용자 이름 및 암호로 자격 증명을 입력합니다. AWS의 경우 적절한 키 쌍을 선택합니다. 원하는 경우 VM 이름을 변경할 수 있습니다.</block>
+  <block id="17212542e3e7df3bdd7a3df903ed851c" category="paragraph"><block ref="17212542e3e7df3bdd7a3df903ed851c" category="inline-link-macro-rx"></block></block>
+  <block id="5513c31a1ae4ca4e61f2d6da378db64a" category="paragraph">의 14장을 참조하십시오<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block> 추가 자료를 참조하십시오.</block>
+  <block id="ffe522f5b1fc6081e4f51ef7c3f13743" category="list-text">Windows Server VM을 구성하고 조직의 Active Directory 도메인에 참가한 다음 글로벌 파일 캐시 에지 구성 섹션으로 이동합니다.</block>
+  <block id="8b2ab5f7a66955724c809328b3ba02c7" category="paragraph">Global File Cache Edge 고급 구성에 대한 자세한 내용은 를 참조하십시오<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block>.</block>
+  <block id="91770f038cd944a1d3b9b347edeb2b10" category="sidebar">새로운 기능</block>
+  <block id="f79eca534d02cb718a61576ea3936648" category="sidebar">BlueXP Edge 캐싱 활용 사례</block>
 </blocks>
