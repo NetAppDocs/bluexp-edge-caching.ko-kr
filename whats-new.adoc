@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, gfc, global file cache' 
-summary: 글로벌 파일 캐시의 새로운 기능 알아보기 
+summary: BlueXP 에지 캐싱의 새로운 기능에 대해 알아보십시오. 
 ---
-= 글로벌 파일 캐시의 새로운 기능
+= BlueXP 에지 캐싱의 새로운 기능
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 글로벌 파일 캐시의 새로운 기능 알아보기
 
 
 [role="lead"]
-글로벌 파일 캐시의 새로운 기능 알아보기
+BlueXP 에지 캐싱의 새로운 기능에 대해 알아보십시오.
 
 
 

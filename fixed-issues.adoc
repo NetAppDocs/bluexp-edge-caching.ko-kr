@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: fixed-issues.html 
 keywords: fixed issues, release notes, fixes, gfc, global file cache 
-summary: Global File Cache에서 해결된 문제를 확인하십시오. 
+summary: BlueXP 에지 캐싱에서 해결된 문제를 확인하십시오. 
 ---
-= 글로벌 파일 캐시의 문제 해결
+= BlueXP 에지 캐싱의 문제 해결
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Global File Cache에서 해결된 문제를 확인하십시오.
 
 
 [role="lead"]
-Global File Cache에서 해결된 문제를 확인하십시오.
+BlueXP 에지 캐싱에서 해결된 문제를 확인하십시오.
 
 
 
