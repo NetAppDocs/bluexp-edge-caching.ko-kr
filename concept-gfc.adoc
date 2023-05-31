@@ -143,7 +143,7 @@ AWS의 경우 M4.xLarge 또는 동급(vCPU 4개/16GB RAM) 인스턴스에서 127
 * Cloud Volumes ONTAP(BlueXP를 통해 완전히 배포된 지원되는 구성)와 함께 설치할 경우 두 가지 가격 옵션이 있습니다.
 +
 ** Cloud Volumes ONTAP 시스템의 경우, BlueXP 에지 캐싱 엣지 인스턴스당 연간 3,000달러를 지불할 수 있습니다.
-** 또는 Azure 및 GCP의 Cloud Volumes ONTAP 시스템의 경우 Cloud Volumes ONTAP 에지 캐시 패키지를 선택할 수 있습니다. 이 용량 기반 라이센스를 사용하면 구입한 용량이 3TiB일 때마다 단일 BlueXP edge caching Edge 인스턴스를 구축할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["자세히 알아보기"^].
+** 또는 Azure 및 GCP의 Cloud Volumes ONTAP 시스템의 경우 Cloud Volumes ONTAP 에지 캐시 패키지를 선택할 수 있습니다. 이 용량 기반 라이센스를 사용하면 구입한 용량이 3TiB일 때마다 단일 BlueXP edge caching Edge 인스턴스를 구축할 수 있습니다. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["자세히 알아보기"^].
 
 
 * 수동 배포 옵션을 사용하여 설치한 경우 가격은 다릅니다. 높은 수준의 비용 추정치를 보려면 를 참조하십시오 https://bluexp.netapp.com/global-file-cache/roi["절감 가능성을 계산해 보십시오"^] 또는 NetApp 솔루션 엔지니어에게 문의하여 엔터프라이즈 구축을 위한 최적의 옵션에 대해 알아보십시오.

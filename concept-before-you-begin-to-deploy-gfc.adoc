@@ -89,7 +89,7 @@ Cloud Volumes ONTAP 인스턴스에 SMB 파일 공유를 하나 이상 설정하
 * 생성할 볼륨의 이름 및 크기, 볼륨을 생성할 애그리게이트의 이름 및 공유 이름
 
 
-데이터 세트가 증가해도 그에 따라 확장할 수 있는 기능과 함께 애플리케이션의 전체 데이터 세트를 수용할 수 있을 만큼 볼륨을 크게 설정하는 것이 좋습니다. 작업 환경에 Aggregate가 여러 개 있는 경우 를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-aggregates.html["기존 애그리게이트 관리"^] 새 볼륨에 사용할 수 있는 공간이 가장 많은 애그리게이트를 확인합니다.
+데이터 세트가 증가해도 그에 따라 확장할 수 있는 기능과 함께 애플리케이션의 전체 데이터 세트를 수용할 수 있을 만큼 볼륨을 크게 설정하는 것이 좋습니다. 작업 환경에 Aggregate가 여러 개 있는 경우 를 참조하십시오 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-aggregates.html["기존 애그리게이트 관리"^] 새 볼륨에 사용할 수 있는 공간이 가장 많은 애그리게이트를 확인합니다.
 
 
 

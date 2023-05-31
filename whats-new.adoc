@@ -20,7 +20,7 @@ BlueXP 에지 캐싱의 새로운 기능에 대해 알아보십시오.
 
 == 2023년 4월 5일(버전 2.2)
 
-이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["해결된 문제"]. 업데이트된 소프트웨어 패키지는 에서 확인할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["이 페이지"].
+이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["해결된 문제"]. 업데이트된 소프트웨어 패키지는 에서 확인할 수 있습니다 https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["이 페이지"].
 
 
 
@@ -28,7 +28,7 @@ BlueXP 에지 캐싱의 새로운 기능에 대해 알아보십시오.
 
 Google Cloud에서 Cloud Volumes ONTAP 시스템을 구축할 때 새로운 "Edge Cache" 라이센스가 제공됩니다. 구매한 각 3TiB의 Cloud Volumes ONTAP 시스템에도 하나의 글로벌 파일 캐시 에지 시스템을 구축할 수 있습니다.
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#packages["Edge Cache 라이센스 패키지에 대해 자세히 알아보십시오."]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#packages["Edge Cache 라이센스 패키지에 대해 자세히 알아보십시오."]
 
 
 
@@ -42,7 +42,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 
 == 2022년 10월 24일(버전 2.1)
 
-이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["해결된 문제"].
+이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["해결된 문제"].
 
 
 
@@ -74,7 +74,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 
 == 2022년 7월 25일(버전 2.0)
 
-이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["해결된 문제"].
+이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["해결된 문제"].
 
 
 
@@ -82,7 +82,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 
 새로운 "Edge Cache" 라이센스는 "CVO Professional" 라이센스와 동일한 기능을 제공하지만 Global File Cache도 지원합니다. Azure에서 새 Cloud Volumes ONTAP 시스템을 구축할 때 이 옵션이 표시됩니다. Cloud Volumes ONTAP 시스템에서 3TiB의 프로비저닝된 각 용량에 대해 하나의 글로벌 파일 캐시 에지 시스템을 구축할 수 있습니다. 최소 30TiB를 프로비저닝해야 합니다. GFC License Manager Service는 용량 기반 라이센스를 제공하도록 개선되었습니다.
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["Edge Cache 라이센스 패키지에 대해 자세히 알아보십시오."]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["Edge Cache 라이센스 패키지에 대해 자세히 알아보십시오."]
 
 
 
@@ -106,13 +106,13 @@ https://cloud.netapp.com/cloud-insights["Cloud Insights에 대해 자세히 알�
 
 == 2022년 6월 23일(버전 1.3.1)
 
-이 릴리스는 에 설명된 문제를 해결합니다 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["해결된 문제"].
+이 릴리스는 에 설명된 문제를 해결합니다 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["해결된 문제"].
 
 
 
 == 2022년 5월 19일(버전 1.3.0)
 
-버전 1.1.0용 Global File Cache Edge 소프트웨어는 에서 구할 수 있습니다 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["이 페이지"].
+버전 1.1.0용 Global File Cache Edge 소프트웨어는 에서 구할 수 있습니다 https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["이 페이지"].
 
 
 
