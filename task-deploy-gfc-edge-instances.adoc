@@ -131,4 +131,4 @@ BlueXP 에지 캐싱 설치 패키지를 업데이트하는 데 필요한 단계
 
 
 .다음 단계
-Global File Cache Edge 고급 구성에 대한 자세한 내용은 를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].
+Global File Cache Edge 고급 구성에 대한 자세한 내용은 를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^].

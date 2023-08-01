@@ -80,7 +80,7 @@ BlueXP Edge 캐싱은 BlueXP를 사용하여 배포할 때 다음과 같은 작�
 
 BlueXP 에지 캐싱 구성은 Cloud Volumes ONTAP, Azure NetApp Files, ONTAP 시스템용 Amazon FSx 및 Google Cloud의 Cloud Volumes Service에서도 지원됩니다. 사내 솔루션은 NetApp AFF 및 FAS 플랫폼에서도 사용할 수 있습니다. 이러한 설치에서는 BlueXP를 사용하지 않고 BlueXP 에지 캐싱 서버측 구성 요소를 수동으로 구성 및 배포해야 합니다.
 
-를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^] 를 참조하십시오.
+를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^] 를 참조하십시오.
 
 
 
@@ -159,7 +159,7 @@ BlueXP 에지 캐싱에는 소프트웨어 기반 LMS(License Management Server)
 
 Edge 라이선스를 추가로 구입하거나 구독을 갱신하면 지원/운영 부서에서 사이트 수 또는 구독 종료일과 같은 라이센스 세부 정보를 업데이트합니다. LMS가 구독 서비스를 쿼리하면 LMS 인스턴스에서 라이센스 세부 정보가 자동으로 업데이트되며, GFC Core 및 Edge 인스턴스에 적용됩니다.
 
-를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^] 라이센스에 대한 자세한 내용은 를 참조하십시오.
+를 참조하십시오 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["NetApp 글로벌 파일 캐시 사용자 가이드 를 참조하십시오"^] 라이센스에 대한 자세한 내용은 를 참조하십시오.
 
 
 

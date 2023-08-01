@@ -156,7 +156,6 @@
   <block id="c718f76b60a0fc7efd97036a70cb36d9" category="list-text">인쇄 서비스</block>
   <block id="b70ae60e9922e0ed61cdd248b7d89c8c" category="list-text">Microsoft System Center Configuration Manager(SCCM)</block>
   <block id="ec7fd1c8b87a6f5d275bc4e24065e734" category="list-text">데이터베이스 서버, 메일 서버 등과 같이 일반적으로 리소스 집약적인 업무용 소프트웨어 지원되지 않습니다.</block>
-  <block id="df62d5ca9c29346bfeb41f9581ecdf5b" category="section-title">2021년 12월 17일(버전 1.2.0)</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="section-title">시작하기 전에</block>
   <block id="3dccf72fe610d6922e392e93335fdb6d" category="list-text">서브넷 마스크</block>
@@ -225,11 +224,6 @@
   <block id="7810d0ca3a66369587e6a56cf4192b2c" category="list-text">NetApp 레거시 기반 라이센스를 사용하는 경우:</block>
   <block id="90fa5a5ac66630ff8491eb335e51bdc9" category="list-text">https://talonazuremicroservices.azurewebsites.net 으로 문의하십시오</block>
   <block id="5ed3a104f8850c15acaec08814cbd9b4" category="list-text">https://talonlicensing.table.core.windows.net 으로 문의하십시오</block>
-  <block id="dc7104ff29582271cbda56277263eec5" category="list-text">구성 UI(Optimus)는 사전 채우기 작업을 추가하는 동안 날짜 필드 항목의 유효성을 검사하도록 향상되었습니다.</block>
-  <block id="65c0ed4b8ed88949fa21fa5a60be6ddb" category="list-text">캐시 활용도를 모니터링할 수 있도록 사전 설치 기능이 향상되어 캐시 사용량이 캐시 클리너 매개 변수에 근접하면 채우기 작업이 생략됩니다.</block>
-  <block id="f74032e7a801122d16bdf48f04518b8a" category="list-text">정책 구성을 사용하여 로컬로 실행되는 LMS(License Management Server) 서비스의 하드 종속성을 제거했습니다.</block>
-  <block id="1835c27cfc517067592779b50d13190c" category="list-text">Windows Server 2016/2019의 SMB 서버 서비스에서 충돌을 피하기 위해 GFC 커널 드라이버가 향상되었습니다.</block>
-  <block id="5876df88731069c35bfd4f3ea17e7db0" category="list-text">LMS 서비스에서 예외를 수정했습니다.</block>
   <block id="1953aca0238eceda58cb0a10075ecc1e" category="doc">최종 사용자 교육</block>
   <block id="939757145bf8db56f7d91bd08f60d0c6" category="paragraph">다음 리소스를 최종 사용자에게 사용자 지정하고 전달하면 최종 사용자가 롤아웃할 수 있도록 준비할 수 있습니다.</block>
   <block id="538b051cfad962b73dbfb2f27206b1e6" category="inline-link-macro">최종 사용자 교육 비디오</block>
@@ -253,8 +247,6 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="4c7d5d7dfde4a7bd82b54348182043d3" category="sidebar">기타 리소스</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">도움말 메뉴의 스크린샷으로, 여기에서 지원은 첫 번째 옵션입니다</block>
-  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">NSS 관리 &gt; NSS 계정 추가 * 를 클릭합니다.</block>
-  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">메시지가 표시되면 * 계속 * 을 클릭하여 Microsoft 로그인 페이지로 리디렉션됩니다.</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
@@ -285,12 +277,7 @@
   <block id="3e97d9d5f3ba2c244689f2b32f79b026" category="list-text">사용 가능한 캐시 공간이 하한 임계값 아래로 떨어질 경우 파일 가져오기를 건너뛰도록 TappN 사전 채우기 서비스가 업데이트됩니다.</block>
   <block id="91bd85b0510e37378b14fab4ad5a4129" category="list-text">추적 로그를 작성하는 동안 License Manager Server Service(LMS)에서 문제가 해결되었습니다.</block>
   <block id="c2a4e35926866a1322a751f57a7f847a" category="list-text">Tum용 로깅 인프라는 고성능 확장을 위해 업데이트됩니다.</block>
-  <block id="959915525ca7f68401340816fbc38d13" category="list-text">License Manager Server Service(LMS), License Manager Client Service(LMC) 및 Pre-Population Service(TappN)의 서비스 시작 유형이 '자동 지연'에서 '자동'으로 변경됩니다.</block>
   <block id="8334797b9b3383d4f48d98178b8845ea" category="inline-link">이 페이지</block>
-  <block id="9463b6d7b9d38e544c6a7eb98988bb3b" category="section-title">새로운 메타데이터 에지 동기화 기능</block>
-  <block id="2e0922ffb3ae1ae6ac16997e734d5154" category="paragraph">이 "메타데이터 에지 동기화" 기능은 Edge 동기화 기능을 핵심 프레임워크로 사용합니다. 메타데이터 정보만 구독한 모든 엣지에 업데이트되며 파일/폴더는 Edge 머신에 생성됩니다.</block>
-  <block id="2273c570a2dcacbb1c4bb77abccca54b" category="section-title">License Manager 서비스 개선 사항</block>
-  <block id="03036f549995f5d3240d1c89c4f2f496" category="paragraph">글로벌 파일 캐시 LMS(License Management Server) 서비스가 프록시 설정을 자동으로 검색하도록 향상되었습니다. 이를 통해 원활한 구성이 가능합니다.</block>
   <block id="22c3479f6dd133b2d2d79cc8b481240f" category="section-title">2022년 6월 23일(버전 1.3.1)</block>
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">해결된 문제</block>
   <block id="f12e4f9c6c0ea52ff0c85be8308ff143" category="list-text">업그레이드 시 올바른 버전의 Microsoft 재배포 가능 파일이 올바르게 설치되지 않아 Tum이 시작되지 않습니다. GFC 설치 프로그램이 올바른 버전 재배포 가능 버전을 설치하도록 수정되었습니다.</block>
@@ -337,7 +324,6 @@
   <block id="201080500e946070a2e4873042507c77" category="paragraph">확인 시 NetApp에 요청이 제출되고 NetApp Support 사이트 계정을 만들 것을 권장합니다.</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">이 과정에서 NetApp이 연락을 드릴 것입니다. 신규 사용자를 위한 일회성 온보딩 연습입니다.</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">위의 자체 지원 옵션 외에도 NetApp 지원 전문가와 협력하여 지원을 활성화한 이후의 모든 문제를 해결할 수 있습니다.</block>
-  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">전화로 통화하려면 * 전화 * 를 클릭하십시오. 전화를 걸 수 있는 전화 번호가 나열된 netapp.com 페이지로 연결됩니다.</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">* 작업 환경 *: 스토리지에 적용 가능한 경우 * Cloud Volumes ONTAP * 또는 * On-Premise * 를 선택한 다음 관련 작업 환경을 선택합니다.</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">* 케이스 우선 순위 *: 케이스의 우선 순위를 선택합니다. 우선 순위는 낮음, 중간, 높음 또는 긴급입니다.</block>
   <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">이러한 우선 순위에 대한 자세한 내용을 보려면 필드 이름 옆에 있는 정보 아이콘 위로 마우스를 가져갑니다.</block>
@@ -345,7 +331,6 @@
   <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">* 추가 이메일 주소 *: 다른 사람에게 이 문제를 알고자 할 경우 추가 이메일 주소를 입력하십시오.</block>
   <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">NetApp Support로 케이스를 생성할 수 있는 케이스 생성 양식 스크린샷</block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">지원 케이스 번호와 함께 팝업이 나타납니다. NetApp 지원 전문가가 귀사의 사례를 검토하고 곧 다시 연결해 드릴 것입니다.</block>
-  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">지원 케이스 내역을 보려면 * 설정 &gt; 일정 * 을 클릭하고 "지원 케이스 생성"이라는 이름의 작업을 찾습니다. 오른쪽 끝에 있는 버튼을 사용하여 작업을 확장하여 세부 정보를 볼 수 있습니다.</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">케이스를 생성하려고 할 때 다음과 같은 오류 메시지가 나타날 수 있습니다.</block>
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"선택한 서비스에 대해 케이스를 생성할 권한이 없습니다."</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">제품 내 채팅을 사용합니다</block>
@@ -380,7 +365,6 @@
   <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">BlueXP 계정 ID 지원 가입 등록(BlueXP의 지원 리소스 페이지에 있는 20자리 960xxxxxxxxx 일련 번호)</block>
   <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">이는 BlueXP 내의 모든 서비스에 대한 단일 지원 가입 ID의 역할을 합니다. 각 BlueXP 계정 수준 지원 구독을 등록해야 합니다.</block>
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">이러한 일련 번호는 일반적으로 _PAYGO 일련 번호_라고 하며 Cloud Volumes ONTAP 배포 시 BlueXP에서 생성됩니다.</block>
-  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">이러한 작업을 통해 BlueXP는 NSS 계정을 사용하여 라이선스 다운로드, 소프트웨어 업그레이드 확인 및 향후 지원 등록과 같은 작업을 수행할 수 있습니다.</block>
   <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">NSS 계정을 가지고 있는 NetApp 고객은 BlueXP를 통해 지원을 받기 위해 등록하기만 하면 됩니다.</block>
   <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">위에 사용된 BlueXP 계정 일련 번호(960xxxx)를 일련 번호 필드에 복사해야 합니다. 이렇게 하면 계정 처리 속도가 빨라집니다.</block>
@@ -390,7 +374,6 @@
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">BlueXP 커뮤니티에 가입하여 진행 중인 토론을 팔로우하거나 새 토론을 만드십시오.</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">현재 보고 있는 BlueXP 문서입니다.</block>
   <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">저희는 귀하의 의견을 소중하게 생각합니다. BlueXP 개선에 도움이 되는 피드백을 제출하십시오.</block>
-  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">BlueXP에서 * 도움말 &gt; 지원 * 을 클릭합니다.</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">* 서비스 *: 문제와 관련된 서비스를 선택합니다. 예를 들어, 서비스 내의 워크플로우 또는 기능과 관련된 기술 지원 문제에 해당하는 BlueXP를 예로 들 수 있습니다.</block>
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">작업 환경 목록은 서비스의 상단 배너에서 선택한 BlueXP 계정, 작업 영역 및 커넥터의 범위 내에 있습니다.</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP에 대한 고지 사항</block>
@@ -418,7 +401,6 @@
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">자체 지원 옵션을 사용합니다</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">NetApp Support로 케이스 생성</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">리소스 * 페이지의 기술 지원 아래에서 사용 가능한 옵션 중 하나를 선택합니다.</block>
-  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">케이스 생성 * 을 클릭하여 NetApp 지원 담당자와 티켓을 엽니다.</block>
   <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">* 첨부 파일(선택 사항) *: 한 번에 하나씩 최대 5개의 첨부 파일을 업로드합니다.</block>
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">첨부 파일은 파일당 25MB로 제한됩니다. txt, log, pdf, jpg/jpeg, rtf, DOC/docx, xls/xlsx 및 CSV.</block>
   <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">지원 사례 관리(Preview)</block>
@@ -431,10 +413,8 @@
   <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">관심 있는 열을 추가 또는 제거할 수 있으며 우선 순위 및 상태 등의 열 내용을 필터링할 수 있습니다. 다른 열은 정렬 기능만 제공합니다.</block>
   <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">자세한 내용은 아래 단계를 참조하십시오.</block>
   <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">케이스 수준별로 케이스 메모를 업데이트하거나 아직 종결 또는 미결 종결 상태가 아닌 케이스를 종결할 수 있습니다.</block>
-  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">Case Management * 를 클릭하고 메시지가 표시되면 NSS 계정을 BlueXP에 추가합니다.</block>
   <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">케이스 관리 * 페이지에는 BlueXP 사용자 계정과 연결된 NSS 계정과 관련된 미해결 케이스가 표시됩니다. NSS 관리 * 페이지 상단에 나타나는 것과 동일한 NSS 계정입니다.</block>
   <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">필요한 경우 테이블에 표시되는 정보를 수정합니다.</block>
-  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">조직의 케이스 * 에서 * 보기 * 를 클릭하여 회사와 관련된 모든 케이스를 봅니다.</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">정확한 날짜 범위를 선택하거나 다른 기간을 선택하여 날짜 범위를 수정합니다.</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">케이스 관리 페이지의 표 위에 있는 옵션 스크린샷으로 정확한 날짜 범위 또는 최근 7일, 30일 또는 3개월을 선택할 수 있습니다.</block>
   <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">열의 내용을 필터링합니다.</block>
@@ -444,7 +424,6 @@
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">표의 마지막 열에 세 개의 점이 있는 아이콘</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">* 사례 보기 *: 특정 케이스에 대한 전체 세부 정보를 봅니다.</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 케이스 메모 업데이트 *: 문제에 대한 추가 세부 정보를 제공하거나 * 파일 업로드 * 를 선택하여 최대 5개의 파일을 첨부할 수 있습니다.</block>
-  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">* 케이스 종료 *: 케이스를 닫는 이유에 대한 세부 정보를 제공하고 * 케이스 닫기 * 를 클릭합니다.</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">표의 마지막 열에서 메뉴를 선택한 후 수행할 수 있는 작업을 보여 주는 스크린샷</block>
   <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS 계정은 고객 수준 계정이어야 합니다(게스트 또는 임시 계정이 아님). 여러 개의 고객 수준 NSS 계정을 가질 수 있습니다.</block>
   <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">NSS 계정은 파트너 수준 계정인 경우 하나만 있을 수 있습니다. 고객 수준 NSS 계정을 추가하려고 하면 파트너 수준 계정이 있으면 다음 오류 메시지가 나타납니다.</block>
@@ -453,23 +432,13 @@
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">로그인에 성공하면 NetApp은 NSS 사용자 이름을 저장합니다.</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">이 옵션을 사용하면 다시 로그인하라는 메시지가 표시됩니다. 이러한 계정의 토큰은 90일 후에 만료됩니다. 이를 알리는 알림이 게시됩니다.</block>
   <block id="155ec659cc4e13b84e26ac8a60d0983e" category="list-text">Google Cloud의 Cloud Volumes ONTAP</block>
-  <block id="3dcadf3bb59f115f566e304bb89d2481" category="paragraph">를 참조하십시오<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="e3e9432fcac5223a00dade599290aa9e" category="list-text">고객의 Active Directory 도메인 서비스와 통합</block>
   <block id="6962e9afd3ce89facea38f30c619211e" category="list-text">Cloud Volumes ONTAP(BlueXP를 통해 완전히 배포된 지원되는 구성)와 함께 설치할 경우 두 가지 가격 옵션이 있습니다.</block>
-  <block id="c8f4638b2e8300d1221c9f5fcd2483c6" category="paragraph">를 참조하십시오<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block> 라이센스에 대한 자세한 내용은 를 참조하십시오.</block>
   <block id="b25d47777a73708955cbc4e4a8cf5e9f" category="paragraph">현재 BlueXP를 사용하는 다른 스토리지 플랫폼은 지원되지 않지만 기존 구축 절차를 사용하여 구축할 수 있습니다. 이러한 기타 구성(예: ONTAP 시스템용 Amazon FSx, Azure NetApp Files 또는 Google Cloud 기반 Cloud Volumes Service를 사용하는 글로벌 파일 캐시)은 레거시 절차를 사용하여 지원됩니다. 을 참조하십시오<block ref="9cbd9a7390d82046b7f64435219915f0" category="inline-link-rx"></block> 를 참조하십시오.</block>
-  <block id="d0d546da16d9832ff46d61dc5ef26932" category="paragraph"><block ref="3a81a4f05e21aa91091722261afd5aaf" category="inline-link-rx"></block>
-<block ref="27773895991caccde32f6e33c69fec61" category="inline-link-rx"></block></block>
-  <block id="a9d760d85bb88dc8163208d766f23ca4" category="paragraph"><block ref="c63479f0fbc3dbee0fb764d414be40d7" category="inline-link-rx"></block>
-<block ref="3ec6d5c1525af8f42b563a3c3ab31adf" category="inline-link-rx"></block></block>
-  <block id="363f1ad303ff20d0b886e3a63a56597e" category="paragraph"><block ref="363f1ad303ff20d0b886e3a63a56597e" category="inline-link-rx"></block></block>
-  <block id="5151bb6c17edd826d3b324de615dcc4c" category="paragraph"><block ref="5151bb6c17edd826d3b324de615dcc4c" category="inline-link-rx"></block></block>
-  <block id="7c3c8fffbe87f176330b29a1b26ca517" category="paragraph">자세한 내용은 를 참조하십시오<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block>.</block>
   <block id="204d44b6be54971c264dcdd956240244" category="admonition">Edge 어플라이언스에 바이러스 백신을 추가하면 사용자 성능에 10-20%의 영향을 줄 수 있습니다.</block>
   <block id="4a8d00e7906604240a5e2ec80e310482" category="list-text">추가된 소프트웨어의 모든 설치, 통합, 지원 및 업그레이드에 대한 책임은 고객에게 있습니다.</block>
   <block id="8ecccfdcd4be3957ff4226f7ebc7a1a7" category="list-text">자주 묻는 질문과 대답 목록을 참조하십시오<block ref="fc2092b82edf81356eaedffaf3f1bee1" category="inline-link-rx"></block></block>
   <block id="d64a82ae72c0eea94e9d0109ce9f0e05" category="inline-link">글로벌 파일 캐시 사용자 가이드</block>
-  <block id="71048020ca8f58e44ec25370f4129cbc" category="list-text"><block ref="71048020ca8f58e44ec25370f4129cbc" category="inline-link-rx"></block></block>
   <block id="b7d4822080efa7a461a554d7acc5efc3" category="list-text">모든 NetApp 제품에 대한 추가 설명서를 참조하십시오<block ref="9a789bf5bdb0e5a09882dca7f00da4c4" category="inline-link-rx"></block></block>
   <block id="88f09088b20b06e1a7012e3ffa65e388" category="list-text">문제 해결 안내, 사례 관리, 기술 자료, 다운로드, 도구, 그리고 더 많은 것을<block ref="eca618e94346161a35fc2403dedce81f" category="inline-link-rx"></block></block>
   <block id="78d77960d647fd1dbafc3a595cdb709e" category="section-title">2023년 3월 27일(버전 2.2)</block>
@@ -485,8 +454,6 @@
   <block id="402a1502f5c39fb55ca79d59e3184a34" category="section-title">Edge Sync 기능을 구성하기 위한 Enhanced Optimus PSM</block>
   <block id="254d5c87d5ab437395f866390ea49cd0" category="inline-link">Google Cloud에서 Cloud Volumes ONTAP 실행</block>
   <block id="17212542e3e7df3bdd7a3df903ed851c" category="paragraph"><block ref="17212542e3e7df3bdd7a3df903ed851c" category="inline-link-macro-rx"></block></block>
-  <block id="5513c31a1ae4ca4e61f2d6da378db64a" category="paragraph">의 14장을 참조하십시오<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block> 추가 자료를 참조하십시오.</block>
-  <block id="8b2ab5f7a66955724c809328b3ba02c7" category="paragraph">Global File Cache Edge 고급 구성에 대한 자세한 내용은 를 참조하십시오<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block>.</block>
   <block id="91770f038cd944a1d3b9b347edeb2b10" category="sidebar">새로운 기능</block>
   <block id="f79eca534d02cb718a61576ea3936648" category="sidebar">BlueXP Edge 캐싱 활용 사례</block>
   <block id="55be43fdae1edd255f27ede47e8019f9" category="summary">클라우드 및 원격 사무실에 BlueXP 에지 캐싱을 배포하기 전에 알아야 할 요구 사항이 많습니다.</block>
@@ -564,8 +531,6 @@
   <block id="841c1c7434f34d02643d009e13a8566c" category="summary">원격 사무실에 BlueXP Edge 캐싱 Edge 소프트웨어를 설치하기 전에 알아야 할 요구 사항이 많습니다.</block>
   <block id="0e746721cb7975a7f711d0c0c110a187" category="doc">BlueXP Edge 캐싱 Edge 인스턴스를 배포하기 전에</block>
   <block id="f15f2f702e392fcba0a5949c7b3770ad" category="paragraph">지사 사무실에서 사용할 BlueXP 에지 캐싱 가상 템플릿, 소프트웨어 설치 패키지 및 추가 참조 문서를 다운로드합니다.</block>
-  <block id="d7cc1aba59ec6af15e3dcb99efd2c63b" category="list-text">BlueXP 에지 캐싱 에지 소프트웨어:</block>
-  <block id="a484f2579f9294abcb73c22bbb7acba2" category="paragraph">링크: 작업 배포 - GFC - 에지 - 인스턴스.html#update - bluexp-edge 캐싱 - 에지 - 소프트웨어 [다음 단계 참조]를 사용하여 BlueXP 에지 캐싱 소프트웨어를 업그레이드합니다.</block>
   <block id="e761081d91a7bf50b6ca9cbb78f77c77" category="admonition">Windows Server 2016에서 BlueXP 에지 캐싱을 배포할 때는 .NET Framework 4.8 및 Windows WebView2 프레임워크를 사용해야 합니다.</block>
   <block id="3f3b788ab9693618f52b194ad5887b67" category="section-title">BlueXP Edge 캐싱 Edge 설계 및 배포</block>
   <block id="4786b59c1c0d62cd8a5441020ac73455" category="paragraph">요구 사항에 따라 지사의 동시 사용자 세션을 기반으로 하나 이상의 Edge 인스턴스를 구축해야 할 수도 있습니다. Edge 인스턴스는 지사 내의 최종 사용자에게 가상 파일 공유를 제공하며, 연결된 BlueXP 에지 캐싱 Core 인스턴스에서 투명하게 확장됩니다. BlueXP 에지 캐싱 엣지에 가 포함되어 있어야 합니다<block ref="b40b366b86664ec1c37b5e3e11120931" prefix=" " category="inline-code"></block> 지점 내에 캐시된 파일이 포함된 NTFS 볼륨</block>
@@ -588,12 +553,10 @@
   <block id="f74552635291c05f5dbac6f807093a7b" category="inline-link-macro">BlueXP 에지 캐싱 배포를 시작하기 전에</block>
   <block id="4d5e7d1b9f92dee0b271fcc0c91eaf25" category="paragraph">BlueXP 에지 캐싱은 고객 환경에 투명하게 통합되어 사용자가 클라이언트 워크스테이션을 사용하여 엔터프라이즈 애플리케이션을 실행하는 중앙 집중식 데이터에 액세스할 수 있도록 합니다. BlueXP 에지 캐싱을 사용하면 직접 드라이브 매핑 또는 DFS 네임스페이스를 통해 데이터에 액세스할 수 있습니다. BlueXP 에지 캐싱 패브릭, 지능형 파일 캐싱 및 소프트웨어의 주요 측면에 대한 자세한 내용은 을 참조하십시오 <block ref="346cd08c004319943e87fc1cd75437fd" category="inline-link-macro-rx"></block> 섹션을 참조하십시오.</block>
   <block id="f2bf4f5e837cbb53c709329da16d1010" category="paragraph">BlueXP 에지 캐싱은 가장 일반적인 바이러스 백신 애플리케이션 제품군이 글로벌 파일 캐시와 호환되는지 확인하기 위해 합당한 노력을 기울이지만, NetApp은 이러한 프로그램 또는 관련 업데이트, 서비스 팩 또는 수정으로 인해 발생하는 비호환성 또는 성능 문제에 대해 책임을 지지 않습니다.</block>
-  <block id="cc592f796ca659bb3bcfb4607c16e589" category="paragraph">NetApp은 BlueXP 에지 캐싱 사용 인스턴스(코어 또는 에지)에 모니터링 또는 바이러스 백신 솔루션을 설치하거나 이러한 애플리케이션을 권장하지 않습니다. 솔루션을 선택 또는 정책에 따라 설치할 경우 다음과 같은 Best Practice 및 권장 사항이 적용되어야 합니다. 일반적인 바이러스 백신 제품군에 대해서는 의 부록 A를 참조하십시오<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block>.</block>
   <block id="9c95cd2e29976c2a77fc08c0b0e9a4e9" category="list-text">권장 사항: Microsoft 방화벽 설정 및 서비스는 기본 설정인 OFF로 두고 표준 BlueXP 에지 캐싱 에지 인스턴스에서는 시작되지 않습니다.</block>
   <block id="3a3fed7b6fa4f71e5b17fac7fae6cba3" category="list-text">BlueXP 에지 캐싱 코어 인스턴스는 TCP 포트 6618-6630에서 수신 대기하므로 BlueXP 에지 캐싱 에지 인스턴스가 이러한 TCP 포트에 연결될 수 있는지 확인합니다.</block>
   <block id="7dbb84ed55ace7eec6e2f7552615cb52" category="list-text">BlueXP 에지 캐싱 인스턴스는 TCP 포트 443(HTTPS)에서 BlueXP 에지 캐싱 관리 서버와 통신해야 합니다.</block>
   <block id="d4dae6ebb0e75f20eec6013ee1cecd33" category="list-text">네트워크 최적화 솔루션/장치는 BlueXP 에지 캐싱 특정 포트를 통과하도록 구성해야 합니다.</block>
-  <block id="886158b7c4852279bc16ee81496631c9" category="paragraph">NetApp은 Cylance, McAfee, Symantec, Sophos, Trend Micro 등 가장 일반적으로 사용되는 안티바이러스 제품을 Kaspersky, 크라우드 스트라이크, Cisco AMP, Tannium 및 Windows Defender는 BlueXP 에지 캐싱과 함께 사용됩니다. 바이러스 백신 소프트웨어는 NetApp의 인증을 받아야 하며 적절한 제외 목록이 구성되어 있는 경우에만 지원됩니다. 의 부록 A를 참조하십시오<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block></block>
   <block id="5523b8f9b9ca99db40c866cf20efca3c" category="paragraph">D:\ 드라이브 외에 일반적으로 모든 안티바이러스 응용 프로그램에서 다음 BlueXP 에지 캐싱 디렉터리 및 프로세스를 제외해야 합니다.</block>
   <block id="978f14ea82410dcd7d29fc612d9b4d56" category="paragraph">BlueXP 에지 캐싱 인스턴스는 Windows Server 2016 및 2019 플랫폼에서 실행되는 기본 애플리케이션으로 특별히 설계되었습니다. BlueXP 에지 캐싱에는 디스크, 메모리, 네트워크 인터페이스, 네트워크 인터페이스 등 플랫폼 리소스에 대한 우선 액세스가 필요합니다. 또한 이러한 리소스에 대한 높은 요구를 가질 수 있습니다. 가상 배포에는 메모리/CPU 예약 및 고성능 디스크가 필요합니다.</block>
   <block id="cce2903dc1ce9deccf9ada962b6a3479" category="list-text">지사 배포의 경우 BlueXP 에지 캐싱을 실행하는 서버에서 지원되는 서비스 및 애플리케이션은 다음으로 제한됩니다.</block>
@@ -715,18 +678,13 @@
   <block id="278930628a6575fa0fe23ecd27374bfb" category="paragraph">Cloud Volumes ONTAP 구축 및 SMB 파일 공유 구성 자세한 내용은 을 참조하십시오<block ref="8198e799bf373d0d471ff3f551725308" category="inline-link-rx"></block>,<block ref="3718aa4b740ed1680c17ac188cf71498" category="inline-link-rx"></block>, 또는<block ref="958eb36238d0859ba89677740ca359aa" category="inline-link-rx"></block>.</block>
   <block id="b48c78d3da26a7311e5288a66ed4f4d8" category="paragraph">BlueXP 에지 캐싱은 Azure, AWS 및 Google 클라우드에 구축된 Cloud Volumes ONTAP를 지원합니다. 자세한 사전 요구 사항, 요구 사항 및 배포 지침은 을 참조하십시오<block ref="8198e799bf373d0d471ff3f551725308" category="inline-link-rx"></block>,<block ref="3718aa4b740ed1680c17ac188cf71498" category="inline-link-rx"></block>, 또는<block ref="958eb36238d0859ba89677740ca359aa" category="inline-link-rx"></block></block>
   <block id="45456d22bd7241b79d0f62620d5888d8" category="list-text">또는 Azure 및 GCP의 Cloud Volumes ONTAP 시스템의 경우 Cloud Volumes ONTAP 에지 캐시 패키지를 선택할 수 있습니다. 이 용량 기반 라이센스를 사용하면 구입한 용량이 3TiB일 때마다 단일 BlueXP edge caching Edge 인스턴스를 구축할 수 있습니다.<block ref="2ad67afc7a67ecb4970c40ef2d9c9dc1" category="inline-link-rx"></block>.</block>
-  <block id="10dc1eee3d75610cc244de50455508d3" category="paragraph">이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>. 업데이트된 소프트웨어 패키지는 에서 확인할 수 있습니다<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>.</block>
   <block id="77474efd411b7748abfa1c88a3e0137c" category="paragraph"><block ref="77474efd411b7748abfa1c88a3e0137c" category="inline-link-rx"></block></block>
   <block id="975b3327995267bde41cd6b4ce0c772d" category="paragraph">이 릴리스는 아래 나열된 새 기능을 제공합니다. 또한 에 설명된 문제도 해결합니다<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>.</block>
   <block id="f5f78956220294d550567ec883fe45c6" category="paragraph"><block ref="f5f78956220294d550567ec883fe45c6" category="inline-link-rx"></block></block>
-  <block id="2466aaf1d1f57cfbe736e835f936a857" category="paragraph">이 릴리스는 에 설명된 문제를 해결합니다<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>.</block>
-  <block id="83a5e35b6b359abe6f4e440efbdffd38" category="paragraph">버전 1.1.0용 Global File Cache Edge 소프트웨어는 에서 구할 수 있습니다<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>.</block>
   <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">을 클릭하여 테이블에 표시되는 열을 변경합니다 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 표시할 열을 선택합니다.</block>
   <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">를 클릭하여 기존 케이스를 관리합니다 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 사용 가능한 옵션 중 하나를 선택합니다.</block>
   <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">BlueXP 로그인과 관련된 자격 증명을 관리하는 방법에 대해 알아봅니다</block>
   <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">케이스 생성 * 기능을 사용하려면 먼저 NetApp Support 사이트 자격 증명을 BlueXP 로그인에 연결해야 합니다.<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block>.</block>
@@ -737,10 +695,7 @@
   <block id="e922b9aa0836a1d93e11cac0fe4c9004" category="paragraph">다음 클라우드 제공업체 솔루션에 대한 기술 지원은 해당 제품에 대한 BlueXP 설명서의 "도움말 얻기"를 참조하십시오.</block>
   <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">NetApp 지원을 위해 BlueXP 계정을 등록합니다</block>
   <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">지원을 등록하고 지원 권한을 활성화하려면 BlueXP 계정의 한 사용자가 NetApp Support 사이트 계정을 BlueXP 로그인에 연결해야 합니다. NetApp 지원에 등록하는 방법은 NetApp Support 사이트(NSS) 계정이 이미 있는지 여부에 따라 다릅니다.</block>
-  <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 클릭하고 * 자격 증명 * 을 선택합니다.</block>
-  <block id="41e1e3cff4a07ce2ecc08e6c09f11092" category="list-text">사용자 자격 증명 * 을 클릭합니다.</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">NSS 자격 증명 추가 * 를 선택하고 NetApp Support 사이트(NSS) 인증 프롬프트를 따릅니다.</block>
-  <block id="8c916e828e9e5a3592c8cac4e25928be" category="list-text">등록 프로세스가 성공적으로 완료되었는지 확인하려면 도움말 아이콘을 클릭하고 * 지원 * 을 선택합니다.</block>
   <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">리소스 * 페이지에 계정이 지원을 위해 등록되었다는 내용이 표시됩니다.</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">계정 일련 번호와 녹색 확인란이 표시된 스크린샷 및 지원을 위해 등록된 텍스트.</block>
   <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
@@ -757,4 +712,55 @@
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAP 소프트웨어를 최신 릴리즈로 업그레이드하는 중입니다</block>
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSS 자격 증명을 BlueXP 계정과 연결하는 것은 BlueXP 사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP 계정 ID와 연결됩니다. BlueXP 계정에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
+  <block id="e5bc2a0e71d5abce484fd71fede7010b" category="list-text"><block ref="e5bc2a0e71d5abce484fd71fede7010b" category="inline-link-rx"></block></block>
+  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 설정 아이콘을 선택하고 * 자격 증명 * 을 선택합니다.</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">사용자 자격 증명 * 을 선택합니다.</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">등록 프로세스가 성공적으로 완료되었는지 확인하려면 도움말 아이콘을 선택하고 * 지원 * 을 선택합니다.</block>
+  <block id="d889e6e7cc4c5509ab5b37f8fc894e46" category="list-text">BlueXP 콘솔의 오른쪽 상단에서 도움말 아이콘을 선택하고 * 지원 * 을 선택합니다.</block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">NSS 관리 &gt; NSS 계정 추가 * 를 선택합니다.</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">메시지가 표시되면 * 계속 * 을 선택하여 Microsoft 로그인 페이지로 리디렉션합니다.</block>
+  <block id="5ba6747bf15f739cc0cf34dfcd9092cb" category="paragraph">를 참조하십시오<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block> 를 참조하십시오.</block>
+  <block id="a44e790b16f9cffefa0f4187bd06f1b5" category="paragraph">를 참조하십시오<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block> 라이센스에 대한 자세한 내용은 를 참조하십시오.</block>
+  <block id="924b35617c7b4bb0713e5eedb1777802" category="section-title">2023년 8월 1일(버전 2.3)</block>
+  <block id="4dbe51f9893020550dd4c70ac9a71474" category="paragraph">이 릴리스는 에 설명된 문제를 해결합니다<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>. 업데이트된 소프트웨어 패키지는 에서 확인할 수 있습니다<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>.</block>
+  <block id="ee7763f06a0cdae5ce08a7b5b3e39caf" category="paragraph">의 14장을 참조하십시오<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block> 추가 자료를 참조하십시오.</block>
+  <block id="1b14c7d9f7e2a3e17c240838dca13ab2" category="list-text">다음과 같은 Optimus 구성 UI 수정이 이루어졌습니다.</block>
+  <block id="3e07a70c311392c24189762666453bfb" category="list-text">예외 문자열 대신 오류에 대한 의미 있는 정보를 표시합니다.</block>
+  <block id="4113def3f24a2cfb74396128b890048e" category="list-text">라이센스 만료 날짜를 기본값 대신 올바르게 표시합니다.</block>
+  <block id="9e88fd947fddc14c82d45ca71890b2f9" category="list-text">UI에서 SSL이 활성화된 경우 사용자 이름/암호 필드를 올바르게 표시합니다.</block>
+  <block id="b1e950b28ed77a6dbc8551d956f50d5c" category="list-text">Optimus UI Edge 구성 탭에서 연결할 수 없는 GFC Core가 구성된 경우 응답하지 않습니다.</block>
+  <block id="405e94e9006be134dde811526deb2d7e" category="list-text">Edge 드롭다운 목록에서 여러 캐시/에지 이름을 선택할 수 있습니다.</block>
+  <block id="6c2873fda507fdb945ac7d8621d8dab4" category="list-text">만료되었거나 만료되지 않은 라이센스를 보는 동안 라이센스 요약 정보가 올바르게 표시됩니다.</block>
+  <block id="77e41f7861d7c4ec1c29ad511af6b068" category="list-text">구성이 성공적으로 업데이트된 경우에만 다시 시작하도록 TappN 서비스를 수정했습니다.</block>
+  <block id="2dfe679cdebbdabcf634abc46769b41d" category="list-text">처음 마법사에서 새로 고침 버튼을 추가하여 Edge 개수를 표시합니다.</block>
+  <block id="07f3d03058fddb1ba98cd7560e2d1e1c" category="list-text">SSL 정보는 이제 처음 마법사 요약 페이지에 표시됩니다.</block>
+  <block id="4c8e9d840cf969c51081257a1f678250" category="list-text">minidump 시간 제한을 구성하고 minidump를 올바르게 수행할 수 있도록 Tum에 인프라가 추가되었습니다.</block>
+  <block id="efa408be5d83ba4187b6a47f2e72d25d" category="list-text">Optimus 및 최초 마법사는 적절한 라이센스 수를 표시하고 라이센스 수가 0이 되면 예외를 표시합니다.</block>
+  <block id="72fec5f6f82302eeed86aa7d4ccc57bb" category="list-text">입력한 Edge 서버 이름이 비어 있으면 Optimus PSM에 해당 오류 메시지가 표시됩니다.</block>
+  <block id="7af366a5f9f00d854ab6520964e5d709" category="list-text">Optimus PSM에서 미리 채우기 작업이 여러 캐시 이름에 올바르게 적용되지 않는 문제를 해결했습니다.</block>
+  <block id="849f9071693ee5f3ab1d3ea921d0d933" category="list-text">License Manager 구성은 소프트 오류 대신 하드 오류를 표시하도록 향상되었습니다.</block>
+  <block id="6e8d1fe7df03bdc15df4dfdebc387d74" category="list-text">Zoura 등록 UI가 이미 구성된 경우 오류가 표시됩니다.</block>
+  <block id="a3cbdfdc99ed48b83f55037334ad46e2" category="list-text">Optimus UI 및 Optimus PSM은 이제 CPU 및 메모리 요구 사항을 각각 8개 CPU와 32GB RAM으로 표시합니다.</block>
+  <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">BlueXP에서 * 도움말 &gt; 지원 * 을 선택합니다.</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">전화로 통화하려면 * 전화 * 를 선택하십시오. 전화를 걸 수 있는 전화 번호가 나열된 netapp.com 페이지로 연결됩니다.</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">NetApp 지원 전문가와 함께 티켓을 열려면 * 케이스 생성 * 을 선택하십시오.</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">지원 케이스 내역을 보려면 * 설정 &gt; 타임라인 * 을 선택하고 "지원 케이스 생성"이라는 이름의 작업을 찾습니다. 오른쪽 끝에 있는 버튼을 사용하여 작업을 확장하여 세부 정보를 볼 수 있습니다.</block>
+  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">Case Management * 를 선택하고 메시지가 표시되면 NSS 계정을 BlueXP에 추가합니다.</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">조직의 케이스 * 에서 * 보기 * 를 선택하여 회사와 관련된 모든 케이스를 봅니다.</block>
+  <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">를 선택하여 테이블에 표시되는 열을 변경합니다 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 표시할 열을 선택합니다.</block>
+  <block id="348552521b849746260fe8d296d34c15" category="list-text">를 선택하여 기존 케이스를 관리합니다 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 사용 가능한 옵션 중 하나를 선택합니다.</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">* 케이스 종료 *: 케이스를 종료하는 이유에 대한 세부 정보를 제공하고 * 케이스 닫기 * 를 선택합니다.</block>
+  <block id="327a1d8b4a551bbdec4fcca282e3ac83" category="paragraph">Global File Cache Edge 고급 구성에 대한 자세한 내용은 를 참조하십시오<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block>.</block>
+  <block id="08a835cc47bb06b7b15239f4039fb698" category="paragraph"><block ref="5bd9ed7124a4827b8a770916ec8eb391" category="inline-link-rx"></block>
+<block ref="f8a53e15446d9f92c48869f342d00b70" category="inline-link-rx"></block></block>
+  <block id="c80862bbcf8f857da81705513310d33a" category="paragraph"><block ref="e439e61317b9d8e0964fc4278b02da4f" category="inline-link-rx"></block>
+<block ref="6521fb91943407eb7773f8de6fb3c073" category="inline-link-rx"></block></block>
+  <block id="1ff2a72d772b591ce092f04090df1f7d" category="list-text">BlueXP Edge 캐싱 에지 소프트웨어:</block>
+  <block id="4600738f0591f7ca9b82d1b1873f082f" category="paragraph"><block ref="4600738f0591f7ca9b82d1b1873f082f" category="inline-link-rx"></block></block>
+  <block id="0bc9b34d46e682262d4fe6eb551bdc94" category="paragraph"><block ref="0bc9b34d46e682262d4fe6eb551bdc94" category="inline-link-rx"></block></block>
+  <block id="e2ed07bb6933c98e532659727830bc52" category="inline-link-macro">다음 단계를 수행합니다</block>
+  <block id="ab22ada227591d3e283d838dc6821bf3" category="paragraph"><block ref="820d518b33801e5de2462ff4ce963d09" category="inline-link-macro-rx"></block> BlueXP 에지 캐싱 Edge 소프트웨어를 업그레이드하려는 고객에게 적합합니다.</block>
+  <block id="09efa83c68cf12fff60c19fb03384093" category="paragraph">자세한 내용은 를 참조하십시오<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block>.</block>
+  <block id="5c6e720ae4e0961cbdcf991a4f7b5126" category="paragraph">NetApp은 BlueXP 에지 캐싱 사용 인스턴스(코어 또는 에지)에 모니터링 또는 바이러스 백신 솔루션을 설치하거나 이러한 애플리케이션을 권장하지 않습니다. 솔루션을 선택 또는 정책에 따라 설치할 경우 다음과 같은 Best Practice 및 권장 사항이 적용되어야 합니다. 일반적인 바이러스 백신 제품군에 대해서는 의 부록 A를 참조하십시오<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block>.</block>
+  <block id="31acc98f70a8cd7f5a510a0ad5befbe8" category="paragraph">NetApp은 Cylance, McAfee, Symantec, Sophos, Trend Micro 등 가장 일반적으로 사용되는 안티바이러스 제품을 Kaspersky, 크라우드 스트라이크, Cisco AMP, Tannium 및 Windows Defender는 BlueXP 에지 캐싱과 함께 사용됩니다. 바이러스 백신 소프트웨어는 NetApp의 인증을 받아야 하며 적절한 제외 목록이 구성되어 있는 경우에만 지원됩니다. 의 부록 A를 참조하십시오<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block></block>
 </blocks>
