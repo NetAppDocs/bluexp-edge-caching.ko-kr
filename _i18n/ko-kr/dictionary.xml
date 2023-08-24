@@ -97,20 +97,14 @@
   <block id="137e4d3e0bc5586af6fc7ca9441511e1" category="inline-link-macro">사이징 지침</block>
   <block id="831485d3736514b490af98e2fdcac477" category="section-title">강화된 서버 어플라이언스</block>
   <block id="976611c38f37696030731d275b8d5432" category="section-title">물리적 하드웨어 요구 사항</block>
-  <block id="602adfd1d4d2e2ef7316c32670824757" category="list-text">최소 4개의 CPU 코어</block>
-  <block id="f5364e9691950b5411b570b3b7444ec4" category="list-text">최소 16GB RAM</block>
   <block id="007aef1d58264ca7b5e941be27c7efe0" category="list-text">전용 단일 또는 중복 1Gbps NIC</block>
   <block id="683873eb7a29d80efb08b1ec4990f98d" category="list-text">10K RPM SAS HDD 또는 SSD(권장)</block>
   <block id="27fe2dd4bc7bfc5f6cc10da8e820dd79" category="list-text">Write-Back(후기입) 캐싱 기능이 활성화된 RAID 컨트롤러</block>
   <block id="7ae06578c5e181b31c27950df9eeefff" category="section-title">가상 구축 요구 사항</block>
   <block id="d58b313fe182fc0207ded02961ec8b3e" category="paragraph">가상 환경에서 최상의 성능을 얻으려면 물리적 호스트 요구 사항 외에 다음과 같은 요구 사항 및 리소스 예약을 충족해야 합니다.</block>
   <block id="a39c39a13a34c8ae4f43e53b744d7a93" category="paragraph">Microsoft Hyper-V 2012 R2 이상:</block>
-  <block id="4b2d1e89406fad567f90d7f405a89a0a" category="list-text">프로세서(CPU): CPU는 * Static *: Minimum: 4 vCPU 코어로 설정해야 합니다.</block>
-  <block id="a9c115a547ec0e88e446fac7e1437201" category="list-text">메모리(RAM): 최소: 16GB * 정적 * 으로 설정.</block>
   <block id="e2dc7db2b7946e399b3526201828d47b" category="list-text">하드 디스크 프로비저닝: 하드 디스크는 * 고정 디스크 * 로 구성해야 합니다.</block>
   <block id="193a7828172c581c20b5f99b87f0d8d5" category="paragraph">VMware vSphere 6.x 이상:</block>
-  <block id="546eae45bf42f32b489133fe40c615ae" category="list-text">프로세서(CPU): CPU 주기 예약을 설정해야 합니다. 최소 4개의 vCPU 코어 @ 10000MHz.</block>
-  <block id="da83ed8f749c1aeee277ef8b1e92e603" category="list-text">메모리(RAM): 최소: 16GB 예약.</block>
   <block id="01c789b083ceb94098fc54bf2689692f" category="list-text">하드 디스크 프로비저닝:</block>
   <block id="aa9003d495921644b8600f3e28ebe636" category="list-text">디스크 프로비저닝은 일반 프로비저닝 Eager Zeroed * 로 설정해야 합니다.</block>
   <block id="8254451398fa8d542f44b8faf882706e" category="list-text">하드 디스크 공유는 * High * 로 설정해야 합니다.</block>
@@ -251,15 +245,11 @@
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">상표</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, NetApp 로고, NetApp 상표 페이지에 나열된 마크는 NetApp Inc.의 상표입니다. 기타 회사 및 제품 이름은 해당 소유자의 상표일 수 있습니다.</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">특허</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp 소유 특허 목록은 다음 사이트에서 확인할 수 있습니다.</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">이 옵션은 하루 24시간, 주 7일 동안 무료로 사용할 수 있습니다.</block>
@@ -763,4 +753,18 @@
   <block id="09efa83c68cf12fff60c19fb03384093" category="paragraph">자세한 내용은 를 참조하십시오<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block>.</block>
   <block id="5c6e720ae4e0961cbdcf991a4f7b5126" category="paragraph">NetApp은 BlueXP 에지 캐싱 사용 인스턴스(코어 또는 에지)에 모니터링 또는 바이러스 백신 솔루션을 설치하거나 이러한 애플리케이션을 권장하지 않습니다. 솔루션을 선택 또는 정책에 따라 설치할 경우 다음과 같은 Best Practice 및 권장 사항이 적용되어야 합니다. 일반적인 바이러스 백신 제품군에 대해서는 의 부록 A를 참조하십시오<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block>.</block>
   <block id="31acc98f70a8cd7f5a510a0ad5befbe8" category="paragraph">NetApp은 Cylance, McAfee, Symantec, Sophos, Trend Micro 등 가장 일반적으로 사용되는 안티바이러스 제품을 Kaspersky, 크라우드 스트라이크, Cisco AMP, Tannium 및 Windows Defender는 BlueXP 에지 캐싱과 함께 사용됩니다. 바이러스 백신 소프트웨어는 NetApp의 인증을 받아야 하며 적절한 제외 목록이 구성되어 있는 경우에만 지원됩니다. 의 부록 A를 참조하십시오<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block></block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="7fdcb2e7bab8dde968f94629523c3479" category="list-text">최소 8개의 CPU 코어</block>
+  <block id="c3d7c7f12c2d0cb827f5a59d380cf667" category="list-text">최소 32GB RAM</block>
+  <block id="d92cb6c5ede38c7175493ed5ba01458f" category="list-text">프로세서(CPU): CPU를 * 정적 * 로 설정해야 합니다. 최소: vCPU 코어 8개</block>
+  <block id="3bcc153cef59db2afe99744853c8dbe7" category="list-text">메모리(RAM): 최소: 32GB를 * 정적 * 으로 설정합니다.</block>
+  <block id="2bf278f1b394b05a5448ef798a8d652f" category="list-text">프로세서(CPU): CPU 주기 예약을 설정해야 합니다. 최소: 8개의 vCPU 코어 @ 10000MHz.</block>
+  <block id="dd252ee19a826baa2383e45dcf0c937f" category="list-text">메모리(RAM): 최소: 32GB의 예약.</block>
 </blocks>

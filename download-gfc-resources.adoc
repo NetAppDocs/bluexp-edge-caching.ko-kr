@@ -95,8 +95,8 @@ BlueXP 에지 캐싱 설치 패키지는 모든 Microsoft Windows Server 인스�
 
 === 물리적 하드웨어 요구 사항
 
-* 최소 4개의 CPU 코어
-* 최소 16GB RAM
+* 최소 8개의 CPU 코어
+* 최소 32GB RAM
 * 전용 단일 또는 중복 1Gbps NIC
 * 10K RPM SAS HDD 또는 SSD(권장)
 * Write-Back(후기입) 캐싱 기능이 활성화된 RAID 컨트롤러
@@ -112,15 +112,15 @@ BlueXP 에지 캐싱 설치 패키지는 모든 Microsoft Windows Server 인스�
 
 Microsoft Hyper-V 2012 R2 이상:
 
-* 프로세서(CPU): CPU는 * Static *: Minimum: 4 vCPU 코어로 설정해야 합니다.
-* 메모리(RAM): 최소: 16GB * 정적 * 으로 설정.
+* 프로세서(CPU): CPU를 * 정적 * 로 설정해야 합니다. 최소: vCPU 코어 8개
+* 메모리(RAM): 최소: 32GB를 * 정적 * 으로 설정합니다.
 * 하드 디스크 프로비저닝: 하드 디스크는 * 고정 디스크 * 로 구성해야 합니다.
 
 
 VMware vSphere 6.x 이상:
 
-* 프로세서(CPU): CPU 주기 예약을 설정해야 합니다. 최소 4개의 vCPU 코어 @ 10000MHz.
-* 메모리(RAM): 최소: 16GB 예약.
+* 프로세서(CPU): CPU 주기 예약을 설정해야 합니다. 최소: 8개의 vCPU 코어 @ 10000MHz.
+* 메모리(RAM): 최소: 32GB의 예약.
 * 하드 디스크 프로비저닝:
 +
 ** 디스크 프로비저닝은 일반 프로비저닝 Eager Zeroed * 로 설정해야 합니다.
