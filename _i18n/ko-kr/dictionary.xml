@@ -74,8 +74,6 @@
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
   <block id="e5624fb8b348be8b0b94ecdc79a3e52a" category="list-text">또한 모든 설치에서는 클라우드에 둘 이상의 VM(가상 머신)을 구축해야 합니다. 따라서 선택한 클라우드 공급자의 비용이 부과됩니다.</block>
   <block id="c6b798b0bebd4b2ec1cf891e6cd66c67" category="paragraph">AWS에서는 127GB의 범용 SSD를 사용하는 m4의 대규모 인스턴스 또는 이에 상응하는 인스턴스(vCPU 2개/8GB RAM)에서 실행됩니다</block>
-  <block id="817000ba632406cdb4b5a4da3a5c5221" category="paragraph">Azure에서는 D4s_V3 또는 동급(4개의 vCPU/16GB RAM) VM에서 127GB의 프리미엄 SSD를 실행합니다</block>
-  <block id="6869983628ce136a6778d9ced07d3b4b" category="paragraph">AWS의 경우 M4.xLarge 또는 동급(vCPU 4개/16GB RAM) 인스턴스에서 127GB의 범용 SSD로 실행됩니다</block>
   <block id="d2893970aa4c57a02af5ca132a872653" category="inline-link">절감 가능성을 계산해 보십시오</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">라이센싱</block>
   <block id="24b5cd8cad83af73f3fef17c36994df9" category="paragraph">데이터 센터 또는 클라우드에 첫 번째 Core 인스턴스를 배포할 때 해당 인스턴스를 조직의 LMS로 지정할 수 있습니다. 이 LMS 인스턴스는 한 번 구성되고, 가입 서비스(HTTPS를 통해)에 연결되며, 가입 활성화 시 지원/운영 부서에서 제공하는 고객 ID를 사용하여 가입을 검증합니다. 이 지정을 완료한 후에는 고객 ID와 LMS 인스턴스의 IP 주소를 제공하여 Edge 인스턴스를 LMS에 연결합니다.</block>
@@ -369,7 +367,6 @@
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP에 대한 고지 사항</block>
   <block id="e182461a5cdbf7556eaec25749caec6a" category="list-text">백엔드 파일 서버 기본 제공 Backup Operators 그룹의 구성원이어야 합니다(BlueXP를 통해 배포되면 자동으로 활성화됨).</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">1개</block>
   <block id="bb28d23fa130988b09464a6057aef85b" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> Cloud Volumes ONTAP 구축</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2개</block>
@@ -769,4 +766,8 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">클라우드 공급자의 파일 서비스에 대한 지원을 받습니다</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">클라우드 공급자의 파일 서비스, 자체 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXP 및 해당 스토리지 솔루션 및 서비스에 관한 기술 지원을 받으려면 아래에 설명된 지원 옵션을 사용하십시오.</block>
+  <block id="97928a9e688f12c514398167899b0948" category="paragraph">Google Cloud에서는 127GB의 범용 SSD를 사용하는 n2-standard-2 또는 동급(vCPU 2개/8GB RAM) 인스턴스에서 실행됩니다</block>
+  <block id="37224270f6fe9a8b986d9aebd0580f24" category="paragraph">Azure에서는 127GB 프리미엄 SSD가 있는 D8s_V4 또는 이와 동등한 VM(8 vCPU/32GB RAM) VM에서 실행됩니다</block>
+  <block id="de3597f52173f419dfcb5b6093c8f91b" category="paragraph">AWS에서는 127GB 범용 SSD가 있는 m4.2xlarge 또는 동급(8 vCPU/32GB RAM) 인스턴스에서 실행됩니다</block>
+  <block id="13a8d1c98f73a6d8e45079d3d40dd107" category="paragraph">Google Cloud에서는 127GB의 범용 SSD를 사용하는 n2-표준-8 또는 동급(8 vCPU/32GB RAM) 인스턴스에서 실행됩니다</block>
 </blocks>

@@ -131,12 +131,18 @@ Azure에서는 127GB의 표준 SSD가 장착된 D2S_V3 또는 동급(vCPU 2개/8
 +
 AWS에서는 127GB의 범용 SSD를 사용하는 m4의 대규모 인스턴스 또는 이에 상응하는 인스턴스(vCPU 2개/8GB RAM)에서 실행됩니다
 
++
+Google Cloud에서는 127GB의 범용 SSD를 사용하는 n2-standard-2 또는 동급(vCPU 2개/8GB RAM) 인스턴스에서 실행됩니다
+
 ** BlueXP 에지 캐싱 코어:
 +
-Azure에서는 D4s_V3 또는 동급(4개의 vCPU/16GB RAM) VM에서 127GB의 프리미엄 SSD를 실행합니다
+Azure에서는 127GB 프리미엄 SSD가 있는 D8s_V4 또는 이와 동등한 VM(8 vCPU/32GB RAM) VM에서 실행됩니다
 
 +
-AWS의 경우 M4.xLarge 또는 동급(vCPU 4개/16GB RAM) 인스턴스에서 127GB의 범용 SSD로 실행됩니다
+AWS에서는 127GB 범용 SSD가 있는 m4.2xlarge 또는 동급(8 vCPU/32GB RAM) 인스턴스에서 실행됩니다
+
++
+Google Cloud에서는 127GB의 범용 SSD를 사용하는 n2-표준-8 또는 동급(8 vCPU/32GB RAM) 인스턴스에서 실행됩니다
 
 
 
