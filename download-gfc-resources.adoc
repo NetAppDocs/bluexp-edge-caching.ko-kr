@@ -34,7 +34,7 @@ https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_3_0_55IMAGE.zip["NetApp GFC(Mic
 
 * BlueXP Edge 캐싱 에지 소프트웨어:
 +
-https://repo.cloudsync.netapp.com/gfc/GFC-2-3-0-55-Release.exe["NetApp GFC 소프트웨어 설치 패키지(.EXE)"^]
+https://repo.cloudsync.netapp.com/gfc/GFC-2-4-1-72-Release.exe["NetApp GFC 소프트웨어 설치 패키지(.EXE)"^]
 
 * Cloud Insights용 글로벌 파일 캐시 대시보드:
 +
