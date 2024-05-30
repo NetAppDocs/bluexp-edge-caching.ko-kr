@@ -467,7 +467,6 @@
   <block id="240272be1a1d5fdc253c5305b97690a6" category="list-text">네트워크 최적화 장치(예: Riverbed Steelhead)는 BlueXP 에지 캐싱 특정 포트(TCP 6618-6630)를 통과하도록 구성해야 합니다.</block>
   <block id="84ad7067fb4fe33b40b7fe328b59ab9f" category="summary">NetApp BlueXP 에지 캐싱을 사용하면 분산된 파일 서버 사일로를 퍼블릭 클라우드에서 일관된 글로벌 스토리지 공간 하나로 통합할 수 있습니다. 이렇게 하면 모든 원격 위치에서 로컬처럼 사용할 수 있는 전역적으로 액세스할 수 있는 파일 시스템이 클라우드에서 생성됩니다.</block>
   <block id="4f6236843228fb802118a30a6c81a90a" category="doc">BlueXP 에지 캐싱에 대해 자세히 알아보십시오</block>
-  <block id="e8410929e2565c64ddfb36cc3fe64caf" category="paragraph">BlueXP 에지 캐싱은 Cloud Volumes ONTAP 인스턴스(Cloud Volumes Edge Cache)에 결합된 통합 서비스 또는 엔터프라이즈 스토리지 전략에 대한 애드온 구성 요소(글로벌 파일 캐시)와 같은 두 가지 구축 모드로 사용 가능합니다.</block>
   <block id="f3ca9f1917b50d48c86e0bb25621722e" category="paragraph">BlueXP 에지 캐싱을 구현하면 각 위치에 로컬 데이터 관리, 백업, 보안 관리, 스토리지 및 인프라 설치 공간이 필요한 분산된 스토리지 아키텍처에 비해 중앙 집중식 단일 스토리지 공간이 발생합니다.</block>
   <block id="151da762ddb055afbfc300d66c3117dd" category="inline-image-macro">원격 사무소 위치가 BlueXP 에지 캐싱을 사용하여 단일 공유 파일 시스템에 액세스하는 방법을 보여 주는 다이어그램</block>
   <block id="f62fde91dac95b5d3e895ee32a7b77e6" category="paragraph"><block ref="f62fde91dac95b5d3e895ee32a7b77e6" category="inline-image-macro-rx" type="image"></block></block>
@@ -759,4 +758,9 @@
   <block id="70d2aaea6b19d033a76faef23053a806" category="section-title">2024년 5월 6일(버전 2.4)</block>
   <block id="33ac6c6578bc8387b0ba6aaebc3f939a" category="paragraph">이 릴리스는 일부 사소한 문제를 해결합니다. 업데이트된 소프트웨어 패키지는 에서 확인할 수 있습니다<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>.</block>
   <block id="39e223ecfe3ee5dc48a36bdee3d5da31" category="paragraph"><block ref="39e223ecfe3ee5dc48a36bdee3d5da31" category="inline-link-rx"></block></block>
+  <block id="4ff2894f6fe94d8a4d90102c6b3fc4b1" category="paragraph">BlueXP 에지 캐싱은 2가지 구축 모드로 사용 가능하며, Cloud Volumes ONTAP 인스턴스와 결합된 통합 서비스, CVEC(Cloud Volumes Edge Cache)라고도 하며 엔터프라이즈 스토리지 전략에 대한 애드온 구성 요소, 즉 GFC(Global File Cache)로 표시됩니다.</block>
+  <block id="fc31bdab270f34f9dbc1c826f879ec7a" category="section-title">2024년 5월 31일</block>
+  <block id="a38c9755f3e363e5fcc012f982f27744" category="paragraph">NetApp은 2024년 5월 31일 부로 NetApp Global File Cache의 공급 중지(EOA)를 발표했습니다. EOA는 독립 실행형 Global File Cache 소프트웨어 구독 및 NetApp Cloud Volumes Edge Cache라고 하는 NetApp Cloud Volumes ONTAP와 Global File Cache 번들 솔루션을 포함한 모든 NetApp Global File Cache 제품에 영향을 미칩니다.</block>
+  <block id="fe85d677b887f84abb319ef4415495b6" category="inline-link">NetApp Global File Cache의 공급 중지 세부 정보를 참조하십시오</block>
+  <block id="32537bd355f3c702f88504f670fd2349" category="paragraph">NetApp은 이 제품의 EOA를 발표하지만 NetApp은 최소 2027년 5월 31일까지 계속해서 지원합니다.<block ref="c260bd0a32453373dfa997871e7c7312" category="inline-link-rx"></block>.</block>
 </blocks>

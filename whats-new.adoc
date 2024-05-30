@@ -18,6 +18,14 @@ BlueXP 에지 캐싱의 새로운 기능에 대해 알아보십시오.
 
 
 
+== 2024년 5월 31일
+
+NetApp은 2024년 5월 31일 부로 NetApp Global File Cache의 공급 중지(EOA)를 발표했습니다. EOA는 독립 실행형 Global File Cache 소프트웨어 구독 및 NetApp Cloud Volumes Edge Cache라고 하는 NetApp Cloud Volumes ONTAP와 Global File Cache 번들 솔루션을 포함한 모든 NetApp Global File Cache 제품에 영향을 미칩니다.
+
+NetApp은 이 제품의 EOA를 발표하지만 NetApp은 최소 2027년 5월 31일까지 계속해서 지원합니다. https://mysupport.netapp.com/info/communications/CPC-00578.html["NetApp Global File Cache의 공급 중지 세부 정보를 참조하십시오"^].
+
+
+
 == 2024년 5월 6일(버전 2.4)
 
 이 릴리스는 일부 사소한 문제를 해결합니다. 업데이트된 소프트웨어 패키지는 에서 확인할 수 있습니다 https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["이 페이지"].
