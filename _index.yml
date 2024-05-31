@@ -1,0 +1,43 @@
+---
+indexpage:
+  title: BlueXP 에지 캐싱 설명서
+  summary: BlueXP 에지 캐싱을 사용하면 전 세계 원격 위치에 서비스를 제공하는 중앙 집중식 파일 저장소를 만들 수 있습니다. 에지 캐싱을
+    사용하면 자주 액세스되는 데이터가 연결된 각 원격 에지 위치에 유지 관리되며, 중앙 집중식 제어를 유지하면서 WAN을 통해 데이터에 액세스하는
+    지연 시간 없이 액세스할 수 있습니다.
+  keywords: bluexp, caching, edge, cloud volumes ontap, storage, deploy, cache, platform
+  lead: BlueXP 에지 캐싱을 사용하면 전 세계 원격 위치에 서비스를 제공하는 중앙 집중식 파일 저장소를 만들 수 있습니다. 에지 캐싱을
+    사용하면 자주 액세스되는 데이터가 연결된 각 원격 에지 위치에 유지 관리되며, 중앙 집중식 제어를 유지하면서 WAN을 통해 데이터에 액세스하는
+    지연 시간 없이 액세스할 수 있습니다.
+  tiles:
+  - title: 시작하십시오
+    links:
+    - title: BlueXP 에지 캐싱에 대해 자세히 알아보십시오
+      url: concept-gfc.html
+    - title: 새로운 기능
+      url: whats-new.html
+    - title: 제한 사항
+      url: concept-gfc.html#limitations
+  - title: 구성 요소 배포
+    links:
+    - title: Cloud Volumes ONTAP를 스토리지 플랫폼으로 구축
+      url: task-gfc-getting-started.html#deploy-cloud-volumes-ontap-as-your-storage-platform
+    - title: BlueXP 에지 캐싱 관리 서버 및 Core를 배포합니다
+      url: task-gfc-getting-started.html#enable-bluexp-edge caching-in-your-working-environment
+    - title: BlueXP Edge 캐싱 Edge 인스턴스를 구축합니다
+      url: task-deploy-gfc-edge-instances.html
+  - title: 사용자 교육
+    links:
+    - title: 최종 사용자 교육
+      url: concept-gfc-enduser-training.html
+  - title: 블로그 및 커뮤니티
+    links:
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: BlueXP 블로그
+      url: https://bluexp.netapp.com/blog
+    - title: 클라우드 웨비나
+      url: https://bluexp.netapp.com/events
+  - title: 기타 리소스
+    links:
+    - title: BlueXP Edge 캐싱 활용 사례
+      url: https://bluexp.netapp.com/global-file-cache
